@@ -1,0 +1,100 @@
+ROOTCFLAGS    = $(shell $(ROOTSYS)/bin/root-config --cflags)
+ROOTLIBS      = $(shell $(ROOTSYS)/bin/root-config --libs) -lMLP -lXMLIO -lTMVA
+#ROOTGLIBS     = $(shell $(ROOTSYS)/bin/root-config --glibs) -L TMVA/lib
+ROOTGLIBS     = $(shell $(ROOTSYS)/bin/root-config --glibs) -lTMVA -lMLP -lXMLIO
+
+ROOFITLIBS    = -L$(ROOFITSYS)/lib -lRooFitCore -lRooFit -lRooStats -lMinuit -lFoam
+
+CXX           = g++ -m64
+CXXFLAGS      = -g -fPIC -Wno-deprecated -O -ansi -D_GNU_SOURCE -g -O2 -Xlinker -zmuldefs -Wall -Wno-error=unused-variable -Wno-error=sign-compare -Wno-error=unused-value -Wno-error=unused-but-set-variable -fopenmp -std=gnu++0x
+LD            = g++ -m64
+LDFLAGS       = -g
+SOFLAGS       = -shared
+
+#PG da qui per macosx
+#PG -----------------
+
+ARCH         := $(shell root-config --arch)
+PLATFORM     := $(shell root-config --platform)
+
+NGLIBS         = $(ROOTGLIBS) 
+NGLIBS        += -lMinuit
+gGLIBS          = $(filter-out -lNew, $(NGLIBS))
+
+CXXFLAGS      += $(ROOTCFLAGS)
+CXXFLAGS      += $(FASTJETFLAGS)
+LIBS           = $(ROOTLIBS)
+
+NGLIBS         = $(ROOTGLIBS) 
+#NGLIBS        += -lMinuit -lTMVA.1 -lMLP -lTreePlayer
+NGLIBS        += -lMinuit -lMLP -lTreePlayer
+GLIBS          = $(filter-out -lNew, $(NGLIBS))
+
+INCLUDEDIR       = ./include/
+INCLUDEDIRCOMMON = ./
+INCLUDEDIRROOFIT = $(ROOFITSYS)/include/
+
+HGGAPPDIR        = ../../
+HGGAPPLIB        = $(HGGAPPDIR)lib/
+HGGAPPINC        = $(HGGAPPDIR)include/
+SRCDIR           = ./src/
+EXESRCDIR        = ./exesrc/
+SCRIPTS          = ./scripts/
+CXX	         += -I$(INCLUDEDIR) -I$(INCLUDEDIRCOMMON) -I. -I$(INCLUDEDIRROOFIT)
+OUTLIB	         = ./lib/
+
+.SUFFIXES: .cc,.C, .hh
+.PREFIXES: ./lib/
+
+.PHONY: all
+all: runBiasStudy runShapeStudy runAIC runBootStrapping
+
+.PHONY: clean
+clean: 
+	rm -f $(OUTLIB)*.o
+	rm -f MyDict.cxx
+
+
+runBiasStudy:		$(EXESRCDIR)runBiasStudy.C \
+				$(OUTLIB)MakeBiasStudy.o\
+				$(OUTLIB)MakeAICFits.o\
+				$(OUTLIB)ArgParser.o
+	$(CXX) $(CXXFLAGS) $(ROOFITLIBS) -I $(HGGAPPINC) -I $(INCLUDEDIR) -o $@ $(OUTLIB)/*.o  $(GLIBS) $ $<	
+
+runAIC:		$(EXESRCDIR)runAIC.C \
+			$(OUTLIB)MakeAICFits.o \
+			$(OUTLIB)ArgParser.o 
+	$(CXX) $(CXXFLAGS) $(ROOFITLIBS) -I $(HGGAPPINC) -I $(INCLUDEDIR) -o runAIC $(OUTLIB)/*.o  $(GLIBS) $ $<
+
+runBootStrapping:	$(EXESRCDIR)runBootStrapping.C \
+				$(OUTLIB)BootStrapping.o\
+				$(OUTLIB)MakeAICFits.o\
+				$(OUTLIB)ArgParser.o
+	$(CXX) $(CXXFLAGS) $(ROOFITLIBS) -I $(HGGAPPINC) -I $(INCLUDEDIR) -o $@ $(OUTLIB)/*.o $(GLIBS) $ $<
+
+runShapeStudy:		$(EXESRCDIR)runShapeStudy.C \
+				$(OUTLIB)ShapeStudy.o\
+				$(OUTLIB)MakeAICFits.o\
+				$(OUTLIB)ArgParser.o
+	$(CXX) $(CXXFLAGS) $(ROOFITLIBS) -I $(HGGAPPINC) -I $(INCLUDEDIR) -o $@ $(OUTLIB)/*.o $(GLIBS) $ $<
+
+$(OUTLIB)ArgParser.o:		$(SRCDIR)ArgParser.cc
+		$(CXX) $(CXXFLAGS) -c -I$(INCLUDEDIR) -o $(OUTLIB)ArgParser.o $<
+
+$(OUTLIB)MakeAICFits.o:	$(SRCDIR)MakeAICFits.C 
+		$(CXX) $(CXXFLAGS) -c -I$(INCLUDEDIR) -o $(OUTLIB)MakeAICFits.o $<
+
+$(OUTLIB)MakeBiasStudy.o: $(SRCDIR)MakeBiasStudy.cc \
+									$(OUTLIB)MakeAICFits.o
+		$(CXX) $(CXXFLAGS) -c -I$(INCLUDEDIR) -o $@ $<
+
+$(OUTLIB)BootStrapping.o: $(SRCDIR)BootStrapping.cc \
+									$(OUTLIB)MakeAICFits.o
+		$(CXX) $(CXXFLAGS) -c -I$(INCLUDEDIR) -o $@ $<
+
+$(OUTLIB)ShapeStudy.o: $(SRCDIR)ShapeStudy.cc \
+									$(OUTLIB)MakeAICFits.o
+		$(CXX) $(CXXFLAGS) -c -I$(INCLUDEDIR) -o $@ $<
+
+$(OUTLIB)MyDict.o: MyDict.cxx
+	$(CXX) $(CXXFLAGS) -c -I$(INCLUDEDIR) -o $(OUTLIB)MyDict.o $<

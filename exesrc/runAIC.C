@@ -1,0 +1,26 @@
+#include "MakeBiasStudy.h"
+#include "ArgParser.hh"
+#include "ReadConfig.hh"
+#include <iostream>
+
+
+//int main(int argc, char** argv){
+int main(){
+  using namespace std;
+  /*ArgParser a(argc,argv);
+  a.addArgument("WorkspaceFile",ArgParser::required,"path to the workspace file");
+    
+  string ret;
+  if(a.process(ret) !=0){
+    cout << "Invalid Options:  " << ret <<endl;
+    a.printOptions(argv[0]);
+    return 0;
+  }
+  */
+  string wsFile = "/mnt/hadoop/store/user/amott/Hgg2013/Hgg/workspaces/hgg_22Jan2013_R9_CIC.root";
+  
+  //string wsFile = a.getArgument("WorkspaceFile");
+  MakeAICFits maf(wsFile);
+  maf.run();
+  return 0;
+}

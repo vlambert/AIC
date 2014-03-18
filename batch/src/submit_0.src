@@ -1,0 +1,13 @@
+#!/bin/sh
+#$ -S /bin/sh
+source /cvmfs/cms.cern.ch/cmsset_default.sh
+cd /home/vlambert/CMSSW_6_2_0/src   # setup CMSSW
+export HADOOP_CONF_DIR=/etc/hadoop
+export SCRAM_ARCH=slc5_amd64_gcc472
+eval `scramv1 runtime -sh`
+cd /home/vlambert/MMI_Hgg/HggApp/HggFits/AIC
+make MAKETARGET=/wntmp/scratch/
+./runBiasStudy ./batch/input/input_0.list
+cp /wntmp/scratch//output_c1_0.root ./batch/out
+rm /wntmp/scratch//output_c1_0.root
+make execlean MAKETARGET=/wntmp/scratch/
