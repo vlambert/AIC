@@ -1,0 +1,600 @@
+Toy Entry: 0 :  Printing AIC Values
+Toy Entry: 1 :  Printing AIC Values
+Toy Entry: 2 :  Printing AIC Values
+Toy Entry: 3 :  Printing AIC Values
+Toy Entry: 4 :  Printing AIC Values
+Toy Entry: 5 :  Printing AIC Values
+Toy Entry: 6 :  Printing AIC Values
+Toy Entry: 7 :  Printing AIC Values
+Toy Entry: 8 :  Printing AIC Values
+Toy Entry: 9 :  Printing AIC Values
+Toy Entry: 10 :  Printing AIC Values
+Toy Entry: 11 :  Printing AIC Values
+Toy Entry: 12 :  Printing AIC Values
+Toy Entry: 13 :  Printing AIC Values
+Toy Entry: 14 :  Printing AIC Values
+Toy Entry: 15 :  Printing AIC Values
+Toy Entry: 16 :  Printing AIC Values
+Toy Entry: 17 :  Printing AIC Values
+Toy Entry: 18 :  Printing AIC Values
+Toy Entry: 19 :  Printing AIC Values
+Toy Entry: 20 :  Printing AIC Values
+Toy Entry: 21 :  Printing AIC Values
+Toy Entry: 22 :  Printing AIC Values
+Toy Entry: 23 :  Printing AIC Values
+Toy Entry: 24 :  Printing AIC Values
+Toy Entry: 25 :  Printing AIC Values
+Toy Entry: 26 :  Printing AIC Values
+Toy Entry: 27 :  Printing AIC Values
+Toy Entry: 28 :  Printing AIC Values
+Toy Entry: 29 :  Printing AIC Values
+Toy Entry: 30 :  Printing AIC Values
+Toy Entry: 31 :  Printing AIC Values
+Toy Entry: 32 :  Printing AIC Values
+Toy Entry: 33 :  Printing AIC Values
+Toy Entry: 34 :  Printing AIC Values
+Toy Entry: 35 :  Printing AIC Values
+Toy Entry: 36 :  Printing AIC Values
+Toy Entry: 37 :  Printing AIC Values
+Toy Entry: 38 :  Printing AIC Values
+Toy Entry: 39 :  Printing AIC Values
+Toy Entry: 40 :  Printing AIC Values
+Toy Entry: 41 :  Printing AIC Values
+Toy Entry: 42 :  Printing AIC Values
+Toy Entry: 43 :  Printing AIC Values
+Toy Entry: 44 :  Printing AIC Values
+Toy Entry: 45 :  Printing AIC Values
+Toy Entry: 46 :  Printing AIC Values
+Toy Entry: 47 :  Printing AIC Values
+Toy Entry: 48 :  Printing AIC Values
+Toy Entry: 49 :  Printing AIC Values
+Toy Entry: 50 :  Printing AIC Values
+Toy Entry: 51 :  Printing AIC Values
+Toy Entry: 52 :  Printing AIC Values
+Toy Entry: 53 :  Printing AIC Values
+Toy Entry: 54 :  Printing AIC Values
+Toy Entry: 55 :  Printing AIC Values
+Toy Entry: 56 :  Printing AIC Values
+Toy Entry: 57 :  Printing AIC Values
+Toy Entry: 58 :  Printing AIC Values
+Toy Entry: 59 :  Printing AIC Values
+Toy Entry: 60 :  Printing AIC Values
+Toy Entry: 61 :  Printing AIC Values
+Toy Entry: 62 :  Printing AIC Values
+Toy Entry: 63 :  Printing AIC Values
+Toy Entry: 64 :  Printing AIC Values
+Toy Entry: 65 :  Printing AIC Values
+Toy Entry: 66 :  Printing AIC Values
+Toy Entry: 67 :  Printing AIC Values
+Toy Entry: 68 :  Printing AIC Values
+Toy Entry: 69 :  Printing AIC Values
+Toy Entry: 70 :  Printing AIC Values
+Toy Entry: 71 :  Printing AIC Values
+Toy Entry: 72 :  Printing AIC Values
+Toy Entry: 73 :  Printing AIC Values
+Toy Entry: 74 :  Printing AIC Values
+Toy Entry: 75 :  Printing AIC Values
+Toy Entry: 76 :  Printing AIC Values
+Toy Entry: 77 :  Printing AIC Values
+Toy Entry: 78 :  Printing AIC Values
+Toy Entry: 79 :  Printing AIC Values
+Toy Entry: 80 :  Printing AIC Values
+Toy Entry: 81 :  Printing AIC Values
+Toy Entry: 82 :  Printing AIC Values
+Toy Entry: 83 :  Printing AIC Values
+Toy Entry: 84 :  Printing AIC Values
+Toy Entry: 85 :  Printing AIC Values
+Toy Entry: 86 :  Printing AIC Values
+Toy Entry: 87 :  Printing AIC Values
+Toy Entry: 88 :  Printing AIC Values
+Toy Entry: 89 :  Printing AIC Values
+Toy Entry: 90 :  Printing AIC Values
+Toy Entry: 91 :  Printing AIC Values
+Toy Entry: 92 :  Printing AIC Values
+Toy Entry: 93 :  Printing AIC Values
+Toy Entry: 94 :  Printing AIC Values
+Toy Entry: 95 :  Printing AIC Values
+Toy Entry: 96 :  Printing AIC Values
+Toy Entry: 97 :  Printing AIC Values
+Toy Entry: 98 :  Printing AIC Values
+Toy Entry: 99 :  Printing AIC Values
+Toy Entry: 100 :  Printing AIC Values
+Toy Entry: 101 :  Printing AIC Values
+Toy Entry: 102 :  Printing AIC Values
+Toy Entry: 103 :  Printing AIC Values
+Toy Entry: 104 :  Printing AIC Values
+Toy Entry: 105 :  Printing AIC Values
+Toy Entry: 106 :  Printing AIC Values
+Toy Entry: 107 :  Printing AIC Values
+Toy Entry: 108 :  Printing AIC Values
+Toy Entry: 109 :  Printing AIC Values
+Toy Entry: 110 :  Printing AIC Values
+Toy Entry: 111 :  Printing AIC Values
+Toy Entry: 112 :  Printing AIC Values
+Toy Entry: 113 :  Printing AIC Values
+Toy Entry: 114 :  Printing AIC Values
+Toy Entry: 115 :  Printing AIC Values
+Toy Entry: 116 :  Printing AIC Values
+Toy Entry: 117 :  Printing AIC Values
+Toy Entry: 118 :  Printing AIC Values
+Toy Entry: 119 :  Printing AIC Values
+Toy Entry: 120 :  Printing AIC Values
+Toy Entry: 121 :  Printing AIC Values
+Toy Entry: 122 :  Printing AIC Values
+Toy Entry: 123 :  Printing AIC Values
+Toy Entry: 124 :  Printing AIC Values
+Toy Entry: 125 :  Printing AIC Values
+Toy Entry: 126 :  Printing AIC Values
+Toy Entry: 127 :  Printing AIC Values
+Toy Entry: 128 :  Printing AIC Values
+Toy Entry: 129 :  Printing AIC Values
+Toy Entry: 130 :  Printing AIC Values
+Toy Entry: 131 :  Printing AIC Values
+Toy Entry: 132 :  Printing AIC Values
+Toy Entry: 133 :  Printing AIC Values
+Toy Entry: 134 :  Printing AIC Values
+Toy Entry: 135 :  Printing AIC Values
+Toy Entry: 136 :  Printing AIC Values
+Toy Entry: 137 :  Printing AIC Values
+Toy Entry: 138 :  Printing AIC Values
+Toy Entry: 139 :  Printing AIC Values
+Toy Entry: 140 :  Printing AIC Values
+Toy Entry: 141 :  Printing AIC Values
+Toy Entry: 142 :  Printing AIC Values
+Toy Entry: 143 :  Printing AIC Values
+Toy Entry: 144 :  Printing AIC Values
+Toy Entry: 145 :  Printing AIC Values
+Toy Entry: 146 :  Printing AIC Values
+Toy Entry: 147 :  Printing AIC Values
+Toy Entry: 148 :  Printing AIC Values
+Toy Entry: 149 :  Printing AIC Values
+Toy Entry: 150 :  Printing AIC Values
+Toy Entry: 151 :  Printing AIC Values
+Toy Entry: 152 :  Printing AIC Values
+Toy Entry: 153 :  Printing AIC Values
+Toy Entry: 154 :  Printing AIC Values
+Toy Entry: 155 :  Printing AIC Values
+Toy Entry: 156 :  Printing AIC Values
+Toy Entry: 157 :  Printing AIC Values
+Toy Entry: 158 :  Printing AIC Values
+Toy Entry: 159 :  Printing AIC Values
+Toy Entry: 160 :  Printing AIC Values
+Toy Entry: 161 :  Printing AIC Values
+Toy Entry: 162 :  Printing AIC Values
+Toy Entry: 163 :  Printing AIC Values
+Toy Entry: 164 :  Printing AIC Values
+Toy Entry: 165 :  Printing AIC Values
+Toy Entry: 166 :  Printing AIC Values
+Toy Entry: 167 :  Printing AIC Values
+Toy Entry: 168 :  Printing AIC Values
+Toy Entry: 169 :  Printing AIC Values
+Toy Entry: 170 :  Printing AIC Values
+Toy Entry: 171 :  Printing AIC Values
+Toy Entry: 172 :  Printing AIC Values
+Toy Entry: 173 :  Printing AIC Values
+Toy Entry: 174 :  Printing AIC Values
+Toy Entry: 175 :  Printing AIC Values
+Toy Entry: 176 :  Printing AIC Values
+Toy Entry: 177 :  Printing AIC Values
+Toy Entry: 178 :  Printing AIC Values
+Toy Entry: 179 :  Printing AIC Values
+Toy Entry: 180 :  Printing AIC Values
+Toy Entry: 181 :  Printing AIC Values
+Toy Entry: 182 :  Printing AIC Values
+Toy Entry: 183 :  Printing AIC Values
+Toy Entry: 184 :  Printing AIC Values
+Toy Entry: 185 :  Printing AIC Values
+Toy Entry: 186 :  Printing AIC Values
+Toy Entry: 187 :  Printing AIC Values
+Toy Entry: 188 :  Printing AIC Values
+Toy Entry: 189 :  Printing AIC Values
+Toy Entry: 190 :  Printing AIC Values
+Toy Entry: 191 :  Printing AIC Values
+Toy Entry: 192 :  Printing AIC Values
+Toy Entry: 193 :  Printing AIC Values
+Toy Entry: 194 :  Printing AIC Values
+Toy Entry: 195 :  Printing AIC Values
+Toy Entry: 196 :  Printing AIC Values
+Toy Entry: 197 :  Printing AIC Values
+Toy Entry: 198 :  Printing AIC Values
+Toy Entry: 199 :  Printing AIC Values
+Chi2 for Toy Comp Model 0:   3.81959e-313
+Chi2 for Toy Comp Model 1:   0
+Chi2 for Toy Comp Model 2:   0
+Chi2 for Toy Comp Model 3:   3.81959e-313
+Chi2 for Toy Comp Model 4:   0
+Chi2 for Toy Comp Model 5:   0
+Chi2 for Toy Comp Model 6:   3.81959e-313
+Chi2 for Toy Comp Model 7:   3.95253e-322
+Chi2 for Toy Comp Model 8:   1.19885e-312
+Chi2 for Toy Comp Model 9:   6.95324e-310
+Chi2 for Toy Comp Model 10:   2.35921e-310
+Chi2 for Toy Comp Model 11:   2.42092e-322
+Chi2 for Toy Comp Model 12:   1.58101e-322
+Chi2 for Toy Comp Model 13:   0
+Chi2 for Toy Comp Model 14:   0
+Chi2 for Toy Comp Model 15:   0
+Chi2 for Toy Comp Model 16:   0
+Chi2 for Toy Comp Model 17:   0
+Chi2 for Toy Comp Model 18:   2.3592e-310
+Chi2 for Toy Comp Model 19:   2.3592e-310
+Chi2 for Toy Comp Model 20:   2.3592e-310
+Chi2 for Toy Comp Model 21:   2.3592e-310
+Chi2 for Toy Comp Model 22:   2.3592e-310
+Chi2 for Toy Comp Model 23:   1.45519e-313
+Chi2 for Toy Comp Model 24:   2.3592e-310
+Chi2 for Toy Comp Model 25:   2.3592e-310
+Chi2 for Toy Comp Model 26:   4.94066e-324
+Chi2 for Toy Comp Model 27:   6.95324e-310
+Chi2 for Toy Comp Model 28:   4.94066e-324
+Chi2 for Toy Comp Model 29:   1.19885e-312
+Chi2 for Toy Comp Model 30:   4.18731e-316
+Chi2 for Toy Comp Model 31:   1.58101e-322
+Chi2 for Toy Comp Model 32:   0
+Chi2 for Toy Comp Model 33:   4.94066e-324
+Chi2 for Toy Comp Model 34:   4.18644e-316
+Chi2 for Toy Comp Model 35:   1.19884e-312
+Chi2 for Toy Comp Model 36:   3.45846e-323
+Chi2 for Toy Comp Model 37:   4.18731e-316
+Chi2 for Toy Comp Model 38:   4.18733e-316
+Chi2 for Toy Comp Model 39:   2.3592e-310
+Chi2 for Toy Comp Model 40:   2.3592e-310
+Chi2 for Toy Comp Model 41:   8.69556e-322
+Chi2 for Toy Comp Model 42:   2.35902e-310
+Chi2 for Toy Comp Model 43:   6.95314e-310
+Chi2 for Toy Comp Model 44:   1.19881e-312
+Chi2 for Toy Comp Model 45:   7.34676e-321
+Chi2 for Toy Comp Model 46:   6.95324e-310
+Chi2 for Toy Comp Model 47:   8.69556e-322
+Chi2 for Toy Comp Model 48:   2.3592e-310
+Chi2 for Toy Comp Model 49:   0
+Chi2 for Toy Comp Model 50:   0
+Chi2 for Toy Comp Model 51:   2.3592e-310
+Chi2 for Toy Comp Model 52:   0
+Chi2 for Toy Comp Model 53:   2.11065e-320
+Chi2 for Toy Comp Model 54:   2.06322e-320
+Chi2 for Toy Comp Model 55:   2.02369e-320
+Chi2 for Toy Comp Model 56:   2.02369e-320
+Chi2 for Toy Comp Model 57:   2.02369e-320
+Chi2 for Toy Comp Model 58:   2.02369e-320
+Chi2 for Toy Comp Model 59:   2.02369e-320
+Chi2 for Toy Comp Model 60:   2.02369e-320
+Chi2 for Toy Comp Model 61:   2.02369e-320
+Chi2 for Toy Comp Model 62:   2.11065e-320
+Chi2 for Toy Comp Model 63:   2.06322e-320
+Chi2 for Toy Comp Model 64:   2.02369e-320
+Chi2 for Toy Comp Model 65:   2.02369e-320
+Chi2 for Toy Comp Model 66:   2.02369e-320
+Chi2 for Toy Comp Model 67:   3.95253e-322
+Chi2 for Toy Comp Model 68:   1.19885e-312
+Chi2 for Toy Comp Model 69:   6.95324e-310
+Chi2 for Toy Comp Model 70:   2.02369e-320
+Chi2 for Toy Comp Model 71:   2.42092e-322
+Chi2 for Toy Comp Model 72:   1.58101e-322
+Chi2 for Toy Comp Model 73:   0
+Chi2 for Toy Comp Model 74:   0
+Chi2 for Toy Comp Model 75:   0
+Chi2 for Toy Comp Model 76:   0
+Chi2 for Toy Comp Model 77:   0
+Chi2 for Toy Comp Model 78:   2.0316e-320
+Chi2 for Toy Comp Model 79:   2.02369e-320
+Chi2 for Toy Comp Model 80:   2.02369e-320
+Chi2 for Toy Comp Model 81:   2.02369e-320
+Chi2 for Toy Comp Model 82:   2.11065e-320
+Chi2 for Toy Comp Model 83:   1.2732e-313
+Chi2 for Toy Comp Model 84:   2.02369e-320
+Chi2 for Toy Comp Model 85:   2.02369e-320
+Chi2 for Toy Comp Model 86:   2.02369e-320
+Chi2 for Toy Comp Model 87:   2.02369e-320
+Chi2 for Toy Comp Model 88:   2.02369e-320
+Chi2 for Toy Comp Model 89:   1.19885e-312
+Chi2 for Toy Comp Model 90:   4.19406e-316
+Chi2 for Toy Comp Model 91:   1.58101e-322
+Chi2 for Toy Comp Model 92:   4.94066e-324
+Chi2 for Toy Comp Model 93:   4.94066e-324
+Chi2 for Toy Comp Model 94:   4.19331e-316
+Chi2 for Toy Comp Model 95:   1.19884e-312
+Chi2 for Toy Comp Model 96:   9.88131e-324
+Chi2 for Toy Comp Model 97:   4.19406e-316
+Chi2 for Toy Comp Model 98:   4.19406e-316
+Chi2 for Toy Comp Model 99:   2.3592e-310
+Chi2 for Toy Comp Model 100:   -1.32502e+06
+Chi2 for Toy Comp Model 101:   -1.32502e+06
+Chi2 for Toy Comp Model 102:   -1.32502e+06
+Chi2 for Toy Comp Model 103:   -1.32503e+06
+Chi2 for Toy Comp Model 104:   -1.32502e+06
+Chi2 for Toy Comp Model 105:   -1.32502e+06
+Chi2 for Toy Comp Model 106:   -1.32502e+06
+Chi2 for Toy Comp Model 107:   -1.32502e+06
+Chi2 for Toy Comp Model 108:   -1.32503e+06
+Chi2 for Toy Comp Model 109:   -1.32503e+06
+Chi2 for Toy Comp Model 110:   -1.32502e+06
+Chi2 for Toy Comp Model 111:   -1.32502e+06
+Chi2 for Toy Comp Model 112:   -1.32502e+06
+Chi2 for Toy Comp Model 113:   -1.32503e+06
+Chi2 for Toy Comp Model 114:   -1.32503e+06
+Chi2 for Toy Comp Model 115:   -1.32503e+06
+Chi2 for Toy Comp Model 116:   -1.32502e+06
+Chi2 for Toy Comp Model 117:   -1.32503e+06
+Chi2 for Toy Comp Model 118:   -1.32502e+06
+Chi2 for Toy Comp Model 119:   -1.32503e+06
+Chi2 for Toy Comp Model 120:   -1.32502e+06
+Chi2 for Toy Comp Model 121:   -1.32503e+06
+Chi2 for Toy Comp Model 122:   -1.32502e+06
+Chi2 for Toy Comp Model 123:   -1.32502e+06
+Chi2 for Toy Comp Model 124:   -1.32503e+06
+Chi2 for Toy Comp Model 125:   -1.32502e+06
+Chi2 for Toy Comp Model 126:   -1.32502e+06
+Chi2 for Toy Comp Model 127:   -1.32502e+06
+Chi2 for Toy Comp Model 128:   -1.32502e+06
+Chi2 for Toy Comp Model 129:   -1.32502e+06
+Chi2 for Toy Comp Model 130:   -1.32503e+06
+Chi2 for Toy Comp Model 131:   -1.32502e+06
+Chi2 for Toy Comp Model 132:   -1.32502e+06
+Chi2 for Toy Comp Model 133:   -1.32503e+06
+Chi2 for Toy Comp Model 134:   -1.32502e+06
+Chi2 for Toy Comp Model 135:   -1.32503e+06
+Chi2 for Toy Comp Model 136:   -1.32502e+06
+Chi2 for Toy Comp Model 137:   -1.32502e+06
+Chi2 for Toy Comp Model 138:   -1.32502e+06
+Chi2 for Toy Comp Model 139:   -1.32502e+06
+Chi2 for Toy Comp Model 140:   -1.32503e+06
+Chi2 for Toy Comp Model 141:   -1.32503e+06
+Chi2 for Toy Comp Model 142:   -1.32502e+06
+Chi2 for Toy Comp Model 143:   -1.32502e+06
+Chi2 for Toy Comp Model 144:   -1.32502e+06
+Chi2 for Toy Comp Model 145:   -1.32503e+06
+Chi2 for Toy Comp Model 146:   -1.32502e+06
+Chi2 for Toy Comp Model 147:   -1.32502e+06
+Chi2 for Toy Comp Model 148:   -1.32502e+06
+Chi2 for Toy Comp Model 149:   -1.32503e+06
+Chi2 for Toy Comp Model 150:   -1.32502e+06
+Chi2 for Toy Comp Model 151:   -1.32503e+06
+Chi2 for Toy Comp Model 152:   -1.32503e+06
+Chi2 for Toy Comp Model 153:   -1.32502e+06
+Chi2 for Toy Comp Model 154:   -1.32503e+06
+Chi2 for Toy Comp Model 155:   -1.32502e+06
+Chi2 for Toy Comp Model 156:   -1.32503e+06
+Chi2 for Toy Comp Model 157:   -1.32502e+06
+Chi2 for Toy Comp Model 158:   -1.32502e+06
+Chi2 for Toy Comp Model 159:   -1.32502e+06
+Chi2 for Toy Comp Model 160:   -1.32502e+06
+Chi2 for Toy Comp Model 161:   -1.32502e+06
+Chi2 for Toy Comp Model 162:   -1.32502e+06
+Chi2 for Toy Comp Model 163:   -1.32503e+06
+Chi2 for Toy Comp Model 164:   -1.32503e+06
+Chi2 for Toy Comp Model 165:   -1.32502e+06
+Chi2 for Toy Comp Model 166:   -1.32502e+06
+Chi2 for Toy Comp Model 167:   -1.32502e+06
+Chi2 for Toy Comp Model 168:   -1.32502e+06
+Chi2 for Toy Comp Model 169:   -1.32501e+06
+Chi2 for Toy Comp Model 170:   -1.32502e+06
+Chi2 for Toy Comp Model 171:   -1.32502e+06
+Chi2 for Toy Comp Model 172:   -1.32502e+06
+Chi2 for Toy Comp Model 173:   -1.32502e+06
+Chi2 for Toy Comp Model 174:   -1.32503e+06
+Chi2 for Toy Comp Model 175:   -1.32503e+06
+Chi2 for Toy Comp Model 176:   -1.32502e+06
+Chi2 for Toy Comp Model 177:   -1.32502e+06
+Chi2 for Toy Comp Model 178:   -1.32502e+06
+Chi2 for Toy Comp Model 179:   -1.32503e+06
+Chi2 for Toy Comp Model 180:   -1.32503e+06
+Chi2 for Toy Comp Model 181:   -1.32502e+06
+Chi2 for Toy Comp Model 182:   -1.32502e+06
+Chi2 for Toy Comp Model 183:   -1.32502e+06
+Chi2 for Toy Comp Model 184:   -1.32502e+06
+Chi2 for Toy Comp Model 185:   -1.32502e+06
+Chi2 for Toy Comp Model 186:   -1.32502e+06
+Chi2 for Toy Comp Model 187:   -1.32502e+06
+Chi2 for Toy Comp Model 188:   -1.32502e+06
+Chi2 for Toy Comp Model 189:   -1.32502e+06
+Chi2 for Toy Comp Model 190:   -1.32502e+06
+Chi2 for Toy Comp Model 191:   -1.32502e+06
+Chi2 for Toy Comp Model 192:   -1.32502e+06
+Chi2 for Toy Comp Model 193:   -1.32502e+06
+Chi2 for Toy Comp Model 194:   -1.32502e+06
+Chi2 for Toy Comp Model 195:   -1.32503e+06
+Chi2 for Toy Comp Model 196:   -1.32502e+06
+Chi2 for Toy Comp Model 197:   -1.32502e+06
+Chi2 for Toy Comp Model 198:   -1.32503e+06
+Chi2 for Toy Comp Model 199:   -1.32502e+06
+Signal Bias for Model 0:  -1.32503e+06 +/- 0.0892494
+Signal Bias for Model 1:  -1.32503e+06 +/- 0.0893812
+Signal Bias for Model 2:  -1.32503e+06 +/- 0.0892333
+Signal Bias for Model 3:  -1.32502e+06 +/- 0.0891
+Signal Bias for Model 4:  -1.32502e+06 +/- 0.0895438
+Signal Bias for Model 5:  -1.32502e+06 +/- 0.08949
+Signal Bias for Model 6:  -1.32502e+06 +/- 0.0894385
+Signal Bias for Model 7:  -1.32503e+06 +/- 0.0892162
+Signal Bias for Model 8:  -1.32503e+06 +/- 0.0892835
+Signal Bias for Model 9:  -1.32503e+06 +/- 0.0891729
+Signal Bias for Model 10:  -1.32503e+06 +/- 0.0893126
+Signal Bias for Model 11:  -1.32503e+06 +/- 0.0894534
+Signal Bias for Model 12:  -1.32502e+06 +/- 0.0895762
+Signal Bias for Model 13:  -1.32503e+06 +/- 0.08935
+Signal Bias for Model 14:  -1.32501e+06 +/- 0.088518
+Signal Bias for Model 15:  -1.32502e+06 +/- 0.0895375
+Signal Bias for Model 16:  -1.32503e+06 +/- 0.0894335
+Signal Bias for Model 17:  -1.32503e+06 +/- 0.089234
+Signal Bias for Model 18:  -1.32503e+06 +/- 0.0892702
+Signal Bias for Model 19:  -1.32502e+06 +/- 0.0895246
+Signal Bias for Model 20:  -1.32502e+06 +/- 0.0895008
+Signal Bias for Model 21:  -1.32503e+06 +/- 0.0890658
+Signal Bias for Model 22:  -1.32503e+06 +/- 0.0893144
+Signal Bias for Model 23:  -1.32503e+06 +/- 0.0892156
+Signal Bias for Model 24:  -1.32502e+06 +/- 0.0890146
+Signal Bias for Model 25:  -1.32502e+06 +/- 0.0891646
+Signal Bias for Model 26:  -1.32502e+06 +/- 0.0891943
+Signal Bias for Model 27:  -1.32502e+06 +/- 0.089604
+Signal Bias for Model 28:  -1.32503e+06 +/- 0.0891815
+Signal Bias for Model 29:  -1.32502e+06 +/- 0.089239
+Signal Bias for Model 30:  -1.32503e+06 +/- 0.0894069
+Signal Bias for Model 31:  -1.32502e+06 +/- 0.088745
+Signal Bias for Model 32:  -1.32503e+06 +/- 0.0894084
+Signal Bias for Model 33:  -1.32503e+06 +/- 0.0890699
+Signal Bias for Model 34:  -1.32502e+06 +/- 0.0895352
+Signal Bias for Model 35:  -1.32502e+06 +/- 0.0894033
+Signal Bias for Model 36:  -1.32503e+06 +/- 0.0891122
+Signal Bias for Model 37:  -1.32502e+06 +/- 0.0896813
+Signal Bias for Model 38:  -1.32503e+06 +/- 0.0891947
+Signal Bias for Model 39:  -1.32502e+06 +/- 0.0889185
+Signal Bias for Model 40:  -1.32502e+06 +/- 0.0893396
+Signal Bias for Model 41:  -1.32503e+06 +/- 0.0891677
+Signal Bias for Model 42:  -1.32503e+06 +/- 0.0894011
+Signal Bias for Model 43:  -1.32502e+06 +/- 0.0895648
+Signal Bias for Model 44:  -1.32503e+06 +/- 0.0892638
+Signal Bias for Model 45:  -1.32503e+06 +/- 0.0892417
+Signal Bias for Model 46:  -1.32502e+06 +/- 0.0892577
+Signal Bias for Model 47:  -1.32503e+06 +/- 0.0891858
+Signal Bias for Model 48:  -1.32503e+06 +/- 0.0893407
+Signal Bias for Model 49:  -1.32502e+06 +/- 0.0890807
+Signal Bias for Model 50:  -1.32503e+06 +/- 0.0891441
+Signal Bias for Model 51:  -1.32502e+06 +/- 0.0889882
+Signal Bias for Model 52:  -1.32502e+06 +/- 0.0892304
+Signal Bias for Model 53:  -1.32502e+06 +/- 0.0890586
+Signal Bias for Model 54:  -1.32502e+06 +/- 0.0892913
+Signal Bias for Model 55:  -1.32502e+06 +/- 0.0890257
+Signal Bias for Model 56:  -1.32503e+06 +/- 0.0893023
+Signal Bias for Model 57:  -1.32502e+06 +/- 0.0893683
+Signal Bias for Model 58:  -1.32503e+06 +/- 0.0891827
+Signal Bias for Model 59:  -1.32502e+06 +/- 0.0890292
+Signal Bias for Model 60:  -1.32502e+06 +/- 0.0894704
+Signal Bias for Model 61:  -1.32502e+06 +/- 0.0890488
+Signal Bias for Model 62:  -1.32502e+06 +/- 0.0895544
+Signal Bias for Model 63:  -1.32502e+06 +/- 0.0894573
+Signal Bias for Model 64:  -1.32502e+06 +/- 0.089358
+Signal Bias for Model 65:  -1.32502e+06 +/- 0.0898485
+Signal Bias for Model 66:  -1.32503e+06 +/- 0.0892606
+Signal Bias for Model 67:  -1.32502e+06 +/- 0.0893059
+Signal Bias for Model 68:  -1.32503e+06 +/- 0.089255
+Signal Bias for Model 69:  -1.32503e+06 +/- 0.0893791
+Signal Bias for Model 70:  -1.32502e+06 +/- 0.0894468
+Signal Bias for Model 71:  -1.32502e+06 +/- 0.0890138
+Signal Bias for Model 72:  -1.32502e+06 +/- 0.0895269
+Signal Bias for Model 73:  -1.32502e+06 +/- 0.088902
+Signal Bias for Model 74:  -1.32503e+06 +/- 0.0893128
+Signal Bias for Model 75:  -1.32502e+06 +/- 0.0892294
+Signal Bias for Model 76:  -1.32502e+06 +/- 0.0892949
+Signal Bias for Model 77:  -1.32502e+06 +/- 0.0888386
+Signal Bias for Model 78:  -1.32503e+06 +/- 0.0890672
+Signal Bias for Model 79:  -1.32503e+06 +/- 0.0893034
+Signal Bias for Model 80:  -1.32503e+06 +/- 0.0891133
+Signal Bias for Model 81:  -1.32503e+06 +/- 0.0892273
+Signal Bias for Model 82:  -1.32503e+06 +/- 0.0894926
+Signal Bias for Model 83:  -1.32503e+06 +/- 0.0891278
+Signal Bias for Model 84:  -1.32502e+06 +/- 0.0890017
+Signal Bias for Model 85:  -1.32503e+06 +/- 0.0893183
+Signal Bias for Model 86:  -1.32502e+06 +/- 0.0892588
+Signal Bias for Model 87:  -1.32503e+06 +/- 0.0892569
+Signal Bias for Model 88:  -1.32502e+06 +/- 0.0888232
+Signal Bias for Model 89:  -1.32503e+06 +/- 0.0891631
+Signal Bias for Model 90:  -1.32503e+06 +/- 0.0893566
+Signal Bias for Model 91:  -1.32503e+06 +/- 0.0892007
+Signal Bias for Model 92:  -1.32503e+06 +/- 0.089313
+Signal Bias for Model 93:  -1.32502e+06 +/- 0.0890339
+Signal Bias for Model 94:  -1.32503e+06 +/- 0.0893167
+Signal Bias for Model 95:  -1.32503e+06 +/- 0.0893417
+Signal Bias for Model 96:  -1.32502e+06 +/- 0.0895389
+Signal Bias for Model 97:  -1.32502e+06 +/- 0.0896666
+Signal Bias for Model 98:  -1.32503e+06 +/- 0.0892488
+Signal Bias for Model 99:  -1.32502e+06 +/- 0.0895692
+Signal Bias for Model 100:  0.0892494 +/- 0.0892494
+Signal Bias for Model 101:  0.0893812 +/- 0.0893812
+Signal Bias for Model 102:  0.0892333 +/- 0.0892333
+Signal Bias for Model 103:  0.0891 +/- 0.0891
+Signal Bias for Model 104:  0.0895438 +/- 0.0895438
+Signal Bias for Model 105:  0.08949 +/- 0.08949
+Signal Bias for Model 106:  0.0894385 +/- 0.0894385
+Signal Bias for Model 107:  0.0892162 +/- 0.0892162
+Signal Bias for Model 108:  0.0892835 +/- 0.0892835
+Signal Bias for Model 109:  0.0891729 +/- 0.0891729
+Signal Bias for Model 110:  0.0893126 +/- 0.0893126
+Signal Bias for Model 111:  0.0894534 +/- 0.0894534
+Signal Bias for Model 112:  0.0895762 +/- 0.0895762
+Signal Bias for Model 113:  0.08935 +/- 0.08935
+Signal Bias for Model 114:  0.088518 +/- 0.088518
+Signal Bias for Model 115:  0.0895375 +/- 0.0895375
+Signal Bias for Model 116:  0.0894335 +/- 0.0894335
+Signal Bias for Model 117:  0.089234 +/- 0.089234
+Signal Bias for Model 118:  0.0892702 +/- 0.0892702
+Signal Bias for Model 119:  0.0895246 +/- 0.0895246
+Signal Bias for Model 120:  0.0895008 +/- 0.0895008
+Signal Bias for Model 121:  0.0890658 +/- 0.0890658
+Signal Bias for Model 122:  0.0893144 +/- 0.0893144
+Signal Bias for Model 123:  0.0892156 +/- 0.0892156
+Signal Bias for Model 124:  0.0890146 +/- 0.0890146
+Signal Bias for Model 125:  0.0891646 +/- 0.0891646
+Signal Bias for Model 126:  0.0891943 +/- 0.0891943
+Signal Bias for Model 127:  0.089604 +/- 0.089604
+Signal Bias for Model 128:  0.0891815 +/- 0.0891815
+Signal Bias for Model 129:  0.089239 +/- 0.089239
+Signal Bias for Model 130:  0.0894069 +/- 0.0894069
+Signal Bias for Model 131:  0.088745 +/- 0.088745
+Signal Bias for Model 132:  0.0894084 +/- 0.0894084
+Signal Bias for Model 133:  0.0890699 +/- 0.0890699
+Signal Bias for Model 134:  0.0895352 +/- 0.0895352
+Signal Bias for Model 135:  0.0894033 +/- 0.0894033
+Signal Bias for Model 136:  0.0891122 +/- 0.0891122
+Signal Bias for Model 137:  0.0896813 +/- 0.0896813
+Signal Bias for Model 138:  0.0891947 +/- 0.0891947
+Signal Bias for Model 139:  0.0889185 +/- 0.0889185
+Signal Bias for Model 140:  0.0893396 +/- 0.0893396
+Signal Bias for Model 141:  0.0891677 +/- 0.0891677
+Signal Bias for Model 142:  0.0894011 +/- 0.0894011
+Signal Bias for Model 143:  0.0895648 +/- 0.0895648
+Signal Bias for Model 144:  0.0892638 +/- 0.0892638
+Signal Bias for Model 145:  0.0892417 +/- 0.0892417
+Signal Bias for Model 146:  0.0892577 +/- 0.0892577
+Signal Bias for Model 147:  0.0891858 +/- 0.0891858
+Signal Bias for Model 148:  0.0893407 +/- 0.0893407
+Signal Bias for Model 149:  0.0890807 +/- 0.0890807
+Signal Bias for Model 150:  0.0891441 +/- 0.0891441
+Signal Bias for Model 151:  0.0889882 +/- 0.0889882
+Signal Bias for Model 152:  0.0892304 +/- 0.0892304
+Signal Bias for Model 153:  0.0890586 +/- 0.0890586
+Signal Bias for Model 154:  0.0892913 +/- 0.0892913
+Signal Bias for Model 155:  0.0890257 +/- 0.0890257
+Signal Bias for Model 156:  0.0893023 +/- 0.0893023
+Signal Bias for Model 157:  0.0893683 +/- 0.0893683
+Signal Bias for Model 158:  0.0891827 +/- 0.0891827
+Signal Bias for Model 159:  0.0890292 +/- 0.0890292
+Signal Bias for Model 160:  0.0894704 +/- 0.0894704
+Signal Bias for Model 161:  0.0890488 +/- 0.0890488
+Signal Bias for Model 162:  0.0895544 +/- 0.0895544
+Signal Bias for Model 163:  0.0894573 +/- 0.0894573
+Signal Bias for Model 164:  0.089358 +/- 0.089358
+Signal Bias for Model 165:  0.0898485 +/- 0.0898485
+Signal Bias for Model 166:  0.0892606 +/- 0.0892606
+Signal Bias for Model 167:  0.0893059 +/- 0.0893059
+Signal Bias for Model 168:  0.089255 +/- 0.089255
+Signal Bias for Model 169:  0.0893791 +/- 0.0893791
+Signal Bias for Model 170:  0.0894468 +/- 0.0894468
+Signal Bias for Model 171:  0.0890138 +/- 0.0890138
+Signal Bias for Model 172:  0.0895269 +/- 0.0895269
+Signal Bias for Model 173:  0.088902 +/- 0.088902
+Signal Bias for Model 174:  0.0893128 +/- 0.0893128
+Signal Bias for Model 175:  0.0892294 +/- 0.0892294
+Signal Bias for Model 176:  0.0892949 +/- 0.0892949
+Signal Bias for Model 177:  0.0888386 +/- 0.0888386
+Signal Bias for Model 178:  0.0890672 +/- 0.0890672
+Signal Bias for Model 179:  0.0893034 +/- 0.0893034
+Signal Bias for Model 180:  0.0891133 +/- 0.0891133
+Signal Bias for Model 181:  0.0892273 +/- 0.0892273
+Signal Bias for Model 182:  0.0894926 +/- 0.0894926
+Signal Bias for Model 183:  0.0891278 +/- 0.0891278
+Signal Bias for Model 184:  0.0890017 +/- 0.0890017
+Signal Bias for Model 185:  0.0893183 +/- 0.0893183
+Signal Bias for Model 186:  0.0892588 +/- 0.0892588
+Signal Bias for Model 187:  0.0892569 +/- 0.0892569
+Signal Bias for Model 188:  0.0888232 +/- 0.0888232
+Signal Bias for Model 189:  0.0891631 +/- 0.0891631
+Signal Bias for Model 190:  0.0893566 +/- 0.0893566
+Signal Bias for Model 191:  0.0892007 +/- 0.0892007
+Signal Bias for Model 192:  0.089313 +/- 0.089313
+Signal Bias for Model 193:  0.0890339 +/- 0.0890339
+Signal Bias for Model 194:  0.0893167 +/- 0.0893167
+Signal Bias for Model 195:  0.0893417 +/- 0.0893417
+Signal Bias for Model 196:  0.0895389 +/- 0.0895389
+Signal Bias for Model 197:  0.0896666 +/- 0.0896666
+Signal Bias for Model 198:  0.0892488 +/- 0.0892488
+Signal Bias for Model 199:  0.0895692 +/- 0.0895692

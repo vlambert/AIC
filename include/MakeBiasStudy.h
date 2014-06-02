@@ -7,9 +7,14 @@ Date: Feb 2014
 */
 
 #include "RooWorkspace.h"
+#include "RooFitResult.h"
+#include "RooDataSet.h"
 #include "RooAbsPdf.h"
 #include "RooRealVar.h"
+#include "RooExtendPdf.h"
 #include "RooAbsReal.h"
+#include "RooFormulaVar.h"
+#include "RooDerivative.h"
 #include "RooArgSet.h"
 #include "RooLinkedListIter.h"
 #include "RooAddPdf.h"
@@ -34,7 +39,7 @@ class MakeBiasStudy {
   virtual ~MakeBiasStudy();
   
   void biasStudy(const TString& truthType, const TString& cat);
-  std::tuple<double,double,double,double> getNFit(RooAbsData& truthbkg, const TString& modelType);
+  std::tuple<RooAbsPdf*,double,double,double,double> makeBackgroundFits(RooAbsData& truthbkg,int type, RooRealVar* Nbkg);
 
   void run();
   void print();
@@ -51,14 +56,18 @@ class MakeBiasStudy {
   
   std::vector<TString> FitTypes = {"SingleExp","DoubleExp","TripleExp","ModifiedExp","Polynomial","Power","DoublePower","Composite"};
   //std::vector<TString> FitTypes = {"SingleExp","Power","Polynomial"};
-
+  std::map<TString,int> enumerator = {{"SingleExp",0},{"DoubleExp",1},{"TripleExp",2},{"ModifiedExp",3},{"Polynomial",4},{"Power",5},{"DoublePower",6}};
   int SampleSize;
+  Double_t AIC_bkg_array[100];
+  Double_t DeltaI[100];
+  Double_t AICweights[100];
   biasList BiasBkg;
   biasList BiasBkgErr;
   biasList SlopeBkg;
   biasList SlopeNormBkg;
   float mh=125;
-  int NToys = 100;
+  int NToys = 2;
+  int nModels = 7;
 
   std::map<TString,TString> fitNameMap = {{"SingleExp","Single Exponential"},{"DoubleExp","Double Exponential"},{"TripleExp","Triple Exponential"},{"ModifiedExp","Modified Exponential"},{"Polynomial","5th Order Polynomial"},{"Power","Single Power Law"},{"DoublePower","Double Power Law"},{"Composite","Composite Model"}}; 
   void printFormatted(const biasList& list);

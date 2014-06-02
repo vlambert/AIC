@@ -10,9 +10,11 @@ Author: Valere Lambert (Caltech)
 Date: Nov 2013
 */
 
+#include <TPaveText.h>
 #include <TTree.h>
 #include <TFile.h>
 #include <TH2F.h>
+#include <TH1.h>
 #include <TCanvas.h>
 #include <TLegend.h>
 #include <TAttLine.h>
@@ -65,12 +67,15 @@ class MakeAICFits{
   
   static int Num_Params(int type);
   static RooAbsPdf* getBackgroundPdf(int type, RooRealVar* mass);
-  RooAbsPdf*  makeBackgroundFits(int type);
+  static void getLabels(const char *varName, std::vector<TString> *lblVec,RooWorkspace *w);
+  RooAbsPdf* makeBackgroundFits(int type, RooRealVar* Nbkg);
+  void runCategory(const TString& catTag);
   void run();
   void print();
 
   enum BkgFitType{kSingleExp, kDoubleExp, kTripleExp, kModifiedExp, kPoly, kPow, kDoublePow};
  protected:
+  std::vector<TString> catLabels;
   RooWorkspace *w;
   TFile* inputFile = 0;
   TFile* outputFile = 0;

@@ -4,14 +4,11 @@
 
 MakeBiasStudy::MakeBiasStudy(const TString& inputFileName)
 {
-  //inputFile = TFile::Open("/mnt/hadoop/store/user/amott/Hgg2013/Hgg/workspaces/hgg_22Jan2013_R9_CIC.root");
   if(inputFileName !=""){
     inputFile = new TFile(inputFileName);
     w = ((RooWorkspace*) inputFile->Get("cms_hgg_spin_workspace")); 
-    const char* icon = "Defaults";
-    catLabels.push_back(icon);
-    modelFile = TFile::Open("Workspaces/HggAIC_workspace.root");
-    wmodels = ((RooWorkspace*) modelFile->Get("AIC")); 
+    MakeAICFits::getLabels("evtcat",&catLabels,w);
+    catLabels.push_back("cat4");
   }
 }
 MakeBiasStudy::~MakeBiasStudy() {
@@ -20,23 +17,43 @@ MakeBiasStudy::~MakeBiasStudy() {
 
 void MakeBiasStudy::biasStudy(const TString& truthType, const TString& cat) {
   RooRealVar *mass = w->var("mass");
-  RooAbsData *dc = w->data("Data_Combined");
+  RooAbsData *dc;
+  if (cat == "cat4"){
+    dc = w->data("Data_Combined");
+  }
+  else{
+    dc = w->data("Data_Combined")->reduce(TString("evtcat==evtcat::")+cat);
+  }
   SampleSize = dc->sumEntries();
   RooRealVar *nBkgTruth = new RooRealVar("TruthNBkg","",SampleSize,0,1e9);
 
   RooAbsPdf *truthPdf = wmodels->pdf(truthType);
+
+  RooArgSet* vtruth = truthPdf->getVariables();
+  RooFIter ittruth = vtruth->fwdIterator();
+  RooAbsArg* atruth;
+  while ( ( atruth=ittruth.next()) ){
+    if(std::string(atruth->GetName()).compare("mass")==0) continue;
+    static_cast<RooRealVar*>(atruth)->setConstant(kTRUE);
+  }
+
   RooExtendPdf *truthExtendedPdf = new RooExtendPdf("truthExtendedPdf","",*truthPdf,*nBkgTruth);
 
   truthExtendedPdf->fitTo(*dc,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
-  truthExtendedPdf->fitTo(*dc,RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+  int covariance = 0;
+  RooFitResult* result;
+  while (covariance < 2) {
+    result =  truthExtendedPdf->fitTo(*dc,RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE),RooFit::Save(kTRUE));
+    covariance = result->covQual();
+  }
 
   double BiasWindow = 2.00;
   mass->setRange("biasRegion", mh-BiasWindow, mh+BiasWindow);
   mass->setRange("FullRegion",mass->getMin(),mass->getMax());
-  double TruthRange = truthExtendedPdf->createIntegral(*mass,RooFit::Range("biasRegion"),RooFit::NormSet(*mass))->getVal();
-  double TruthAll = truthExtendedPdf->createIntegral(*mass,RooFit::Range("FullRegion"),RooFit::NormSet(*mass))->getVal();
-  double NTruth = TruthRange/TruthAll * nBkgTruth->getVal();
-  double NTruthE = TruthRange/TruthAll * nBkgTruth->getError();
+  RooAbsReal *TruthRange = truthExtendedPdf->createIntegral(*mass,RooFit::Range("biasRegion"),RooFit::NormSet(*mass));
+  RooAbsReal *TruthAll = truthExtendedPdf->createIntegral(*mass,RooFit::Range("FullRegion"),RooFit::NormSet(*mass));
+  double NTruth = TruthRange->getVal() * nBkgTruth->getVal() / TruthAll->getVal();
+  double NTruthE = NTruth * sqrt(1/TruthAll->getVal() + pow(TruthRange->getPropagatedError(*result)/TruthRange->getVal(),2) + 1/nBkgTruth->getVal());
   
   RooDataSet* truthbkg = truthExtendedPdf->generate(RooArgSet(*mass),int(nBkgTruth->getVal()),RooFit::Extended(true));
 
@@ -46,19 +63,206 @@ void MakeBiasStudy::biasStudy(const TString& truthType, const TString& cat) {
   std::vector<std::vector<double>> SlopeNorm(FitTypes.size());
 
   for (int i=0;i<NToys;i++) {
-    auto fitIt = FitTypes.begin();
+    RooRealVar* w1 = new RooRealVar("SingExpW","SingExpW",0);
+    RooRealVar* w2 = new RooRealVar("DoubExpW","DoubExpW",0);
+    RooRealVar* w3 = new RooRealVar("TripExpW","TripExpW",0);
+    RooRealVar* w4 = new RooRealVar("ModExpW", "ModExpW" ,0);
+    RooRealVar* w5 = new RooRealVar("PolyW", "PolyW",0);
+    RooRealVar* w6 = new RooRealVar("SingPowW","SingPowW",0);
+    RooRealVar* w7 = new RooRealVar("DoubPowW","DoubPowW",0);
+    
     auto BiasIt = Bias.begin();
     auto BiasEIt = BiasErr.begin();
     auto SlopeIt = Slope.begin();
     auto SlopeNormIt = SlopeNorm.begin();
-    for(; fitIt!=FitTypes.end();fitIt++,BiasEIt++,BiasIt++,SlopeIt++,SlopeNormIt++) {
-      std::tuple<double,double,double,double> results = getNFit(*truthbkg,*fitIt);
-      BiasEIt->push_back( ( std::get<0>(results) - NTruth)/std::get<1>(results) );
-      BiasIt->push_back( std::get<0>(results)-NTruth );
-      SlopeIt->push_back( std::get<2>(results) );
-      SlopeNormIt->push_back( std::get<3>(results) );
+    
+    RooRealVar *Nbkg_0 = new RooRealVar("Nbkg_0","N Background Events", SampleSize,0,1e9);
+    std::tuple<RooAbsPdf*,double,double,double,double> r0 = MakeBiasStudy::makeBackgroundFits(*truthbkg, 0, Nbkg_0);
+    RooAbsPdf* singExp = std::get<0>(r0);
+    std::cout<< std::get<1>(r0) << "  "<< std::get<2>(r0) << "  "<<std::get<3>(r0) << "  "<< std::get<4>(r0)<<std::endl;
+    singExp->SetNameTitle("singExp","Single Exponential");
+    BiasEIt->push_back( ( std::get<1>(r0) - NTruth)/std::get<2>(r0) );
+    BiasIt->push_back( std::get<1>(r0)-NTruth );
+    
+    if (std::get<3>(r0) != 0){
+      SlopeIt->push_back( std::get<3>(r0) );
     }
+    if (std::get<4>(r0) != 0){
+    SlopeNormIt->push_back( std::get<4>(r0) );
+    }
+    BiasEIt++;
+    BiasIt++;
+    SlopeIt++;
+    SlopeNormIt++;
+    
+    RooRealVar *Nbkg_1 = new RooRealVar("Nbkg_1","N Background Events", SampleSize,0,1e9);
+    std::tuple<RooAbsPdf*,double,double,double,double> r1 = MakeBiasStudy::makeBackgroundFits(*truthbkg,1, Nbkg_1);
+    RooAbsPdf* doubExp = std::get<0>(r1);
+    doubExp->SetNameTitle("doubExp","Double Exponential");
+    BiasEIt->push_back( ( std::get<1>(r1) - NTruth)/std::get<2>(r1) );
+    BiasIt->push_back( std::get<1>(r1)-NTruth );
+    if (std::get<3>(r1) != 0){
+      SlopeIt->push_back( std::get<3>(r1) );
+    }
+    if (std::get<4>(r1) != 0){
+      SlopeNormIt->push_back( std::get<4>(r1) );
+    }
+    SlopeIt->push_back( std::get<3>(r1) );
+    SlopeNormIt->push_back( std::get<4>(r1) );
+    BiasEIt++,BiasIt++,SlopeIt++,SlopeNormIt++;
+    
+    RooRealVar *Nbkg_2 = new RooRealVar("Nbkg_2","N Background Events", SampleSize,0,1e9);
+    std::tuple<RooAbsPdf*,double,double,double,double> r2 = MakeBiasStudy::makeBackgroundFits(*truthbkg, 2, Nbkg_2);
+    RooAbsPdf* tripExp = std::get<0>(r2);
+
+    tripExp->SetNameTitle("tripExp","Triple Exponential");
+    BiasEIt->push_back( ( std::get<1>(r2) - NTruth)/std::get<2>(r2) );
+    BiasIt->push_back( std::get<1>(r2)-NTruth );
+
+    if (std::get<3>(r2) != 0){
+      SlopeIt->push_back( std::get<3>(r2) );
+    }
+    if (std::get<4>(r2) != 0){
+      SlopeNormIt->push_back( std::get<4>(r2) );
+    }
+    BiasEIt++,BiasIt++,SlopeIt++,SlopeNormIt++;
+    
+    RooRealVar *Nbkg_3 = new RooRealVar("Nbkg_3","N Background Events", SampleSize,0,1e9);
+    std::tuple<RooAbsPdf*,double,double,double,double> r3  = MakeBiasStudy::makeBackgroundFits(*truthbkg, 3, Nbkg_3);
+    RooAbsPdf* modExp  = std::get<0>(r3);
+    modExp->SetNameTitle("modExp","Modified Exponential");
+    BiasEIt->push_back( ( std::get<1>(r3) - NTruth)/std::get<2>(r3) );
+    BiasIt->push_back( std::get<1>(r3)-NTruth );
+    if (std::get<3>(r3) != 0){
+      SlopeIt->push_back( std::get<3>(r3) );
+    }
+    if (std::get<4>(r3) != 0){
+      SlopeNormIt->push_back( std::get<4>(r3) );
+    }
+    BiasEIt++,BiasIt++,SlopeIt++,SlopeNormIt++;
+    
+    RooRealVar *Nbkg_4 = new RooRealVar("Nbkg_4","N Background Events", SampleSize,0,1e9);
+    std::tuple<RooAbsPdf*,double,double,double,double> r4  = MakeBiasStudy::makeBackgroundFits(*truthbkg, 4, Nbkg_4);
+    RooAbsPdf* Poly    = std::get<0>(r4);
+    Poly->SetNameTitle("Poly","5th Order Polynomial");
+    BiasEIt->push_back( ( std::get<1>(r4) - NTruth)/std::get<2>(r4) );
+    BiasIt->push_back( std::get<1>(r4)-NTruth );
+    if (std::get<3>(r4) != 0){
+      SlopeIt->push_back( std::get<3>(r4) );
+    }
+    if (std::get<4>(r4) != 0){
+      SlopeNormIt->push_back( std::get<4>(r4) );
+    }
+    BiasEIt++,BiasIt++,SlopeIt++,SlopeNormIt++;
+    
+    RooRealVar *Nbkg_5 = new RooRealVar("Nbkg_5","N Background Events", SampleSize,0,1e9);
+    std::tuple<RooAbsPdf*,double,double,double,double> r5 = MakeBiasStudy::makeBackgroundFits(*truthbkg, 5, Nbkg_5);
+    RooAbsPdf* singPow = std::get<0>(r5);
+    singPow->SetNameTitle("singPow","Single Power Law");
+    BiasEIt->push_back( ( std::get<1>(r5) - NTruth)/std::get<2>(r5) );
+    BiasIt->push_back( std::get<1>(r5)-NTruth );
+    if (std::get<3>(r5) != 0){
+      SlopeIt->push_back( std::get<3>(r5) );
+    }
+    if (std::get<4>(r5) != 0){
+      SlopeNormIt->push_back( std::get<4>(r5) );
+    }
+    BiasEIt++,BiasIt++,SlopeIt++,SlopeNormIt++;
+    
+    RooRealVar *Nbkg_6 = new RooRealVar("Nbkg_6","N Background Events", SampleSize,0,1e9);
+    std::tuple<RooAbsPdf*,double,double,double,double> r6 = MakeBiasStudy::makeBackgroundFits(*truthbkg, 6, Nbkg_6);
+    RooAbsPdf* doubPow = std::get<0>(r6);
+    doubPow->SetNameTitle("doubPow","Double Power Law");  
+    BiasEIt->push_back( ( std::get<1>(r6) - NTruth)/std::get<2>(r6) );
+    BiasIt->push_back( std::get<1>(r6)-NTruth );
+    if (std::get<3>(r6) != 0){
+      SlopeIt->push_back( std::get<3>(r6) );
+    }
+    if (std::get<4>(r6) != 0){
+      SlopeNormIt->push_back( std::get<4>(r6) );
+    }
+    BiasEIt++,BiasIt++,SlopeIt++,SlopeNormIt++;
+
+    RooArgList* ModelSet = new RooArgList(*singExp,*doubExp,*tripExp,*modExp,*Poly,*singPow,*doubPow);
+    Double_t minAIC = 10000000000;
+    for (int type = 0; type<nModels;type++) {
+      if (AIC_bkg_array[type] < minAIC) {
+	minAIC = AIC_bkg_array[type];
+      }
+    }
+    // Calculate Delta_i values and choose "best" model
+    Double_t sumExp = 0;
+    for (int type = 0; type<nModels;type++) {
+      DeltaI[type] = AIC_bkg_array[type] - minAIC;
+      sumExp+= exp(-DeltaI[type]/2);
+    }
+    // Calculate AIC Weights
+    for (int type = 0;type<nModels; type++) {
+      AICweights[type] = exp(-DeltaI[type]/2)/sumExp;
+    }   
+    // Set AIC weight values
+    w1->setVal(AICweights[0]);
+    w2->setVal(AICweights[1]);
+    w3->setVal(AICweights[2]);
+    w4->setVal(AICweights[3]);
+    w5->setVal(AICweights[4]);
+    w6->setVal(AICweights[5]);
+    w7->setVal(AICweights[6]);
+    RooArgList* Weights = new RooArgList(*w1,*w2,*w3,*w4,*w5,*w6,*w7);
+    
+    RooAbsPdf *JointModel = new RooAddPdf("Composite", "Background Model", *ModelSet, *Weights);
+    RooArgSet* vjoint = JointModel->getVariables();
+    RooFIter iter = vjoint->fwdIterator();
+    RooAbsArg* a;
+    while ( ( a=iter.next()) ){
+      if(std::string(a->GetName()).compare("mass")==0) continue;
+      static_cast<RooRealVar*>(a)->setConstant(kTRUE);
+    }
+    // fit composite model to data
+    RooRealVar *NBkg = new RooRealVar("NBkg","N Background Events",SampleSize,0,1e9);
+    RooExtendPdf *JointModelExt = new RooExtendPdf("","",*JointModel,*NBkg);
+    
+    RooFitResult *composite_databkg;
+    JointModelExt->fitTo(*truthbkg,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+    composite_databkg = JointModelExt->fitTo(*truthbkg,RooFit::Save(kTRUE),RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+    
+    double BiasWindow = 2.00;
+    mass->setRange("biasRegion", mh-BiasWindow, mh+BiasWindow);
+    mass->setRange("FullRegion",mass->getMin(),mass->getMax() );
+    RooAbsReal *FitRange = JointModelExt->createIntegral(*mass,RooFit::Range("biasRegion"),RooFit::NormSet(*mass));
+    RooAbsReal *FitAll = JointModelExt->createIntegral(*mass,RooFit::Range("FullRegion"),RooFit::NormSet(*mass));
+    double NFit = FitRange->getVal() * NBkg->getVal()/FitAll->getVal();
+    double NFitE = NFit * sqrt(1/FitAll->getVal() + pow(FitRange->getPropagatedError(*composite_databkg)/FitRange->getVal(),2) + 1/NBkg->getVal()); 
+
+ 
+    RooAbsReal* dmass = JointModelExt->derivative(*mass,1);
+    RooPlot *dframe = mass->frame();
+    dmass->plotOn(dframe,RooFit::Name("deriv"));
+    TGraph *tg = (TGraph*)dframe->findObject("deriv");
+    
+    
+    double SlopeCenter = tg->Eval(125)/FitAll->getVal();
+    double SlopeLow = tg->Eval(123)/FitAll->getVal();
+    double SlopeHigh = tg->Eval(127)/FitAll->getVal();
+    double SlopeAvg = (SlopeHigh+SlopeLow)/2.0;
+    
+    BiasEIt->push_back( ( NFit - NTruth)/NFitE );
+    BiasIt->push_back( NFit-NTruth );
+    SlopeIt->push_back( SlopeCenter );
+    SlopeNormIt->push_back( SlopeAvg );
+  delete composite_databkg;
+  delete vjoint;
+  delete JointModel;
+  delete JointModelExt;
+  delete singExp;
+  delete doubExp;
+  delete tripExp;
+  delete modExp;
+  delete Poly;
+  delete singPow;
+  delete doubPow;
   }
+
   auto fitIt = FitTypes.begin();
   auto BiasIt = Bias.begin();
   auto BiasEIt = BiasErr.begin();
@@ -71,12 +275,21 @@ void MakeBiasStudy::biasStudy(const TString& truthType, const TString& cat) {
     std::sort( BiasEIt->begin(), BiasEIt->end() );
     std::sort( SlopeIt->begin(), SlopeIt->end() );
     std::sort( SlopeNormIt->begin(), SlopeNormIt->end() );
-    std::cout<< "sorting done"<< std::endl;
-    BiasBkg[cat][truthType].push_back( BiasIt->at( NToys/2 ));
-    BiasBkgErr[cat][truthType].push_back( BiasEIt->at( NToys/2 ));
-    SlopeBkg[cat][truthType].push_back( SlopeIt->at( NToys/2 ));
-    SlopeNormBkg[cat][truthType].push_back( SlopeNormIt->at( NToys/2 ));
-    std::cout<<"pushing back done"<<std::endl;
+    // don't fill if value is zero, find median of length of vector, if length is zero the fill with zero
+    BiasBkg[cat][truthType].push_back( BiasIt->at( BiasIt->size()/2 ));
+    BiasBkgErr[cat][truthType].push_back( fabs(BiasEIt->at( BiasEIt->size()/2 )));
+    if (SlopeIt->size()/2 != 0){ 
+      SlopeBkg[cat][truthType].push_back( SlopeIt->at( SlopeIt->size()/2 ));
+    }
+    else {
+      SlopeBkg[cat][truthType].push_back(0);
+    }
+    if (SlopeNormIt->size()/2 !=0){
+      SlopeNormBkg[cat][truthType].push_back( SlopeNormIt->at( SlopeNormIt->size()/2 ));
+    }
+    else{
+      SlopeNormBkg[cat][truthType].push_back(0);
+    }
     std::cout << "  Fit: " << fitNameMap[*fitIt] << std::endl;
     for (auto bias: *BiasIt) {
       std::cout << bias << " ";
@@ -87,55 +300,80 @@ void MakeBiasStudy::biasStudy(const TString& truthType, const TString& cat) {
    
     std::cout << std::endl;
   }
+
 }
    
   
-std::tuple<double,double,double,double> MakeBiasStudy::getNFit(RooAbsData& truthbkg, const TString& modelType) {
-  RooRealVar* mass = w->var("mass");
+std::tuple<RooAbsPdf*,double,double,double,double> MakeBiasStudy::makeBackgroundFits(RooAbsData& truthbkg, int type, RooRealVar *Nbkg) {
+ RooRealVar* mass = w->var("mass"); 
 
-  RooAbsPdf *ModelShape = wmodels->pdf(modelType);
-  RooRealVar *nBkgFit = new RooRealVar("FitNBkg", "",SampleSize, 0, 1e9);
-  RooExtendPdf *ModelExtendedPdf = new RooExtendPdf("ModelExtendedPdf", "",*ModelShape, *nBkgFit);
+  RooAbsPdf* ModelShape = MakeAICFits::getBackgroundPdf(type,mass);
+  int k = MakeAICFits::Num_Params(type);
+  RooExtendPdf *BkgModel = new RooExtendPdf("BKGFIT_bkgModel", "Background Model", *ModelShape, *Nbkg);
 
-  RooArgSet* vs = ModelExtendedPdf->getVariables();
-  RooFIter it = vs->fwdIterator();
-  RooAbsArg* a;
-  while( (a = it.next()) ) {
-    if(std::string(a->GetName()).compare("mass")==0) continue;
-    static_cast<RooRealVar*>(a)->setConstant(kFALSE);
+  int covariance = 0;
+  RooFitResult *bkg_databkg;
+  while (covariance < 2) {
+    BkgModel->fitTo(truthbkg,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+    bkg_databkg = BkgModel->fitTo(truthbkg, RooFit::Save(kTRUE), RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+    covariance = bkg_databkg->covQual();
   }
+  Double_t bkg_databkg_Nll = bkg_databkg->minNll();
 
-  ModelExtendedPdf->fitTo(truthbkg, RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
-  ModelExtendedPdf->fitTo(truthbkg, RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+  // Calculate AIC for each model
+  AIC_bkg_array[type] = 2.*(k + k*(k + 1.)/(SampleSize - (k + 1.)) + bkg_databkg_Nll);
 
   double BiasWindow = 2.00;
   mass->setRange("biasRegion", mh-BiasWindow, mh+BiasWindow);
   mass->setRange("FullRegion",mass->getMin(),mass->getMax() );
-  double FitRange = ModelExtendedPdf->createIntegral(*mass,RooFit::Range("biasRegion"),RooFit::NormSet(*mass))->getVal();
-  double FitAll = ModelExtendedPdf->createIntegral(*mass,RooFit::Range("FullRegion"),RooFit::NormSet(*mass))->getVal();
-  double NFit = FitRange/FitAll * nBkgFit->getVal();
-  double NFitE = FitRange/FitAll * nBkgFit->getError();
+  RooAbsReal *FitRange = BkgModel->createIntegral(*mass,RooFit::Range("biasRegion"),RooFit::NormSet(*mass));
+  RooAbsReal *FitAll = BkgModel->createIntegral(*mass,RooFit::Range("FullRegion"),RooFit::NormSet(*mass));
+  std::cout<< FitAll->getVal() <<std::endl;
+  std::cout<< FitRange->getVal() << std::endl;
+  std::cout<< Nbkg->getVal() <<std::endl;
+  double NFit = FitRange->getVal() * Nbkg->getVal()/FitAll->getVal();
+  // square root of integral in region
+  double NFitE = sqrt(NFit);// ?
+  //double NFitE = NFit *sqrt(1/FitAll->getVal() + pow(FitRange->getPropagatedError(*bkg_databkg)/FitRange->getVal(),2) + 1/Nbkg->getVal()); 
+  std::cout<< NFit << std::endl;
+  std::cout<< NFitE << std::endl;
 
-  mass->setRange("lowerend",mh-BiasWindow,mh);
-  mass->setRange("upperend",mh,mh+BiasWindow);
-  double LowInt = ModelExtendedPdf->createIntegral(*mass,RooFit::Range("lowerend"),RooFit::NormSet(*mass))->getVal();
-  double HighInt = ModelExtendedPdf->createIntegral(*mass,RooFit::Range("upperend"),RooFit::NormSet(*mass))->getVal();
-  double NLow = LowInt * nBkgFit->getVal();
-  double NHigh = HighInt *nBkgFit->getVal();
-  double Slope = (NHigh - NLow)/2;
-  double SlopeNorm = (NHigh-NLow)/(2*FitRange*nBkgFit->getVal());
+  RooAbsReal* dmass = BkgModel->derivative(*mass,1);
+  RooPlot *dframe = mass->frame();
+  dmass->plotOn(dframe,RooFit::Name("deriv"));
+  TGraph *tg = (TGraph*)dframe->findObject("deriv");
+  
+  double SlopeCenter = (tg->Eval(125))/FitAll->getVal();
+  double SlopeLow = (tg->Eval(123))/FitAll->getVal();
+  double SlopeHigh = (tg->Eval(127))/FitAll->getVal();
+  double SlopeAvg = (SlopeHigh+SlopeLow)/2.0;
+  std::cout<< SlopeCenter <<std::endl;
+  std::cout<<SlopeAvg<< std::endl;
 
-  return std::tuple<double,double,double,double>(NFit,NFitE,Slope,SlopeNorm);
+  delete FitRange;
+  delete FitAll;
+  delete bkg_databkg;
+  bkg_databkg_Nll = 0.;
+
+  return std::tuple<RooAbsPdf*,double,double,double,double>(BkgModel, NFit, NFitE, SlopeCenter, SlopeAvg);
 }
 
 void MakeBiasStudy::run(){
   for (auto cat: catLabels) {
+    std::cout<<cat<<std::endl;
+  }
+  for (auto cat: catLabels) {
+    modelFile = TFile::Open(TString("Workspaces/HggAIC_workspace_")+cat+TString(".root"));
+    wmodels = ((RooWorkspace*) modelFile->Get("AIC"));
     for (auto truthIt : FitTypes) {
       std::cout<<truthIt<<std::endl;
       biasStudy(truthIt,cat);
     }
+    modelFile->Close();
   }
+
   print();
+  inputFile->Close();
   std::cout<< "========== Finished Running Bias Study =========="<<std::endl;
 }
 
@@ -146,9 +384,9 @@ void MakeBiasStudy::print(){
   printFormatted(BiasBkg);
   outfile << "  ======================= Bias Error =======================  " <<std::endl;
   printFormatted(BiasBkgErr);
-  outfile << "  ======================= Slope =======================  " <<std::endl;
+  outfile << "  ======================= Slope Center =======================  " <<std::endl;
   printFormatted(SlopeBkg);
-  outfile <<"  =======================  Normalized Slope =======================  " << std::endl;
+  outfile <<"  =======================  Slope Average =======================  " << std::endl;
   printFormatted(SlopeNormBkg);
   outfile.close();
 }
@@ -158,13 +396,15 @@ void MakeBiasStudy::printFormatted(const biasList& list) {
     Print out the bias results for each truth and fit model pair
                                                                     */
 
-  for(auto catIt: catLabels) {
-    for(auto truthIt: FitTypes) {
-      outfile <<"Truth Type:  " <<  fitNameMap[truthIt] <<std::endl;
+  for(auto truthIt: FitTypes) {
+    outfile <<"Truth Type:  " <<  fitNameMap[truthIt] << std::endl;
+    outfile << "Fit Type:          " <<"   SingExp   " << "   DoubExp   " <<  "   TripExp    "  << "   ModExp   " << "   Poly    " << "  SingPow  " << "  DoubPow   " << "   Composite  "  <<std::endl;
+    for (auto catIt: catLabels){
+      outfile<< catIt << "         ";
       for (auto BiasIt : list.at(catIt).at(truthIt) ) {
-	outfile << Form("%40.3f \n",BiasIt) <<std::endl;
+	outfile << Form(" & %10.7f ",BiasIt) << "   " ;
       }
-      outfile << std::endl;
+      outfile << " \\\ \\hline" <<std::endl;
     }
   }
 }

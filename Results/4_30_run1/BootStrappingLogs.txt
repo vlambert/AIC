@@ -1,0 +1,3900 @@
+Toy Entry: 0 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32525e+06
+AIC Value for Model: 0 ==== -1.32525e+06
+Log Likelihood for Model 1 ==== -1.32526e+06
+AIC Value for Model: 1 ==== -1.32525e+06
+Log Likelihood for Model 2 ==== -1.32526e+06
+AIC Value for Model: 2 ==== -1.32525e+06
+Log Likelihood for Model 3 ==== -1.32526e+06
+AIC Value for Model: 3 ==== -1.32525e+06
+Log Likelihood for Model 4 ==== -1.32525e+06
+AIC Value for Model: 4 ==== -1.32524e+06
+Log Likelihood for Model 5 ==== -1.32522e+06
+AIC Value for Model: 5 ==== -1.32522e+06
+Log Likelihood for Model 6 ==== -1.32522e+06
+AIC Value for Model: 6 ==== -1.32521e+06
+Delta AIC values : 0 ====2.44976
+Delta AIC values : 1 ====0.825097
+Delta AIC values : 2 ====4.82593
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====8.53825
+Delta AIC values : 5 ====32.9521
+Delta AIC values : 6 ====36.9524
+Relative Likelihood AIC 0 ==== 0.293793
+Relative Likelihood AIC 1 ==== 0.661961
+Relative Likelihood AIC 2 ==== 0.0895494
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0139941
+Relative Likelihood AIC 5 ==== 6.99116e-08
+Relative Likelihood AIC 6 ==== 9.45988e-09
+AIC Weights  : 0 =====0.142667
+AIC Weights  : 1 =====0.32145
+AIC Weights  : 2 =====0.0434854
+AIC Weights  : 3 =====0.485602
+AIC Weights  : 4 =====0.00679555
+AIC Weights  : 5 =====3.39492e-08
+AIC Weights  : 6 =====4.59374e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 1 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32534e+06
+AIC Value for Model: 0 ==== -1.32534e+06
+Log Likelihood for Model 1 ==== -1.32535e+06
+AIC Value for Model: 1 ==== -1.32534e+06
+Log Likelihood for Model 2 ==== -1.32535e+06
+AIC Value for Model: 2 ==== -1.32534e+06
+Log Likelihood for Model 3 ==== -1.32535e+06
+AIC Value for Model: 3 ==== -1.32534e+06
+Log Likelihood for Model 4 ==== -1.32534e+06
+AIC Value for Model: 4 ==== -1.32532e+06
+Log Likelihood for Model 5 ==== -1.32531e+06
+AIC Value for Model: 5 ==== -1.32531e+06
+Log Likelihood for Model 6 ==== -1.32531e+06
+AIC Value for Model: 6 ==== -1.3253e+06
+Delta AIC values : 0 ====1.45226
+Delta AIC values : 1 ====0.930144
+Delta AIC values : 2 ====4.93626
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====19.0832
+Delta AIC values : 5 ====36.2744
+Delta AIC values : 6 ====40.2747
+Relative Likelihood AIC 0 ==== 0.483778
+Relative Likelihood AIC 1 ==== 0.62809
+Relative Likelihood AIC 2 ==== 0.0847433
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 7.18014e-05
+Relative Likelihood AIC 5 ==== 1.32775e-08
+Relative Likelihood AIC 6 ==== 1.79666e-09
+AIC Weights  : 0 =====0.220231
+AIC Weights  : 1 =====0.285926
+AIC Weights  : 2 =====0.0385778
+AIC Weights  : 3 =====0.455232
+AIC Weights  : 4 =====3.26863e-05
+AIC Weights  : 5 =====6.04434e-09
+AIC Weights  : 6 =====8.17898e-10
+Composite MinNll      : -1.32502e+06
+Toy Entry: 2 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32514e+06
+AIC Value for Model: 0 ==== -1.32513e+06
+Log Likelihood for Model 1 ==== -1.32517e+06
+AIC Value for Model: 1 ==== -1.32516e+06
+Log Likelihood for Model 2 ==== -1.32517e+06
+AIC Value for Model: 2 ==== -1.32516e+06
+Log Likelihood for Model 3 ==== -1.32516e+06
+AIC Value for Model: 3 ==== -1.32516e+06
+Log Likelihood for Model 4 ==== -1.32516e+06
+AIC Value for Model: 4 ==== -1.32515e+06
+Log Likelihood for Model 5 ==== -1.32516e+06
+AIC Value for Model: 5 ==== -1.32515e+06
+Log Likelihood for Model 6 ==== -1.32516e+06
+AIC Value for Model: 6 ==== -1.32515e+06
+Delta AIC values : 0 ====25.2366
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00362
+Delta AIC values : 3 ====0.837862
+Delta AIC values : 4 ====8.91636
+Delta AIC values : 5 ====7.19644
+Delta AIC values : 6 ====11.1967
+Relative Likelihood AIC 0 ==== 3.31093e-06
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.13509
+Relative Likelihood AIC 3 ==== 0.65775
+Relative Likelihood AIC 4 ==== 0.0115834
+Relative Likelihood AIC 5 ==== 0.0273724
+Relative Likelihood AIC 6 ==== 0.00370395
+AIC Weights  : 0 =====1.80383e-06
+AIC Weights  : 1 =====0.54481
+AIC Weights  : 2 =====0.0735986
+AIC Weights  : 3 =====0.358348
+AIC Weights  : 4 =====0.00631077
+AIC Weights  : 5 =====0.0149128
+AIC Weights  : 6 =====0.00201795
+Composite MinNll      : -1.32502e+06
+Toy Entry: 3 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32485e+06
+AIC Value for Model: 0 ==== -1.32484e+06
+Log Likelihood for Model 1 ==== -1.32485e+06
+AIC Value for Model: 1 ==== -1.32485e+06
+Log Likelihood for Model 2 ==== -1.32485e+06
+AIC Value for Model: 2 ==== -1.32484e+06
+Log Likelihood for Model 3 ==== -1.32485e+06
+AIC Value for Model: 3 ==== -1.32485e+06
+Log Likelihood for Model 4 ==== -1.32485e+06
+AIC Value for Model: 4 ==== -1.32484e+06
+Log Likelihood for Model 5 ==== -1.32483e+06
+AIC Value for Model: 5 ==== -1.32482e+06
+Log Likelihood for Model 6 ==== -1.32483e+06
+AIC Value for Model: 6 ==== -1.32482e+06
+Delta AIC values : 0 ====5.82748
+Delta AIC values : 1 ====2.23847
+Delta AIC values : 2 ====6.24943
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====8.19755
+Delta AIC values : 5 ====23.8706
+Delta AIC values : 6 ====27.8709
+Relative Likelihood AIC 0 ==== 0.0542725
+Relative Likelihood AIC 1 ==== 0.32653
+Relative Likelihood AIC 2 ==== 0.0439495
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.016593
+Relative Likelihood AIC 5 ==== 6.55488e-06
+Relative Likelihood AIC 6 ==== 8.8697e-07
+AIC Weights  : 0 =====0.0376539
+AIC Weights  : 1 =====0.226544
+AIC Weights  : 2 =====0.0304919
+AIC Weights  : 3 =====0.693793
+AIC Weights  : 4 =====0.0115121
+AIC Weights  : 5 =====4.54773e-06
+AIC Weights  : 6 =====6.15374e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 4 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32551e+06
+AIC Value for Model: 0 ==== -1.32551e+06
+Log Likelihood for Model 1 ==== -1.32554e+06
+AIC Value for Model: 1 ==== -1.32553e+06
+Log Likelihood for Model 2 ==== -1.32554e+06
+AIC Value for Model: 2 ==== -1.32553e+06
+Log Likelihood for Model 3 ==== -1.32553e+06
+AIC Value for Model: 3 ==== -1.32553e+06
+Log Likelihood for Model 4 ==== -1.32553e+06
+AIC Value for Model: 4 ==== -1.32552e+06
+Log Likelihood for Model 5 ==== -1.32552e+06
+AIC Value for Model: 5 ==== -1.32552e+06
+Log Likelihood for Model 6 ==== -1.32552e+06
+AIC Value for Model: 6 ==== -1.32552e+06
+Delta AIC values : 0 ====22.2713
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00057
+Delta AIC values : 3 ====2.07722
+Delta AIC values : 4 ====14.7147
+Delta AIC values : 5 ====11.7784
+Delta AIC values : 6 ====15.7786
+Relative Likelihood AIC 0 ==== 1.45828e-05
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135297
+Relative Likelihood AIC 3 ==== 0.353946
+Relative Likelihood AIC 4 ==== 0.0006379
+Relative Likelihood AIC 5 ==== 0.00276924
+Relative Likelihood AIC 6 ==== 0.000374724
+AIC Weights  : 0 =====9.76716e-06
+AIC Weights  : 1 =====0.669775
+AIC Weights  : 2 =====0.0906182
+AIC Weights  : 3 =====0.237064
+AIC Weights  : 4 =====0.000427249
+AIC Weights  : 5 =====0.00185477
+AIC Weights  : 6 =====0.000250981
+Composite MinNll      : -1.32502e+06
+Toy Entry: 5 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32465e+06
+AIC Value for Model: 0 ==== -1.32465e+06
+Log Likelihood for Model 1 ==== -1.32467e+06
+AIC Value for Model: 1 ==== -1.32466e+06
+Log Likelihood for Model 2 ==== -1.32467e+06
+AIC Value for Model: 2 ==== -1.32465e+06
+Log Likelihood for Model 3 ==== -1.32467e+06
+AIC Value for Model: 3 ==== -1.32466e+06
+Log Likelihood for Model 4 ==== -1.32466e+06
+AIC Value for Model: 4 ==== -1.32465e+06
+Log Likelihood for Model 5 ==== -1.32465e+06
+AIC Value for Model: 5 ==== -1.32465e+06
+Log Likelihood for Model 6 ==== -1.32465e+06
+AIC Value for Model: 6 ==== -1.32464e+06
+Delta AIC values : 0 ====13.7794
+Delta AIC values : 1 ====0.894866
+Delta AIC values : 2 ====4.9003
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====13.8884
+Delta AIC values : 5 ====13.4797
+Delta AIC values : 6 ====17.48
+Relative Likelihood AIC 0 ==== 0.00101823
+Relative Likelihood AIC 1 ==== 0.639267
+Relative Likelihood AIC 2 ==== 0.0862804
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000964209
+Relative Likelihood AIC 5 ==== 0.00118282
+Relative Likelihood AIC 6 ==== 0.000160054
+AIC Weights  : 0 =====0.000588955
+AIC Weights  : 1 =====0.369759
+AIC Weights  : 2 =====0.0499056
+AIC Weights  : 3 =====0.578412
+AIC Weights  : 4 =====0.00055771
+AIC Weights  : 5 =====0.000684155
+AIC Weights  : 6 =====9.25771e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 6 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32461e+06
+AIC Value for Model: 0 ==== -1.32461e+06
+Log Likelihood for Model 1 ==== -1.32464e+06
+AIC Value for Model: 1 ==== -1.32463e+06
+Log Likelihood for Model 2 ==== -1.32464e+06
+AIC Value for Model: 2 ==== -1.32462e+06
+Log Likelihood for Model 3 ==== -1.32464e+06
+AIC Value for Model: 3 ==== -1.32463e+06
+Log Likelihood for Model 4 ==== -1.32463e+06
+AIC Value for Model: 4 ==== -1.32461e+06
+Log Likelihood for Model 5 ==== -1.32463e+06
+AIC Value for Model: 5 ==== -1.32462e+06
+Log Likelihood for Model 6 ==== -1.32463e+06
+AIC Value for Model: 6 ==== -1.32462e+06
+Delta AIC values : 0 ====23.2291
+Delta AIC values : 1 ====1.92178
+Delta AIC values : 2 ====6.61537
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16.6437
+Delta AIC values : 5 ====6.06804
+Delta AIC values : 6 ====10.0683
+Relative Likelihood AIC 0 ==== 9.03386e-06
+Relative Likelihood AIC 1 ==== 0.382552
+Relative Likelihood AIC 2 ==== 0.0366008
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000243143
+Relative Likelihood AIC 5 ==== 0.0481218
+Relative Likelihood AIC 6 ==== 0.00651168
+AIC Weights  : 0 =====6.12865e-06
+AIC Weights  : 1 =====0.259526
+AIC Weights  : 2 =====0.0248303
+AIC Weights  : 3 =====0.678409
+AIC Weights  : 4 =====0.000164951
+AIC Weights  : 5 =====0.0326463
+AIC Weights  : 6 =====0.00441758
+Composite MinNll      : -1.32502e+06
+Toy Entry: 7 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32491e+06
+AIC Value for Model: 0 ==== -1.3249e+06
+Log Likelihood for Model 1 ==== -1.32491e+06
+AIC Value for Model: 1 ==== -1.3249e+06
+Log Likelihood for Model 2 ==== -1.32491e+06
+AIC Value for Model: 2 ==== -1.32489e+06
+Log Likelihood for Model 3 ==== -1.32491e+06
+AIC Value for Model: 3 ==== -1.3249e+06
+Log Likelihood for Model 4 ==== -1.3249e+06
+AIC Value for Model: 4 ==== -1.32489e+06
+Log Likelihood for Model 5 ==== -1.32486e+06
+AIC Value for Model: 5 ==== -1.32486e+06
+Log Likelihood for Model 6 ==== -1.32486e+06
+AIC Value for Model: 6 ==== -1.32485e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====2.52644
+Delta AIC values : 2 ====6.5641
+Delta AIC values : 3 ====0.413604
+Delta AIC values : 4 ====13.1168
+Delta AIC values : 5 ====42.2332
+Delta AIC values : 6 ====46.2335
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.282742
+Relative Likelihood AIC 2 ==== 0.0375512
+Relative Likelihood AIC 3 ==== 0.813181
+Relative Likelihood AIC 4 ==== 0.00141819
+Relative Likelihood AIC 5 ==== 6.74792e-10
+Relative Likelihood AIC 6 ==== 9.13106e-11
+AIC Weights  : 0 =====0.468408
+AIC Weights  : 1 =====0.132439
+AIC Weights  : 2 =====0.0175893
+AIC Weights  : 3 =====0.3809
+AIC Weights  : 4 =====0.000664289
+AIC Weights  : 5 =====3.16078e-10
+AIC Weights  : 6 =====4.27706e-11
+Composite MinNll      : -1.32502e+06
+Toy Entry: 8 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32525e+06
+AIC Value for Model: 0 ==== -1.32525e+06
+Log Likelihood for Model 1 ==== -1.32527e+06
+AIC Value for Model: 1 ==== -1.32526e+06
+Log Likelihood for Model 2 ==== -1.32527e+06
+AIC Value for Model: 2 ==== -1.32525e+06
+Log Likelihood for Model 3 ==== -1.32526e+06
+AIC Value for Model: 3 ==== -1.32526e+06
+Log Likelihood for Model 4 ==== -1.32525e+06
+AIC Value for Model: 4 ==== -1.32524e+06
+Log Likelihood for Model 5 ==== -1.32524e+06
+AIC Value for Model: 5 ==== -1.32524e+06
+Log Likelihood for Model 6 ==== -1.32524e+06
+AIC Value for Model: 6 ==== -1.32523e+06
+Delta AIC values : 0 ====9.10611
+Delta AIC values : 1 ====0.95037
+Delta AIC values : 2 ====4.94307
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====18.2074
+Delta AIC values : 5 ====19.9513
+Delta AIC values : 6 ====23.9516
+Relative Likelihood AIC 0 ==== 0.010535
+Relative Likelihood AIC 1 ==== 0.62177
+Relative Likelihood AIC 2 ==== 0.084455
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000111252
+Relative Likelihood AIC 5 ==== 4.65191e-05
+Relative Likelihood AIC 6 ==== 6.29471e-06
+AIC Weights  : 0 =====0.00613595
+AIC Weights  : 1 =====0.362142
+AIC Weights  : 2 =====0.0491897
+AIC Weights  : 3 =====0.582437
+AIC Weights  : 4 =====6.47973e-05
+AIC Weights  : 5 =====2.70944e-05
+AIC Weights  : 6 =====3.66627e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 9 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32476e+06
+AIC Value for Model: 0 ==== -1.32476e+06
+Log Likelihood for Model 1 ==== -1.32477e+06
+AIC Value for Model: 1 ==== -1.32476e+06
+Log Likelihood for Model 2 ==== -1.32477e+06
+AIC Value for Model: 2 ==== -1.32475e+06
+Log Likelihood for Model 3 ==== -1.32477e+06
+AIC Value for Model: 3 ==== -1.32476e+06
+Log Likelihood for Model 4 ==== -1.32476e+06
+AIC Value for Model: 4 ==== -1.32475e+06
+Log Likelihood for Model 5 ==== -1.32474e+06
+AIC Value for Model: 5 ==== -1.32473e+06
+Log Likelihood for Model 6 ==== -1.32474e+06
+AIC Value for Model: 6 ==== -1.32473e+06
+Delta AIC values : 0 ====4.53991
+Delta AIC values : 1 ====1.36011
+Delta AIC values : 2 ====5.36157
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====12.5541
+Delta AIC values : 5 ====26.6113
+Delta AIC values : 6 ====30.6117
+Relative Likelihood AIC 0 ==== 0.103317
+Relative Likelihood AIC 1 ==== 0.506588
+Relative Likelihood AIC 2 ==== 0.0685094
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00187892
+Relative Likelihood AIC 5 ==== 1.66504e-06
+Relative Likelihood AIC 6 ==== 2.25297e-07
+AIC Weights  : 0 =====0.0614874
+AIC Weights  : 1 =====0.301488
+AIC Weights  : 2 =====0.0407723
+AIC Weights  : 3 =====0.595133
+AIC Weights  : 4 =====0.00111821
+AIC Weights  : 5 =====9.90919e-07
+AIC Weights  : 6 =====1.34082e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 10 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32552e+06
+AIC Value for Model: 0 ==== -1.32552e+06
+Log Likelihood for Model 1 ==== -1.32553e+06
+AIC Value for Model: 1 ==== -1.32552e+06
+Log Likelihood for Model 2 ==== -1.32553e+06
+AIC Value for Model: 2 ==== -1.32552e+06
+Log Likelihood for Model 3 ==== -1.32553e+06
+AIC Value for Model: 3 ==== -1.32552e+06
+Log Likelihood for Model 4 ==== -1.31444e+06
+AIC Value for Model: 4 ==== -1.31443e+06
+Log Likelihood for Model 5 ==== -1.3255e+06
+AIC Value for Model: 5 ==== -1.32549e+06
+Log Likelihood for Model 6 ==== -1.3255e+06
+AIC Value for Model: 6 ==== -1.32549e+06
+Delta AIC values : 0 ====5.37759
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00041
+Delta AIC values : 3 ====0.472856
+Delta AIC values : 4 ====11089.9
+Delta AIC values : 5 ====28.6725
+Delta AIC values : 6 ====32.6728
+Relative Likelihood AIC 0 ==== 0.0679628
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135308
+Relative Likelihood AIC 3 ==== 0.789443
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 5.94071e-07
+Relative Likelihood AIC 6 ==== 8.03875e-08
+AIC Weights  : 0 =====0.0341057
+AIC Weights  : 1 =====0.501828
+AIC Weights  : 2 =====0.0679012
+AIC Weights  : 3 =====0.396165
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====2.98121e-07
+AIC Weights  : 6 =====4.03407e-08
+Composite MinNll      : -1.32502e+06
+Toy Entry: 11 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32549e+06
+AIC Value for Model: 0 ==== -1.32548e+06
+Log Likelihood for Model 1 ==== -1.3255e+06
+AIC Value for Model: 1 ==== -1.32549e+06
+Log Likelihood for Model 2 ==== -1.3255e+06
+AIC Value for Model: 2 ==== -1.32549e+06
+Log Likelihood for Model 3 ==== -1.3255e+06
+AIC Value for Model: 3 ==== -1.32549e+06
+Log Likelihood for Model 4 ==== -1.3255e+06
+AIC Value for Model: 4 ==== -1.32549e+06
+Log Likelihood for Model 5 ==== -1.32548e+06
+AIC Value for Model: 5 ==== -1.32547e+06
+Log Likelihood for Model 6 ==== -1.32548e+06
+AIC Value for Model: 6 ==== -1.32547e+06
+Delta AIC values : 0 ====11.2887
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00045
+Delta AIC values : 3 ====0.206801
+Delta AIC values : 4 ====7.465
+Delta AIC values : 5 ====18.1849
+Delta AIC values : 6 ====22.1852
+Relative Likelihood AIC 0 ==== 0.00353748
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135305
+Relative Likelihood AIC 3 ==== 0.901766
+Relative Likelihood AIC 4 ==== 0.023933
+Relative Likelihood AIC 5 ==== 0.000112515
+Relative Likelihood AIC 6 ==== 1.52246e-05
+AIC Weights  : 0 =====0.00171334
+AIC Weights  : 1 =====0.484339
+AIC Weights  : 2 =====0.0655334
+AIC Weights  : 3 =====0.436761
+AIC Weights  : 4 =====0.0115917
+AIC Weights  : 5 =====5.44953e-05
+AIC Weights  : 6 =====7.37389e-06
+Composite MinNll      : -1.32502e+06
+Toy Entry: 12 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32535e+06
+AIC Value for Model: 0 ==== -1.32535e+06
+Log Likelihood for Model 1 ==== -1.32537e+06
+AIC Value for Model: 1 ==== -1.32536e+06
+Log Likelihood for Model 2 ==== -1.32537e+06
+AIC Value for Model: 2 ==== -1.32535e+06
+Log Likelihood for Model 3 ==== -1.32537e+06
+AIC Value for Model: 3 ==== -1.32536e+06
+Log Likelihood for Model 4 ==== -1.32536e+06
+AIC Value for Model: 4 ==== -1.32534e+06
+Log Likelihood for Model 5 ==== -1.32535e+06
+AIC Value for Model: 5 ==== -1.32534e+06
+Log Likelihood for Model 6 ==== -1.32535e+06
+AIC Value for Model: 6 ==== -1.32534e+06
+Delta AIC values : 0 ====13.1686
+Delta AIC values : 1 ====1.61886
+Delta AIC values : 2 ====5.61791
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====15.5303
+Delta AIC values : 5 ====14.9565
+Delta AIC values : 6 ====18.9568
+Relative Likelihood AIC 0 ==== 0.00138189
+Relative Likelihood AIC 1 ==== 0.445112
+Relative Likelihood AIC 2 ==== 0.0602678
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000424256
+Relative Likelihood AIC 5 ==== 0.000565253
+Relative Likelihood AIC 6 ==== 7.6487e-05
+AIC Weights  : 0 =====0.000916479
+AIC Weights  : 1 =====0.295201
+AIC Weights  : 2 =====0.03997
+AIC Weights  : 3 =====0.663206
+AIC Weights  : 4 =====0.000281369
+AIC Weights  : 5 =====0.000374879
+AIC Weights  : 6 =====5.07267e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 13 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32497e+06
+AIC Value for Model: 0 ==== -1.32497e+06
+Log Likelihood for Model 1 ==== -1.32497e+06
+AIC Value for Model: 1 ==== -1.32497e+06
+Log Likelihood for Model 2 ==== -1.32497e+06
+AIC Value for Model: 2 ==== -1.32496e+06
+Log Likelihood for Model 3 ==== -1.32497e+06
+AIC Value for Model: 3 ==== -1.32497e+06
+Log Likelihood for Model 4 ==== -1.32496e+06
+AIC Value for Model: 4 ==== -1.32495e+06
+Log Likelihood for Model 5 ==== -1.32494e+06
+AIC Value for Model: 5 ==== -1.32493e+06
+Log Likelihood for Model 6 ==== -1.32494e+06
+AIC Value for Model: 6 ==== -1.32493e+06
+Delta AIC values : 0 ====2.17102
+Delta AIC values : 1 ====1.18323
+Delta AIC values : 2 ====5.19161
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====14.4704
+Delta AIC values : 5 ====32.9946
+Delta AIC values : 6 ====36.9949
+Relative Likelihood AIC 0 ==== 0.337729
+Relative Likelihood AIC 1 ==== 0.553434
+Relative Likelihood AIC 2 ==== 0.0745858
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000720758
+Relative Likelihood AIC 5 ==== 6.84394e-08
+Relative Likelihood AIC 6 ==== 9.26099e-09
+AIC Weights  : 0 =====0.171744
+AIC Weights  : 1 =====0.281435
+AIC Weights  : 2 =====0.0379288
+AIC Weights  : 3 =====0.508526
+AIC Weights  : 4 =====0.000366524
+AIC Weights  : 5 =====3.48032e-08
+AIC Weights  : 6 =====4.70945e-09
+Composite MinNll      : -1.32503e+06
+Toy Entry: 14 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.325e+06
+AIC Value for Model: 0 ==== -1.32499e+06
+Log Likelihood for Model 1 ==== -1.325e+06
+AIC Value for Model: 1 ==== -1.325e+06
+Log Likelihood for Model 2 ==== -1.325e+06
+AIC Value for Model: 2 ==== -1.32499e+06
+Log Likelihood for Model 3 ==== -1.325e+06
+AIC Value for Model: 3 ==== -1.325e+06
+Log Likelihood for Model 4 ==== -1.32499e+06
+AIC Value for Model: 4 ==== -1.32498e+06
+Log Likelihood for Model 5 ==== -1.32497e+06
+AIC Value for Model: 5 ==== -1.32497e+06
+Log Likelihood for Model 6 ==== -1.32497e+06
+AIC Value for Model: 6 ==== -1.32496e+06
+Delta AIC values : 0 ====3.26996
+Delta AIC values : 1 ====0.74674
+Delta AIC values : 2 ====4.7456
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====14.0449
+Delta AIC values : 5 ====30.2742
+Delta AIC values : 6 ====34.2745
+Relative Likelihood AIC 0 ==== 0.194957
+Relative Likelihood AIC 1 ==== 0.68841
+Relative Likelihood AIC 2 ==== 0.0932195
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000891617
+Relative Likelihood AIC 5 ==== 2.66704e-07
+Relative Likelihood AIC 6 ==== 3.60895e-08
+AIC Weights  : 0 =====0.0985885
+AIC Weights  : 1 =====0.348125
+AIC Weights  : 2 =====0.0471406
+AIC Weights  : 3 =====0.505695
+AIC Weights  : 4 =====0.000450886
+AIC Weights  : 5 =====1.34871e-07
+AIC Weights  : 6 =====1.82502e-08
+Composite MinNll      : -1.32503e+06
+Toy Entry: 15 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32486e+06
+AIC Value for Model: 0 ==== -1.32486e+06
+Log Likelihood for Model 1 ==== -1.32487e+06
+AIC Value for Model: 1 ==== -1.32486e+06
+Log Likelihood for Model 2 ==== -1.32487e+06
+AIC Value for Model: 2 ==== -1.32486e+06
+Log Likelihood for Model 3 ==== -1.32487e+06
+AIC Value for Model: 3 ==== -1.32486e+06
+Log Likelihood for Model 4 ==== -1.31402e+06
+AIC Value for Model: 4 ==== -1.314e+06
+Log Likelihood for Model 5 ==== -1.32484e+06
+AIC Value for Model: 5 ==== -1.32484e+06
+Log Likelihood for Model 6 ==== -1.32484e+06
+AIC Value for Model: 6 ==== -1.32483e+06
+Delta AIC values : 0 ====4.59809
+Delta AIC values : 1 ====1.54976
+Delta AIC values : 2 ====5.54941
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====10858.7
+Delta AIC values : 5 ====26.553
+Delta AIC values : 6 ====30.5533
+Relative Likelihood AIC 0 ==== 0.100354
+Relative Likelihood AIC 1 ==== 0.46076
+Relative Likelihood AIC 2 ==== 0.0623678
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 1.71432e-06
+Relative Likelihood AIC 6 ==== 2.31975e-07
+AIC Weights  : 0 =====0.0618142
+AIC Weights  : 1 =====0.283809
+AIC Weights  : 2 =====0.038416
+AIC Weights  : 3 =====0.615959
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.05595e-06
+AIC Weights  : 6 =====1.42887e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 16 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32471e+06
+AIC Value for Model: 0 ==== -1.3247e+06
+Log Likelihood for Model 1 ==== -1.32471e+06
+AIC Value for Model: 1 ==== -1.32471e+06
+Log Likelihood for Model 2 ==== -1.32471e+06
+AIC Value for Model: 2 ==== -1.3247e+06
+Log Likelihood for Model 3 ==== -1.32471e+06
+AIC Value for Model: 3 ==== -1.32471e+06
+Log Likelihood for Model 4 ==== -1.30857e+06
+AIC Value for Model: 4 ==== -1.30856e+06
+Log Likelihood for Model 5 ==== -1.32468e+06
+AIC Value for Model: 5 ==== -1.32468e+06
+Log Likelihood for Model 6 ==== -1.32468e+06
+AIC Value for Model: 6 ==== -1.32467e+06
+Delta AIC values : 0 ====2.52527
+Delta AIC values : 1 ====0.402402
+Delta AIC values : 2 ====4.40556
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16149.9
+Delta AIC values : 5 ====31.797
+Delta AIC values : 6 ====35.7973
+Relative Likelihood AIC 0 ==== 0.282907
+Relative Likelihood AIC 1 ==== 0.817748
+Relative Likelihood AIC 2 ==== 0.110495
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 1.24556e-07
+Relative Likelihood AIC 6 ==== 1.68544e-08
+AIC Weights  : 0 =====0.127946
+AIC Weights  : 1 =====0.369829
+AIC Weights  : 2 =====0.0499719
+AIC Weights  : 3 =====0.452253
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====5.63307e-08
+AIC Weights  : 6 =====7.62248e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 17 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32514e+06
+AIC Value for Model: 0 ==== -1.32514e+06
+Log Likelihood for Model 1 ==== -1.32515e+06
+AIC Value for Model: 1 ==== -1.32515e+06
+Log Likelihood for Model 2 ==== -1.32515e+06
+AIC Value for Model: 2 ==== -1.32514e+06
+Log Likelihood for Model 3 ==== -1.32515e+06
+AIC Value for Model: 3 ==== -1.32515e+06
+Log Likelihood for Model 4 ==== -1.32515e+06
+AIC Value for Model: 4 ==== -1.32514e+06
+Log Likelihood for Model 5 ==== -1.32513e+06
+AIC Value for Model: 5 ==== -1.32513e+06
+Log Likelihood for Model 6 ==== -1.32513e+06
+AIC Value for Model: 6 ==== -1.32512e+06
+Delta AIC values : 0 ====9.39376
+Delta AIC values : 1 ====1.12006
+Delta AIC values : 2 ====5.12091
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====8.74532
+Delta AIC values : 5 ====19.2732
+Delta AIC values : 6 ====23.2735
+Relative Likelihood AIC 0 ==== 0.00912368
+Relative Likelihood AIC 1 ==== 0.571191
+Relative Likelihood AIC 2 ==== 0.0772695
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0126176
+Relative Likelihood AIC 5 ==== 6.52936e-05
+Relative Likelihood AIC 6 ==== 8.83531e-06
+AIC Weights  : 0 =====0.00546238
+AIC Weights  : 1 =====0.341974
+AIC Weights  : 2 =====0.0462615
+AIC Weights  : 3 =====0.598703
+AIC Weights  : 4 =====0.00755421
+AIC Weights  : 5 =====3.90915e-05
+AIC Weights  : 6 =====5.28973e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 18 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32487e+06
+AIC Value for Model: 0 ==== -1.32487e+06
+Log Likelihood for Model 1 ==== -1.32488e+06
+AIC Value for Model: 1 ==== -1.32487e+06
+Log Likelihood for Model 2 ==== -1.32488e+06
+AIC Value for Model: 2 ==== -1.32486e+06
+Log Likelihood for Model 3 ==== -1.32488e+06
+AIC Value for Model: 3 ==== -1.32487e+06
+Log Likelihood for Model 4 ==== -1.32487e+06
+AIC Value for Model: 4 ==== -1.32486e+06
+Log Likelihood for Model 5 ==== -1.32483e+06
+AIC Value for Model: 5 ==== -1.32483e+06
+Log Likelihood for Model 6 ==== -1.32483e+06
+AIC Value for Model: 6 ==== -1.32482e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====2.27172
+Delta AIC values : 2 ====6.25596
+Delta AIC values : 3 ====0.439896
+Delta AIC values : 4 ====10.6773
+Delta AIC values : 5 ====42.7976
+Delta AIC values : 6 ====46.7979
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.321146
+Relative Likelihood AIC 2 ==== 0.0438062
+Relative Likelihood AIC 3 ==== 0.802561
+Relative Likelihood AIC 4 ==== 0.00480233
+Relative Likelihood AIC 5 ==== 5.08875e-10
+Relative Likelihood AIC 6 ==== 6.88592e-11
+AIC Weights  : 0 =====0.460338
+AIC Weights  : 1 =====0.147836
+AIC Weights  : 2 =====0.0201657
+AIC Weights  : 3 =====0.369449
+AIC Weights  : 4 =====0.0022107
+AIC Weights  : 5 =====2.34255e-10
+AIC Weights  : 6 =====3.16985e-11
+Composite MinNll      : -1.32502e+06
+Toy Entry: 19 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32521e+06
+AIC Value for Model: 0 ==== -1.3252e+06
+Log Likelihood for Model 1 ==== -1.32521e+06
+AIC Value for Model: 1 ==== -1.3252e+06
+Log Likelihood for Model 2 ==== -1.32521e+06
+AIC Value for Model: 2 ==== -1.3252e+06
+Log Likelihood for Model 3 ==== -1.32521e+06
+AIC Value for Model: 3 ==== -1.3252e+06
+Log Likelihood for Model 4 ==== -1.32521e+06
+AIC Value for Model: 4 ==== -1.3252e+06
+Log Likelihood for Model 5 ==== -1.32517e+06
+AIC Value for Model: 5 ==== -1.32517e+06
+Log Likelihood for Model 6 ==== -1.32517e+06
+AIC Value for Model: 6 ==== -1.32517e+06
+Delta AIC values : 0 ====2.03856
+Delta AIC values : 1 ====0.0776558
+Delta AIC values : 2 ====4.07937
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====4.73154
+Delta AIC values : 5 ====34.5125
+Delta AIC values : 6 ====38.5128
+Relative Likelihood AIC 0 ==== 0.360855
+Relative Likelihood AIC 1 ==== 0.961916
+Relative Likelihood AIC 2 ==== 0.13007
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0938771
+Relative Likelihood AIC 5 ==== 3.2041e-08
+Relative Likelihood AIC 6 ==== 4.33566e-09
+AIC Weights  : 0 =====0.141694
+AIC Weights  : 1 =====0.377708
+AIC Weights  : 2 =====0.0510734
+AIC Weights  : 3 =====0.392662
+AIC Weights  : 4 =====0.036862
+AIC Weights  : 5 =====1.25813e-08
+AIC Weights  : 6 =====1.70245e-09
+Composite MinNll      : -1.32503e+06
+Toy Entry: 20 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32516e+06
+AIC Value for Model: 0 ==== -1.32516e+06
+Log Likelihood for Model 1 ==== -1.32517e+06
+AIC Value for Model: 1 ==== -1.32516e+06
+Log Likelihood for Model 2 ==== -1.32517e+06
+AIC Value for Model: 2 ==== -1.32516e+06
+Log Likelihood for Model 3 ==== -1.32517e+06
+AIC Value for Model: 3 ==== -1.32516e+06
+Log Likelihood for Model 4 ==== -1.32518e+06
+AIC Value for Model: 4 ==== -1.32516e+06
+Log Likelihood for Model 5 ==== -1.32514e+06
+AIC Value for Model: 5 ==== -1.32514e+06
+Log Likelihood for Model 6 ==== -1.32514e+06
+AIC Value for Model: 6 ==== -1.32513e+06
+Delta AIC values : 0 ====5.51685
+Delta AIC values : 1 ====0.640752
+Delta AIC values : 2 ====4.65334
+Delta AIC values : 3 ====0.230012
+Delta AIC values : 4 ====0
+Delta AIC values : 5 ====26.3836
+Delta AIC values : 6 ====30.3839
+Relative Likelihood AIC 0 ==== 0.0633916
+Relative Likelihood AIC 1 ==== 0.725876
+Relative Likelihood AIC 2 ==== 0.0976203
+Relative Likelihood AIC 3 ==== 0.891361
+Relative Likelihood AIC 4 ==== 1
+Relative Likelihood AIC 5 ==== 1.8658e-06
+Relative Likelihood AIC 6 ==== 2.52472e-07
+AIC Weights  : 0 =====0.0228171
+AIC Weights  : 1 =====0.261271
+AIC Weights  : 2 =====0.0351373
+AIC Weights  : 3 =====0.320835
+AIC Weights  : 4 =====0.359939
+AIC Weights  : 5 =====6.71575e-07
+AIC Weights  : 6 =====9.08745e-08
+Composite MinNll      : -1.32502e+06
+Toy Entry: 21 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32502e+06
+AIC Value for Model: 0 ==== -1.32502e+06
+Log Likelihood for Model 1 ==== -1.32503e+06
+AIC Value for Model: 1 ==== -1.32502e+06
+Log Likelihood for Model 2 ==== -1.32503e+06
+AIC Value for Model: 2 ==== -1.32501e+06
+Log Likelihood for Model 3 ==== -1.32503e+06
+AIC Value for Model: 3 ==== -1.32502e+06
+Log Likelihood for Model 4 ==== -1.32502e+06
+AIC Value for Model: 4 ==== -1.32501e+06
+Log Likelihood for Model 5 ==== -1.325e+06
+AIC Value for Model: 5 ==== -1.325e+06
+Log Likelihood for Model 6 ==== -1.325e+06
+AIC Value for Model: 6 ==== -1.32499e+06
+Delta AIC values : 0 ====5.08477
+Delta AIC values : 1 ====2.34532
+Delta AIC values : 2 ====6.38102
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====9.4426
+Delta AIC values : 5 ====25.5589
+Delta AIC values : 6 ====29.5592
+Relative Likelihood AIC 0 ==== 0.0786784
+Relative Likelihood AIC 1 ==== 0.309543
+Relative Likelihood AIC 2 ==== 0.0411509
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00890361
+Relative Likelihood AIC 5 ==== 2.81804e-06
+Relative Likelihood AIC 6 ==== 3.81326e-07
+AIC Weights  : 0 =====0.0547031
+AIC Weights  : 1 =====0.215217
+AIC Weights  : 2 =====0.0286112
+AIC Weights  : 3 =====0.695276
+AIC Weights  : 4 =====0.00619046
+AIC Weights  : 5 =====1.95931e-06
+AIC Weights  : 6 =====2.65127e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 22 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32471e+06
+AIC Value for Model: 0 ==== -1.32471e+06
+Log Likelihood for Model 1 ==== -1.32472e+06
+AIC Value for Model: 1 ==== -1.32471e+06
+Log Likelihood for Model 2 ==== -1.32472e+06
+AIC Value for Model: 2 ==== -1.32471e+06
+Log Likelihood for Model 3 ==== -1.32472e+06
+AIC Value for Model: 3 ==== -1.32471e+06
+Log Likelihood for Model 4 ==== -1.32471e+06
+AIC Value for Model: 4 ==== -1.3247e+06
+Log Likelihood for Model 5 ==== -1.3247e+06
+AIC Value for Model: 5 ==== -1.32469e+06
+Log Likelihood for Model 6 ==== -1.3247e+06
+AIC Value for Model: 6 ==== -1.32469e+06
+Delta AIC values : 0 ====7.36359
+Delta AIC values : 1 ====2.10866
+Delta AIC values : 2 ====6.12566
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16.5814
+Delta AIC values : 5 ====21.1561
+Delta AIC values : 6 ====25.1565
+Relative Likelihood AIC 0 ==== 0.0251777
+Relative Likelihood AIC 1 ==== 0.348426
+Relative Likelihood AIC 2 ==== 0.0467552
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000250843
+Relative Likelihood AIC 5 ==== 2.54685e-05
+Relative Likelihood AIC 6 ==== 3.44619e-06
+AIC Weights  : 0 =====0.0177228
+AIC Weights  : 1 =====0.24526
+AIC Weights  : 2 =====0.0329114
+AIC Weights  : 3 =====0.703909
+AIC Weights  : 4 =====0.000176571
+AIC Weights  : 5 =====1.79275e-05
+AIC Weights  : 6 =====2.42581e-06
+Composite MinNll      : -1.32502e+06
+Toy Entry: 23 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32514e+06
+AIC Value for Model: 0 ==== -1.32513e+06
+Log Likelihood for Model 1 ==== -1.32514e+06
+AIC Value for Model: 1 ==== -1.32513e+06
+Log Likelihood for Model 2 ==== -1.32514e+06
+AIC Value for Model: 2 ==== -1.32512e+06
+Log Likelihood for Model 3 ==== -1.32514e+06
+AIC Value for Model: 3 ==== -1.32513e+06
+Log Likelihood for Model 4 ==== -1.31465e+06
+AIC Value for Model: 4 ==== -1.31463e+06
+Log Likelihood for Model 5 ==== -1.32509e+06
+AIC Value for Model: 5 ==== -1.32508e+06
+Log Likelihood for Model 6 ==== -1.32509e+06
+AIC Value for Model: 6 ==== -1.32508e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====2.589
+Delta AIC values : 2 ====6.59784
+Delta AIC values : 3 ====0.866369
+Delta AIC values : 4 ====10496.5
+Delta AIC values : 5 ====46.5669
+Delta AIC values : 6 ====50.5672
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.274035
+Relative Likelihood AIC 2 ==== 0.036923
+Relative Likelihood AIC 3 ==== 0.648441
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 7.72917e-11
+Relative Likelihood AIC 6 ==== 1.04588e-11
+AIC Weights  : 0 =====0.510361
+AIC Weights  : 1 =====0.139857
+AIC Weights  : 2 =====0.018844
+AIC Weights  : 3 =====0.330939
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====3.94466e-11
+AIC Weights  : 6 =====5.33777e-12
+Composite MinNll      : -1.32502e+06
+Toy Entry: 24 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32498e+06
+AIC Value for Model: 0 ==== -1.32498e+06
+Log Likelihood for Model 1 ==== -1.32499e+06
+AIC Value for Model: 1 ==== -1.32499e+06
+Log Likelihood for Model 2 ==== -1.32499e+06
+AIC Value for Model: 2 ==== -1.32498e+06
+Log Likelihood for Model 3 ==== -1.32499e+06
+AIC Value for Model: 3 ==== -1.32499e+06
+Log Likelihood for Model 4 ==== -1.30809e+06
+AIC Value for Model: 4 ==== -1.30807e+06
+Log Likelihood for Model 5 ==== -1.32497e+06
+AIC Value for Model: 5 ==== -1.32497e+06
+Log Likelihood for Model 6 ==== -1.32497e+06
+AIC Value for Model: 6 ==== -1.32497e+06
+Delta AIC values : 0 ====10.6983
+Delta AIC values : 1 ====0.571582
+Delta AIC values : 2 ====4.57746
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16913.1
+Delta AIC values : 5 ====17.389
+Delta AIC values : 6 ====21.3893
+Relative Likelihood AIC 0 ==== 0.0047521
+Relative Likelihood AIC 1 ==== 0.75142
+Relative Likelihood AIC 2 ==== 0.101395
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 0.000167503
+Relative Likelihood AIC 6 ==== 2.26657e-05
+AIC Weights  : 0 =====0.00255797
+AIC Weights  : 1 =====0.404477
+AIC Weights  : 2 =====0.0545795
+AIC Weights  : 3 =====0.538283
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====9.0164e-05
+AIC Weights  : 6 =====1.22006e-05
+Composite MinNll      : -1.32503e+06
+Toy Entry: 25 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32521e+06
+AIC Value for Model: 0 ==== -1.32521e+06
+Log Likelihood for Model 1 ==== -1.32523e+06
+AIC Value for Model: 1 ==== -1.32523e+06
+Log Likelihood for Model 2 ==== -1.32523e+06
+AIC Value for Model: 2 ==== -1.32522e+06
+Log Likelihood for Model 3 ==== -1.32523e+06
+AIC Value for Model: 3 ==== -1.32523e+06
+Log Likelihood for Model 4 ==== -1.32523e+06
+AIC Value for Model: 4 ==== -1.32522e+06
+Log Likelihood for Model 5 ==== -1.32522e+06
+AIC Value for Model: 5 ==== -1.32521e+06
+Log Likelihood for Model 6 ==== -1.32522e+06
+AIC Value for Model: 6 ==== -1.32521e+06
+Delta AIC values : 0 ====15.8129
+Delta AIC values : 1 ====0.25361
+Delta AIC values : 2 ====4.25396
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====3.15396
+Delta AIC values : 5 ====12.426
+Delta AIC values : 6 ====16.4263
+Relative Likelihood AIC 0 ==== 0.000368353
+Relative Likelihood AIC 1 ==== 0.880906
+Relative Likelihood AIC 2 ==== 0.119196
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.206598
+Relative Likelihood AIC 5 ==== 0.00200322
+Relative Likelihood AIC 6 ==== 0.000271068
+AIC Weights  : 0 =====0.000166725
+AIC Weights  : 1 =====0.398718
+AIC Weights  : 2 =====0.0539511
+AIC Weights  : 3 =====0.452623
+AIC Weights  : 4 =====0.0935111
+AIC Weights  : 5 =====0.000906702
+AIC Weights  : 6 =====0.000122691
+Composite MinNll      : -1.32502e+06
+Toy Entry: 26 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32491e+06
+AIC Value for Model: 0 ==== -1.32491e+06
+Log Likelihood for Model 1 ==== -1.32492e+06
+AIC Value for Model: 1 ==== -1.32491e+06
+Log Likelihood for Model 2 ==== -1.32492e+06
+AIC Value for Model: 2 ==== -1.3249e+06
+Log Likelihood for Model 3 ==== -1.32492e+06
+AIC Value for Model: 3 ==== -1.32491e+06
+Log Likelihood for Model 4 ==== -1.30889e+06
+AIC Value for Model: 4 ==== -1.30888e+06
+Log Likelihood for Model 5 ==== -1.32487e+06
+AIC Value for Model: 5 ==== -1.32487e+06
+Log Likelihood for Model 6 ==== -1.32487e+06
+AIC Value for Model: 6 ==== -1.32487e+06
+Delta AIC values : 0 ====0.273924
+Delta AIC values : 1 ====1.08912
+Delta AIC values : 2 ====5.10319
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16030
+Delta AIC values : 5 ====39.5958
+Delta AIC values : 6 ====43.596
+Relative Likelihood AIC 0 ==== 0.872003
+Relative Likelihood AIC 1 ==== 0.580096
+Relative Likelihood AIC 2 ==== 0.0779573
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.52284e-09
+Relative Likelihood AIC 6 ==== 3.41382e-10
+AIC Weights  : 0 =====0.344658
+AIC Weights  : 1 =====0.229282
+AIC Weights  : 2 =====0.0308125
+AIC Weights  : 3 =====0.395248
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====9.97148e-10
+AIC Weights  : 6 =====1.34931e-10
+Composite MinNll      : -1.32502e+06
+Toy Entry: 27 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32468e+06
+AIC Value for Model: 0 ==== -1.32468e+06
+Log Likelihood for Model 1 ==== -1.32471e+06
+AIC Value for Model: 1 ==== -1.3247e+06
+Log Likelihood for Model 2 ==== -1.32471e+06
+AIC Value for Model: 2 ==== -1.32469e+06
+Log Likelihood for Model 3 ==== -1.3247e+06
+AIC Value for Model: 3 ==== -1.3247e+06
+Log Likelihood for Model 4 ==== -1.3247e+06
+AIC Value for Model: 4 ==== -1.32469e+06
+Log Likelihood for Model 5 ==== -1.32469e+06
+AIC Value for Model: 5 ==== -1.32468e+06
+Log Likelihood for Model 6 ==== -1.32469e+06
+AIC Value for Model: 6 ==== -1.32468e+06
+Delta AIC values : 0 ====18.2183
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00104
+Delta AIC values : 3 ====2.04977
+Delta AIC values : 4 ====8.08994
+Delta AIC values : 5 ====13.8899
+Delta AIC values : 6 ====17.8902
+Relative Likelihood AIC 0 ==== 0.000110648
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135265
+Relative Likelihood AIC 3 ==== 0.358838
+Relative Likelihood AIC 4 ==== 0.0175102
+Relative Likelihood AIC 5 ==== 0.000963476
+Relative Likelihood AIC 6 ==== 0.000130374
+AIC Weights  : 0 =====7.31403e-05
+AIC Weights  : 1 =====0.661018
+AIC Weights  : 2 =====0.0894127
+AIC Weights  : 3 =====0.237198
+AIC Weights  : 4 =====0.0115746
+AIC Weights  : 5 =====0.000636875
+AIC Weights  : 6 =====8.61795e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 28 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32529e+06
+AIC Value for Model: 0 ==== -1.32528e+06
+Log Likelihood for Model 1 ==== -1.3253e+06
+AIC Value for Model: 1 ==== -1.32529e+06
+Log Likelihood for Model 2 ==== -1.3253e+06
+AIC Value for Model: 2 ==== -1.32529e+06
+Log Likelihood for Model 3 ==== -1.3253e+06
+AIC Value for Model: 3 ==== -1.3253e+06
+Log Likelihood for Model 4 ==== -1.32529e+06
+AIC Value for Model: 4 ==== -1.32528e+06
+Log Likelihood for Model 5 ==== -1.32528e+06
+AIC Value for Model: 5 ==== -1.32528e+06
+Log Likelihood for Model 6 ==== -1.32528e+06
+AIC Value for Model: 6 ==== -1.32528e+06
+Delta AIC values : 0 ====12.5171
+Delta AIC values : 1 ====2.06779
+Delta AIC values : 2 ====6.05405
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16.9369
+Delta AIC values : 5 ====15.4854
+Delta AIC values : 6 ====19.4857
+Relative Likelihood AIC 0 ==== 0.00191402
+Relative Likelihood AIC 1 ==== 0.355619
+Relative Likelihood AIC 2 ==== 0.0484595
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000209987
+Relative Likelihood AIC 5 ==== 0.00043389
+Relative Likelihood AIC 6 ==== 5.8712e-05
+AIC Weights  : 0 =====0.00136065
+AIC Weights  : 1 =====0.252804
+AIC Weights  : 2 =====0.0344492
+AIC Weights  : 3 =====0.710886
+AIC Weights  : 4 =====0.000149277
+AIC Weights  : 5 =====0.000308447
+AIC Weights  : 6 =====4.17375e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 29 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32533e+06
+AIC Value for Model: 0 ==== -1.32533e+06
+Log Likelihood for Model 1 ==== -1.32534e+06
+AIC Value for Model: 1 ==== -1.32533e+06
+Log Likelihood for Model 2 ==== -1.32534e+06
+AIC Value for Model: 2 ==== -1.32533e+06
+Log Likelihood for Model 3 ==== -1.32534e+06
+AIC Value for Model: 3 ==== -1.32534e+06
+Log Likelihood for Model 4 ==== -1.3136e+06
+AIC Value for Model: 4 ==== -1.31359e+06
+Log Likelihood for Model 5 ==== -1.32531e+06
+AIC Value for Model: 5 ==== -1.32531e+06
+Log Likelihood for Model 6 ==== -1.32531e+06
+AIC Value for Model: 6 ==== -1.3253e+06
+Delta AIC values : 0 ====4.94759
+Delta AIC values : 1 ====1.74362
+Delta AIC values : 2 ====5.74638
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====11743
+Delta AIC values : 5 ====26.7432
+Delta AIC values : 6 ====30.7435
+Relative Likelihood AIC 0 ==== 0.0842643
+Relative Likelihood AIC 1 ==== 0.418193
+Relative Likelihood AIC 2 ==== 0.0565184
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 1.55881e-06
+Relative Likelihood AIC 6 ==== 2.10929e-07
+AIC Weights  : 0 =====0.054051
+AIC Weights  : 1 =====0.268248
+AIC Weights  : 2 =====0.0362535
+AIC Weights  : 3 =====0.641446
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====9.99893e-07
+AIC Weights  : 6 =====1.353e-07
+Composite MinNll      : -1.32502e+06
+Toy Entry: 30 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32523e+06
+AIC Value for Model: 0 ==== -1.32523e+06
+Log Likelihood for Model 1 ==== -1.32524e+06
+AIC Value for Model: 1 ==== -1.32523e+06
+Log Likelihood for Model 2 ==== -1.32524e+06
+AIC Value for Model: 2 ==== -1.32522e+06
+Log Likelihood for Model 3 ==== -1.32523e+06
+AIC Value for Model: 3 ==== -1.32523e+06
+Log Likelihood for Model 4 ==== -1.32524e+06
+AIC Value for Model: 4 ==== -1.32523e+06
+Log Likelihood for Model 5 ==== -1.3252e+06
+AIC Value for Model: 5 ==== -1.3252e+06
+Log Likelihood for Model 6 ==== -1.3252e+06
+AIC Value for Model: 6 ==== -1.32519e+06
+Delta AIC values : 0 ====2.97307
+Delta AIC values : 1 ====0.640152
+Delta AIC values : 2 ====4.65748
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====2.50784
+Delta AIC values : 5 ====31.5043
+Delta AIC values : 6 ====35.5045
+Relative Likelihood AIC 0 ==== 0.226155
+Relative Likelihood AIC 1 ==== 0.726094
+Relative Likelihood AIC 2 ==== 0.0974186
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.285383
+Relative Likelihood AIC 5 ==== 1.4419e-07
+Relative Likelihood AIC 6 ==== 1.95113e-08
+AIC Weights  : 0 =====0.0968523
+AIC Weights  : 1 =====0.310954
+AIC Weights  : 2 =====0.0417201
+AIC Weights  : 3 =====0.428256
+AIC Weights  : 4 =====0.122217
+AIC Weights  : 5 =====6.17504e-08
+AIC Weights  : 6 =====8.35584e-09
+Composite MinNll      : -1.32503e+06
+Toy Entry: 31 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32482e+06
+AIC Value for Model: 0 ==== -1.32482e+06
+Log Likelihood for Model 1 ==== -1.32482e+06
+AIC Value for Model: 1 ==== -1.32482e+06
+Log Likelihood for Model 2 ==== -1.32482e+06
+AIC Value for Model: 2 ==== -1.32481e+06
+Log Likelihood for Model 3 ==== -1.32482e+06
+AIC Value for Model: 3 ==== -1.32482e+06
+Log Likelihood for Model 4 ==== -1.32481e+06
+AIC Value for Model: 4 ==== -1.3248e+06
+Log Likelihood for Model 5 ==== -1.32477e+06
+AIC Value for Model: 5 ==== -1.32477e+06
+Log Likelihood for Model 6 ==== -1.32477e+06
+AIC Value for Model: 6 ==== -1.32476e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====2.79512
+Delta AIC values : 2 ====6.82207
+Delta AIC values : 3 ====1.39783
+Delta AIC values : 4 ====17.7221
+Delta AIC values : 5 ====50.9276
+Delta AIC values : 6 ====54.9279
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.2472
+Relative Likelihood AIC 2 ==== 0.0330071
+Relative Likelihood AIC 3 ==== 0.497124
+Relative Likelihood AIC 4 ==== 0.000141803
+Relative Likelihood AIC 5 ==== 8.73385e-12
+Relative Likelihood AIC 6 ==== 1.18183e-12
+AIC Weights  : 0 =====0.562597
+AIC Weights  : 1 =====0.139074
+AIC Weights  : 2 =====0.0185697
+AIC Weights  : 3 =====0.27968
+AIC Weights  : 4 =====7.97777e-05
+AIC Weights  : 5 =====4.91363e-12
+AIC Weights  : 6 =====6.64896e-13
+Composite MinNll      : -1.32502e+06
+Toy Entry: 32 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32504e+06
+AIC Value for Model: 0 ==== -1.32504e+06
+Log Likelihood for Model 1 ==== -1.32504e+06
+AIC Value for Model: 1 ==== -1.32503e+06
+Log Likelihood for Model 2 ==== -1.32504e+06
+AIC Value for Model: 2 ==== -1.32503e+06
+Log Likelihood for Model 3 ==== -1.32504e+06
+AIC Value for Model: 3 ==== -1.32504e+06
+Log Likelihood for Model 4 ==== -1.30869e+06
+AIC Value for Model: 4 ==== -1.30868e+06
+Log Likelihood for Model 5 ==== -1.325e+06
+AIC Value for Model: 5 ==== -1.32499e+06
+Log Likelihood for Model 6 ==== -1.325e+06
+AIC Value for Model: 6 ==== -1.32499e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====2.45162
+Delta AIC values : 2 ====6.42642
+Delta AIC values : 3 ====0.554875
+Delta AIC values : 4 ====16356.1
+Delta AIC values : 5 ====43.8833
+Delta AIC values : 6 ====47.8836
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.293519
+Relative Likelihood AIC 2 ==== 0.0402272
+Relative Likelihood AIC 3 ==== 0.757723
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.95706e-10
+Relative Likelihood AIC 6 ==== 4.00134e-11
+AIC Weights  : 0 =====0.478133
+AIC Weights  : 1 =====0.140341
+AIC Weights  : 2 =====0.019234
+AIC Weights  : 3 =====0.362292
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.41387e-10
+AIC Weights  : 6 =====1.91317e-11
+Composite MinNll      : -1.32502e+06
+Toy Entry: 33 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32513e+06
+AIC Value for Model: 0 ==== -1.32513e+06
+Log Likelihood for Model 1 ==== -1.32514e+06
+AIC Value for Model: 1 ==== -1.32513e+06
+Log Likelihood for Model 2 ==== -1.32514e+06
+AIC Value for Model: 2 ==== -1.32513e+06
+Log Likelihood for Model 3 ==== -1.32514e+06
+AIC Value for Model: 3 ==== -1.32513e+06
+Log Likelihood for Model 4 ==== -1.32513e+06
+AIC Value for Model: 4 ==== -1.32512e+06
+Log Likelihood for Model 5 ==== -1.32511e+06
+AIC Value for Model: 5 ==== -1.32511e+06
+Log Likelihood for Model 6 ==== -1.32511e+06
+AIC Value for Model: 6 ==== -1.3251e+06
+Delta AIC values : 0 ====5.68892
+Delta AIC values : 1 ====1.39626
+Delta AIC values : 2 ====5.38695
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====11.1146
+Delta AIC values : 5 ====25.0386
+Delta AIC values : 6 ====29.0389
+Relative Likelihood AIC 0 ==== 0.0581656
+Relative Likelihood AIC 1 ==== 0.497514
+Relative Likelihood AIC 2 ==== 0.0676455
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00385915
+Relative Likelihood AIC 5 ==== 3.65534e-06
+Relative Likelihood AIC 6 ==== 4.94628e-07
+AIC Weights  : 0 =====0.035746
+AIC Weights  : 1 =====0.305751
+AIC Weights  : 2 =====0.041572
+AIC Weights  : 3 =====0.614557
+AIC Weights  : 4 =====0.00237166
+AIC Weights  : 5 =====2.24642e-06
+AIC Weights  : 6 =====3.03977e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 34 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32502e+06
+AIC Value for Model: 0 ==== -1.32502e+06
+Log Likelihood for Model 1 ==== -1.32503e+06
+AIC Value for Model: 1 ==== -1.32502e+06
+Log Likelihood for Model 2 ==== -1.32503e+06
+AIC Value for Model: 2 ==== -1.32502e+06
+Log Likelihood for Model 3 ==== -1.32503e+06
+AIC Value for Model: 3 ==== -1.32502e+06
+Log Likelihood for Model 4 ==== -1.32504e+06
+AIC Value for Model: 4 ==== -1.32503e+06
+Log Likelihood for Model 5 ==== -1.325e+06
+AIC Value for Model: 5 ==== -1.32499e+06
+Log Likelihood for Model 6 ==== -1.325e+06
+AIC Value for Model: 6 ==== -1.32499e+06
+Delta AIC values : 0 ====6.94726
+Delta AIC values : 1 ====3.85772
+Delta AIC values : 2 ====7.85811
+Delta AIC values : 3 ====4.04175
+Delta AIC values : 4 ====0
+Delta AIC values : 5 ====35.6373
+Delta AIC values : 6 ====39.6376
+Relative Likelihood AIC 0 ==== 0.0310043
+Relative Likelihood AIC 1 ==== 0.145314
+Relative Likelihood AIC 2 ==== 0.0196622
+Relative Likelihood AIC 3 ==== 0.132539
+Relative Likelihood AIC 4 ==== 1
+Relative Likelihood AIC 5 ==== 1.82585e-08
+Relative Likelihood AIC 6 ==== 2.47067e-09
+AIC Weights  : 0 =====0.0233375
+AIC Weights  : 1 =====0.10938
+AIC Weights  : 2 =====0.0148001
+AIC Weights  : 3 =====0.0997646
+AIC Weights  : 4 =====0.752718
+AIC Weights  : 5 =====1.37435e-08
+AIC Weights  : 6 =====1.85972e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 35 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32484e+06
+AIC Value for Model: 0 ==== -1.32483e+06
+Log Likelihood for Model 1 ==== -1.32485e+06
+AIC Value for Model: 1 ==== -1.32484e+06
+Log Likelihood for Model 2 ==== -1.32485e+06
+AIC Value for Model: 2 ==== -1.32484e+06
+Log Likelihood for Model 3 ==== -1.32485e+06
+AIC Value for Model: 3 ==== -1.32484e+06
+Log Likelihood for Model 4 ==== -1.32484e+06
+AIC Value for Model: 4 ==== -1.32483e+06
+Log Likelihood for Model 5 ==== -1.32482e+06
+AIC Value for Model: 5 ==== -1.32482e+06
+Log Likelihood for Model 6 ==== -1.32482e+06
+AIC Value for Model: 6 ==== -1.32481e+06
+Delta AIC values : 0 ====5.68162
+Delta AIC values : 1 ====0.674065
+Delta AIC values : 2 ====4.65792
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====13.5986
+Delta AIC values : 5 ====24.874
+Delta AIC values : 6 ====28.8743
+Relative Likelihood AIC 0 ==== 0.0583785
+Relative Likelihood AIC 1 ==== 0.713886
+Relative Likelihood AIC 2 ==== 0.0973968
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00111456
+Relative Likelihood AIC 5 ==== 3.96894e-06
+Relative Likelihood AIC 6 ==== 5.37062e-07
+AIC Weights  : 0 =====0.0312054
+AIC Weights  : 1 =====0.381598
+AIC Weights  : 2 =====0.0520621
+AIC Weights  : 3 =====0.534536
+AIC Weights  : 4 =====0.000595773
+AIC Weights  : 5 =====2.12155e-06
+AIC Weights  : 6 =====2.87079e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 36 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32509e+06
+AIC Value for Model: 0 ==== -1.32508e+06
+Log Likelihood for Model 1 ==== -1.3251e+06
+AIC Value for Model: 1 ==== -1.3251e+06
+Log Likelihood for Model 2 ==== -1.3251e+06
+AIC Value for Model: 2 ==== -1.32509e+06
+Log Likelihood for Model 3 ==== -1.32511e+06
+AIC Value for Model: 3 ==== -1.3251e+06
+Log Likelihood for Model 4 ==== -1.3251e+06
+AIC Value for Model: 4 ==== -1.32509e+06
+Log Likelihood for Model 5 ==== -1.32509e+06
+AIC Value for Model: 5 ==== -1.32509e+06
+Log Likelihood for Model 6 ==== -1.32509e+06
+AIC Value for Model: 6 ==== -1.32509e+06
+Delta AIC values : 0 ====17.7807
+Delta AIC values : 1 ====3.36004
+Delta AIC values : 2 ====7.28803
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====8.72053
+Delta AIC values : 5 ====10.0454
+Delta AIC values : 6 ====14.0457
+Relative Likelihood AIC 0 ==== 0.000137708
+Relative Likelihood AIC 1 ==== 0.18637
+Relative Likelihood AIC 2 ==== 0.0261472
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.012775
+Relative Likelihood AIC 5 ==== 0.00658672
+Relative Likelihood AIC 6 ==== 0.00089129
+AIC Weights  : 0 =====0.000111694
+AIC Weights  : 1 =====0.151163
+AIC Weights  : 2 =====0.0212077
+AIC Weights  : 3 =====0.811091
+AIC Weights  : 4 =====0.0103617
+AIC Weights  : 5 =====0.00534243
+AIC Weights  : 6 =====0.000722917
+Composite MinNll      : -1.32502e+06
+Toy Entry: 37 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32557e+06
+AIC Value for Model: 0 ==== -1.32556e+06
+Log Likelihood for Model 1 ==== -1.32558e+06
+AIC Value for Model: 1 ==== -1.32557e+06
+Log Likelihood for Model 2 ==== -1.32558e+06
+AIC Value for Model: 2 ==== -1.32556e+06
+Log Likelihood for Model 3 ==== -1.32558e+06
+AIC Value for Model: 3 ==== -1.32557e+06
+Log Likelihood for Model 4 ==== -1.30899e+06
+AIC Value for Model: 4 ==== -1.30898e+06
+Log Likelihood for Model 5 ==== -1.32555e+06
+AIC Value for Model: 5 ==== -1.32555e+06
+Log Likelihood for Model 6 ==== -1.32555e+06
+AIC Value for Model: 6 ==== -1.32554e+06
+Delta AIC values : 0 ====8.03453
+Delta AIC values : 1 ====1.97875
+Delta AIC values : 2 ====5.99145
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16592.2
+Delta AIC values : 5 ====21.7152
+Delta AIC values : 6 ====25.7155
+Relative Likelihood AIC 0 ==== 0.0180021
+Relative Likelihood AIC 1 ==== 0.371808
+Relative Likelihood AIC 2 ==== 0.0500003
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 1.92577e-05
+Relative Likelihood AIC 6 ==== 2.60588e-06
+AIC Weights  : 0 =====0.0125029
+AIC Weights  : 1 =====0.25823
+AIC Weights  : 2 =====0.0347264
+AIC Weights  : 3 =====0.694525
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.3375e-05
+AIC Weights  : 6 =====1.80985e-06
+Composite MinNll      : -1.32502e+06
+Toy Entry: 38 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32517e+06
+AIC Value for Model: 0 ==== -1.32517e+06
+Log Likelihood for Model 1 ==== -1.32519e+06
+AIC Value for Model: 1 ==== -1.32518e+06
+Log Likelihood for Model 2 ==== -1.32519e+06
+AIC Value for Model: 2 ==== -1.32518e+06
+Log Likelihood for Model 3 ==== -1.32519e+06
+AIC Value for Model: 3 ==== -1.32518e+06
+Log Likelihood for Model 4 ==== -1.32518e+06
+AIC Value for Model: 4 ==== -1.32517e+06
+Log Likelihood for Model 5 ==== -1.32518e+06
+AIC Value for Model: 5 ==== -1.32517e+06
+Log Likelihood for Model 6 ==== -1.32518e+06
+AIC Value for Model: 6 ==== -1.32517e+06
+Delta AIC values : 0 ====17.7196
+Delta AIC values : 1 ====0.831517
+Delta AIC values : 2 ====4.83731
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====11.7995
+Delta AIC values : 5 ====10.731
+Delta AIC values : 6 ====14.7312
+Relative Likelihood AIC 0 ==== 0.000141987
+Relative Likelihood AIC 1 ==== 0.65984
+Relative Likelihood AIC 2 ==== 0.0890413
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00274007
+Relative Likelihood AIC 5 ==== 0.00467519
+Relative Likelihood AIC 6 ==== 0.000632631
+AIC Weights  : 0 =====8.08089e-05
+AIC Weights  : 1 =====0.375534
+AIC Weights  : 2 =====0.050676
+AIC Weights  : 3 =====0.569129
+AIC Weights  : 4 =====0.00155945
+AIC Weights  : 5 =====0.00266079
+AIC Weights  : 6 =====0.000360049
+Composite MinNll      : -1.32502e+06
+Toy Entry: 39 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32475e+06
+AIC Value for Model: 0 ==== -1.32474e+06
+Log Likelihood for Model 1 ==== -1.32475e+06
+AIC Value for Model: 1 ==== -1.32474e+06
+Log Likelihood for Model 2 ==== -1.32475e+06
+AIC Value for Model: 2 ==== -1.32474e+06
+Log Likelihood for Model 3 ==== -1.32475e+06
+AIC Value for Model: 3 ==== -1.32474e+06
+Log Likelihood for Model 4 ==== -1.31428e+06
+AIC Value for Model: 4 ==== -1.31427e+06
+Log Likelihood for Model 5 ==== -1.32471e+06
+AIC Value for Model: 5 ==== -1.32471e+06
+Log Likelihood for Model 6 ==== -1.32471e+06
+AIC Value for Model: 6 ==== -1.32471e+06
+Delta AIC values : 0 ====1.45135
+Delta AIC values : 1 ====1.24463
+Delta AIC values : 2 ====5.2468
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====10476.8
+Delta AIC values : 5 ====34.5744
+Delta AIC values : 6 ====38.5747
+Relative Likelihood AIC 0 ==== 0.483997
+Relative Likelihood AIC 1 ==== 0.5367
+Relative Likelihood AIC 2 ==== 0.0725559
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 3.10643e-08
+Relative Likelihood AIC 6 ==== 4.20351e-09
+AIC Weights  : 0 =====0.231218
+AIC Weights  : 1 =====0.256395
+AIC Weights  : 2 =====0.0346618
+AIC Weights  : 3 =====0.477725
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.48402e-08
+AIC Weights  : 6 =====2.00812e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 40 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32509e+06
+AIC Value for Model: 0 ==== -1.32509e+06
+Log Likelihood for Model 1 ==== -1.3251e+06
+AIC Value for Model: 1 ==== -1.32509e+06
+Log Likelihood for Model 2 ==== -1.3251e+06
+AIC Value for Model: 2 ==== -1.32509e+06
+Log Likelihood for Model 3 ==== -1.3251e+06
+AIC Value for Model: 3 ==== -1.32509e+06
+Log Likelihood for Model 4 ==== -1.32508e+06
+AIC Value for Model: 4 ==== -1.32507e+06
+Log Likelihood for Model 5 ==== -1.32507e+06
+AIC Value for Model: 5 ==== -1.32507e+06
+Log Likelihood for Model 6 ==== -1.32507e+06
+AIC Value for Model: 6 ==== -1.32506e+06
+Delta AIC values : 0 ====6.30189
+Delta AIC values : 1 ====1.56963
+Delta AIC values : 2 ====5.56806
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====18.7949
+Delta AIC values : 5 ====23.8297
+Delta AIC values : 6 ====27.83
+Relative Likelihood AIC 0 ==== 0.0428117
+Relative Likelihood AIC 1 ==== 0.456203
+Relative Likelihood AIC 2 ==== 0.061789
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 8.29354e-05
+Relative Likelihood AIC 5 ==== 6.69029e-06
+Relative Likelihood AIC 6 ==== 9.05307e-07
+AIC Weights  : 0 =====0.0274277
+AIC Weights  : 1 =====0.29227
+AIC Weights  : 2 =====0.0395856
+AIC Weights  : 3 =====0.640658
+AIC Weights  : 4 =====5.31332e-05
+AIC Weights  : 5 =====4.28619e-06
+AIC Weights  : 6 =====5.79992e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 41 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32519e+06
+AIC Value for Model: 0 ==== -1.32519e+06
+Log Likelihood for Model 1 ==== -1.3252e+06
+AIC Value for Model: 1 ==== -1.3252e+06
+Log Likelihood for Model 2 ==== -1.3252e+06
+AIC Value for Model: 2 ==== -1.32519e+06
+Log Likelihood for Model 3 ==== -1.3252e+06
+AIC Value for Model: 3 ==== -1.3252e+06
+Log Likelihood for Model 4 ==== -1.3252e+06
+AIC Value for Model: 4 ==== -1.32519e+06
+Log Likelihood for Model 5 ==== -1.32518e+06
+AIC Value for Model: 5 ==== -1.32518e+06
+Log Likelihood for Model 6 ==== -1.32518e+06
+AIC Value for Model: 6 ==== -1.32517e+06
+Delta AIC values : 0 ====8.32565
+Delta AIC values : 1 ====1.67944
+Delta AIC values : 2 ====6.98393
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====11.7254
+Delta AIC values : 5 ====20.2863
+Delta AIC values : 6 ====24.2866
+Relative Likelihood AIC 0 ==== 0.0155636
+Relative Likelihood AIC 1 ==== 0.431831
+Relative Likelihood AIC 2 ==== 0.030441
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00284349
+Relative Likelihood AIC 5 ==== 3.93449e-05
+Relative Likelihood AIC 6 ==== 5.32399e-06
+AIC Weights  : 0 =====0.0105108
+AIC Weights  : 1 =====0.291635
+AIC Weights  : 2 =====0.0205582
+AIC Weights  : 3 =====0.675345
+AIC Weights  : 4 =====0.00192034
+AIC Weights  : 5 =====2.65714e-05
+AIC Weights  : 6 =====3.59553e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 42 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32445e+06
+AIC Value for Model: 0 ==== -1.32445e+06
+Log Likelihood for Model 1 ==== -1.32447e+06
+AIC Value for Model: 1 ==== -1.32446e+06
+Log Likelihood for Model 2 ==== -1.32447e+06
+AIC Value for Model: 2 ==== -1.32446e+06
+Log Likelihood for Model 3 ==== -1.32447e+06
+AIC Value for Model: 3 ==== -1.32446e+06
+Log Likelihood for Model 4 ==== -1.32446e+06
+AIC Value for Model: 4 ==== -1.32445e+06
+Log Likelihood for Model 5 ==== -1.32445e+06
+AIC Value for Model: 5 ==== -1.32444e+06
+Log Likelihood for Model 6 ==== -1.32445e+06
+AIC Value for Model: 6 ==== -1.32444e+06
+Delta AIC values : 0 ====10.5355
+Delta AIC values : 1 ====1.20043
+Delta AIC values : 2 ====5.21893
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====10.1954
+Delta AIC values : 5 ====16.6109
+Delta AIC values : 6 ====20.6112
+Relative Likelihood AIC 0 ==== 0.00515509
+Relative Likelihood AIC 1 ==== 0.548694
+Relative Likelihood AIC 2 ==== 0.0735738
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00611078
+Relative Likelihood AIC 5 ==== 0.000247168
+Relative Likelihood AIC 6 ==== 3.34458e-05
+AIC Weights  : 0 =====0.00315525
+AIC Weights  : 1 =====0.335836
+AIC Weights  : 2 =====0.0450319
+AIC Weights  : 3 =====0.612065
+AIC Weights  : 4 =====0.00374019
+AIC Weights  : 5 =====0.000151283
+AIC Weights  : 6 =====2.0471e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 43 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.3244e+06
+AIC Value for Model: 0 ==== -1.32439e+06
+Log Likelihood for Model 1 ==== -1.3244e+06
+AIC Value for Model: 1 ==== -1.3244e+06
+Log Likelihood for Model 2 ==== -1.3244e+06
+AIC Value for Model: 2 ==== -1.32439e+06
+Log Likelihood for Model 3 ==== -1.3244e+06
+AIC Value for Model: 3 ==== -1.3244e+06
+Log Likelihood for Model 4 ==== -1.3244e+06
+AIC Value for Model: 4 ==== -1.32438e+06
+Log Likelihood for Model 5 ==== -1.32437e+06
+AIC Value for Model: 5 ==== -1.32437e+06
+Log Likelihood for Model 6 ==== -1.32437e+06
+AIC Value for Model: 6 ==== -1.32436e+06
+Delta AIC values : 0 ====3.44006
+Delta AIC values : 1 ====0.505654
+Delta AIC values : 2 ====4.50652
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====13.2153
+Delta AIC values : 5 ====28.7687
+Delta AIC values : 6 ====32.7689
+Relative Likelihood AIC 0 ==== 0.179061
+Relative Likelihood AIC 1 ==== 0.776602
+Relative Likelihood AIC 2 ==== 0.105056
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00135001
+Relative Likelihood AIC 5 ==== 5.66191e-07
+Relative Likelihood AIC 6 ==== 7.6615e-08
+AIC Weights  : 0 =====0.0868355
+AIC Weights  : 1 =====0.376613
+AIC Weights  : 2 =====0.0509469
+AIC Weights  : 3 =====0.48495
+AIC Weights  : 4 =====0.000654684
+AIC Weights  : 5 =====2.74574e-07
+AIC Weights  : 6 =====3.71544e-08
+Composite MinNll      : -1.32502e+06
+Toy Entry: 44 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.3246e+06
+AIC Value for Model: 0 ==== -1.32459e+06
+Log Likelihood for Model 1 ==== -1.3246e+06
+AIC Value for Model: 1 ==== -1.3246e+06
+Log Likelihood for Model 2 ==== -1.3246e+06
+AIC Value for Model: 2 ==== -1.32459e+06
+Log Likelihood for Model 3 ==== -1.3246e+06
+AIC Value for Model: 3 ==== -1.3246e+06
+Log Likelihood for Model 4 ==== -1.30747e+06
+AIC Value for Model: 4 ==== -1.30746e+06
+Log Likelihood for Model 5 ==== -1.32457e+06
+AIC Value for Model: 5 ==== -1.32457e+06
+Log Likelihood for Model 6 ==== -1.32457e+06
+AIC Value for Model: 6 ==== -1.32456e+06
+Delta AIC values : 0 ====2.82527
+Delta AIC values : 1 ====0.697437
+Delta AIC values : 2 ====4.69663
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====17141.9
+Delta AIC values : 5 ====30.7088
+Delta AIC values : 6 ====34.7091
+Relative Likelihood AIC 0 ==== 0.2435
+Relative Likelihood AIC 1 ==== 0.705592
+Relative Likelihood AIC 2 ==== 0.0955298
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.14615e-07
+Relative Likelihood AIC 6 ==== 2.90407e-08
+AIC Weights  : 0 =====0.119093
+AIC Weights  : 1 =====0.345096
+AIC Weights  : 2 =====0.0467225
+AIC Weights  : 3 =====0.489088
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.04966e-07
+AIC Weights  : 6 =====1.42035e-08
+Composite MinNll      : -1.32502e+06
+Toy Entry: 45 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32521e+06
+AIC Value for Model: 0 ==== -1.3252e+06
+Log Likelihood for Model 1 ==== -1.32522e+06
+AIC Value for Model: 1 ==== -1.32522e+06
+Log Likelihood for Model 2 ==== -1.32522e+06
+AIC Value for Model: 2 ==== -1.32521e+06
+Log Likelihood for Model 3 ==== -1.32522e+06
+AIC Value for Model: 3 ==== -1.32522e+06
+Log Likelihood for Model 4 ==== -1.32522e+06
+AIC Value for Model: 4 ==== -1.3252e+06
+Log Likelihood for Model 5 ==== -1.3252e+06
+AIC Value for Model: 5 ==== -1.3252e+06
+Log Likelihood for Model 6 ==== -1.3252e+06
+AIC Value for Model: 6 ==== -1.32519e+06
+Delta AIC values : 0 ====11.0772
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00048
+Delta AIC values : 3 ====0.481588
+Delta AIC values : 4 ====12.486
+Delta AIC values : 5 ====18.7212
+Delta AIC values : 6 ====22.7215
+Relative Likelihood AIC 0 ==== 0.00393198
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135303
+Relative Likelihood AIC 3 ==== 0.786003
+Relative Likelihood AIC 4 ==== 0.00194399
+Relative Likelihood AIC 5 ==== 8.60488e-05
+Relative Likelihood AIC 6 ==== 1.16438e-05
+AIC Weights  : 0 =====0.00204017
+AIC Weights  : 1 =====0.518866
+AIC Weights  : 2 =====0.0702039
+AIC Weights  : 3 =====0.407831
+AIC Weights  : 4 =====0.00100867
+AIC Weights  : 5 =====4.46478e-05
+AIC Weights  : 6 =====6.04158e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 46 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32537e+06
+AIC Value for Model: 0 ==== -1.32536e+06
+Log Likelihood for Model 1 ==== -1.32539e+06
+AIC Value for Model: 1 ==== -1.32538e+06
+Log Likelihood for Model 2 ==== -1.32539e+06
+AIC Value for Model: 2 ==== -1.32538e+06
+Log Likelihood for Model 3 ==== -1.32539e+06
+AIC Value for Model: 3 ==== -1.32538e+06
+Log Likelihood for Model 4 ==== -1.32539e+06
+AIC Value for Model: 4 ==== -1.32538e+06
+Log Likelihood for Model 5 ==== -1.32538e+06
+AIC Value for Model: 5 ==== -1.32537e+06
+Log Likelihood for Model 6 ==== -1.32538e+06
+AIC Value for Model: 6 ==== -1.32537e+06
+Delta AIC values : 0 ====19.8621
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00209
+Delta AIC values : 3 ====0.66742
+Delta AIC values : 4 ====6.35125
+Delta AIC values : 5 ====10.7469
+Delta AIC values : 6 ====14.7472
+Relative Likelihood AIC 0 ==== 4.86408e-05
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135194
+Relative Likelihood AIC 3 ==== 0.716261
+Relative Likelihood AIC 4 ==== 0.041768
+Relative Likelihood AIC 5 ==== 0.00463808
+Relative Likelihood AIC 6 ==== 0.000627598
+AIC Weights  : 0 =====2.56202e-05
+AIC Weights  : 1 =====0.526721
+AIC Weights  : 2 =====0.0712096
+AIC Weights  : 3 =====0.37727
+AIC Weights  : 4 =====0.0220001
+AIC Weights  : 5 =====0.00244298
+AIC Weights  : 6 =====0.000330569
+Composite MinNll      : -1.32502e+06
+Toy Entry: 47 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32549e+06
+AIC Value for Model: 0 ==== -1.32549e+06
+Log Likelihood for Model 1 ==== -1.3255e+06
+AIC Value for Model: 1 ==== -1.32549e+06
+Log Likelihood for Model 2 ==== -1.3255e+06
+AIC Value for Model: 2 ==== -1.32548e+06
+Log Likelihood for Model 3 ==== -1.3255e+06
+AIC Value for Model: 3 ==== -1.32549e+06
+Log Likelihood for Model 4 ==== -1.32549e+06
+AIC Value for Model: 4 ==== -1.32548e+06
+Log Likelihood for Model 5 ==== -1.32546e+06
+AIC Value for Model: 5 ==== -1.32546e+06
+Log Likelihood for Model 6 ==== -1.32546e+06
+AIC Value for Model: 6 ==== -1.32545e+06
+Delta AIC values : 0 ====2.11561
+Delta AIC values : 1 ====1.80142
+Delta AIC values : 2 ====5.79389
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====11.9329
+Delta AIC values : 5 ====33.975
+Delta AIC values : 6 ====37.9753
+Relative Likelihood AIC 0 ==== 0.347218
+Relative Likelihood AIC 1 ==== 0.406282
+Relative Likelihood AIC 2 ==== 0.0551915
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00256328
+Relative Likelihood AIC 5 ==== 4.19211e-08
+Relative Likelihood AIC 6 ==== 5.67252e-09
+AIC Weights  : 0 =====0.1917
+AIC Weights  : 1 =====0.22431
+AIC Weights  : 2 =====0.0304714
+AIC Weights  : 3 =====0.552104
+AIC Weights  : 4 =====0.0014152
+AIC Weights  : 5 =====2.31448e-08
+AIC Weights  : 6 =====3.13182e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 48 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32542e+06
+AIC Value for Model: 0 ==== -1.32542e+06
+Log Likelihood for Model 1 ==== -1.32544e+06
+AIC Value for Model: 1 ==== -1.32543e+06
+Log Likelihood for Model 2 ==== -1.32544e+06
+AIC Value for Model: 2 ==== -1.32543e+06
+Log Likelihood for Model 3 ==== -1.32544e+06
+AIC Value for Model: 3 ==== -1.32543e+06
+Log Likelihood for Model 4 ==== -1.32543e+06
+AIC Value for Model: 4 ==== -1.32541e+06
+Log Likelihood for Model 5 ==== -1.32542e+06
+AIC Value for Model: 5 ==== -1.32541e+06
+Log Likelihood for Model 6 ==== -1.32542e+06
+AIC Value for Model: 6 ==== -1.32541e+06
+Delta AIC values : 0 ====10.7793
+Delta AIC values : 1 ====0.617395
+Delta AIC values : 2 ====4.61898
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====15.6565
+Delta AIC values : 5 ====18.0703
+Delta AIC values : 6 ====22.0706
+Relative Likelihood AIC 0 ==== 0.00456353
+Relative Likelihood AIC 1 ==== 0.734403
+Relative Likelihood AIC 2 ==== 0.099312
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000398317
+Relative Likelihood AIC 5 ==== 0.000119148
+Relative Likelihood AIC 6 ==== 1.61227e-05
+AIC Weights  : 0 =====0.00248178
+AIC Weights  : 1 =====0.39939
+AIC Weights  : 2 =====0.0540088
+AIC Weights  : 3 =====0.543829
+AIC Weights  : 4 =====0.000216617
+AIC Weights  : 5 =====6.47962e-05
+AIC Weights  : 6 =====8.76799e-06
+Composite MinNll      : -1.32502e+06
+Toy Entry: 49 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32483e+06
+AIC Value for Model: 0 ==== -1.32483e+06
+Log Likelihood for Model 1 ==== -1.32484e+06
+AIC Value for Model: 1 ==== -1.32483e+06
+Log Likelihood for Model 2 ==== -1.32484e+06
+AIC Value for Model: 2 ==== -1.32483e+06
+Log Likelihood for Model 3 ==== -1.32484e+06
+AIC Value for Model: 3 ==== -1.32483e+06
+Log Likelihood for Model 4 ==== -1.32484e+06
+AIC Value for Model: 4 ==== -1.32483e+06
+Log Likelihood for Model 5 ==== -1.32481e+06
+AIC Value for Model: 5 ==== -1.32481e+06
+Log Likelihood for Model 6 ==== -1.32481e+06
+AIC Value for Model: 6 ==== -1.3248e+06
+Delta AIC values : 0 ====6.07783
+Delta AIC values : 1 ====0.0271043
+Delta AIC values : 2 ====4.0285
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====1.37882
+Delta AIC values : 5 ====24.1665
+Delta AIC values : 6 ====28.1668
+Relative Likelihood AIC 0 ==== 0.0478869
+Relative Likelihood AIC 1 ==== 0.986539
+Relative Likelihood AIC 2 ==== 0.133421
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.501873
+Relative Likelihood AIC 5 ==== 5.65356e-06
+Relative Likelihood AIC 6 ==== 7.65008e-07
+AIC Weights  : 0 =====0.017937
+AIC Weights  : 1 =====0.369528
+AIC Weights  : 2 =====0.0499754
+AIC Weights  : 3 =====0.37457
+AIC Weights  : 4 =====0.187987
+AIC Weights  : 5 =====2.11765e-06
+AIC Weights  : 6 =====2.86549e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 50 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32476e+06
+AIC Value for Model: 0 ==== -1.32475e+06
+Log Likelihood for Model 1 ==== -1.32476e+06
+AIC Value for Model: 1 ==== -1.32475e+06
+Log Likelihood for Model 2 ==== -1.32476e+06
+AIC Value for Model: 2 ==== -1.32475e+06
+Log Likelihood for Model 3 ==== -1.32476e+06
+AIC Value for Model: 3 ==== -1.32475e+06
+Log Likelihood for Model 4 ==== -1.32476e+06
+AIC Value for Model: 4 ==== -1.32475e+06
+Log Likelihood for Model 5 ==== -1.32472e+06
+AIC Value for Model: 5 ==== -1.32472e+06
+Log Likelihood for Model 6 ==== -1.32472e+06
+AIC Value for Model: 6 ==== -1.32472e+06
+Delta AIC values : 0 ====1.94572
+Delta AIC values : 1 ====1.20507
+Delta AIC values : 2 ====5.24989
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====1.33655
+Delta AIC values : 5 ====33.0436
+Delta AIC values : 6 ====37.0439
+Relative Likelihood AIC 0 ==== 0.378
+Relative Likelihood AIC 1 ==== 0.547423
+Relative Likelihood AIC 2 ==== 0.0724436
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.512592
+Relative Likelihood AIC 5 ==== 6.67836e-08
+Relative Likelihood AIC 6 ==== 9.03693e-09
+AIC Weights  : 0 =====0.15057
+AIC Weights  : 1 =====0.218057
+AIC Weights  : 2 =====0.0288567
+AIC Weights  : 3 =====0.398334
+AIC Weights  : 4 =====0.204183
+AIC Weights  : 5 =====2.66022e-08
+AIC Weights  : 6 =====3.59971e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 51 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32486e+06
+AIC Value for Model: 0 ==== -1.32486e+06
+Log Likelihood for Model 1 ==== -1.32487e+06
+AIC Value for Model: 1 ==== -1.32486e+06
+Log Likelihood for Model 2 ==== -1.32487e+06
+AIC Value for Model: 2 ==== -1.32486e+06
+Log Likelihood for Model 3 ==== -1.32487e+06
+AIC Value for Model: 3 ==== -1.32487e+06
+Log Likelihood for Model 4 ==== -1.30799e+06
+AIC Value for Model: 4 ==== -1.30797e+06
+Log Likelihood for Model 5 ==== -1.32485e+06
+AIC Value for Model: 5 ==== -1.32484e+06
+Log Likelihood for Model 6 ==== -1.32485e+06
+AIC Value for Model: 6 ==== -1.32484e+06
+Delta AIC values : 0 ====7.86865
+Delta AIC values : 1 ====1.29013
+Delta AIC values : 2 ====5.29192
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16892.6
+Delta AIC values : 5 ====20.8735
+Delta AIC values : 6 ====24.8738
+Relative Likelihood AIC 0 ==== 0.0195589
+Relative Likelihood AIC 1 ==== 0.524629
+Relative Likelihood AIC 2 ==== 0.0709371
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.93343e-05
+Relative Likelihood AIC 6 ==== 3.96939e-06
+AIC Weights  : 0 =====0.0121096
+AIC Weights  : 1 =====0.324816
+AIC Weights  : 2 =====0.0439196
+AIC Weights  : 3 =====0.619134
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.81619e-05
+AIC Weights  : 6 =====2.45758e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 52 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32477e+06
+AIC Value for Model: 0 ==== -1.32476e+06
+Log Likelihood for Model 1 ==== -1.32478e+06
+AIC Value for Model: 1 ==== -1.32477e+06
+Log Likelihood for Model 2 ==== -1.32478e+06
+AIC Value for Model: 2 ==== -1.32477e+06
+Log Likelihood for Model 3 ==== -1.32478e+06
+AIC Value for Model: 3 ==== -1.32477e+06
+Log Likelihood for Model 4 ==== -1.31432e+06
+AIC Value for Model: 4 ==== -1.31431e+06
+Log Likelihood for Model 5 ==== -1.32475e+06
+AIC Value for Model: 5 ==== -1.32474e+06
+Log Likelihood for Model 6 ==== -1.32475e+06
+AIC Value for Model: 6 ==== -1.32474e+06
+Delta AIC values : 0 ====5.12105
+Delta AIC values : 1 ====0.157306
+Delta AIC values : 2 ====4.16791
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====10461.7
+Delta AIC values : 5 ====26.0124
+Delta AIC values : 6 ====30.0127
+Relative Likelihood AIC 0 ==== 0.0772642
+Relative Likelihood AIC 1 ==== 0.92436
+Relative Likelihood AIC 2 ==== 0.124437
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.24634e-06
+Relative Likelihood AIC 6 ==== 3.03958e-07
+AIC Weights  : 0 =====0.0363414
+AIC Weights  : 1 =====0.434775
+AIC Weights  : 2 =====0.0585294
+AIC Weights  : 3 =====0.470353
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.05657e-06
+AIC Weights  : 6 =====1.42968e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 53 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32472e+06
+AIC Value for Model: 0 ==== -1.32472e+06
+Log Likelihood for Model 1 ==== -1.32474e+06
+AIC Value for Model: 1 ==== -1.32473e+06
+Log Likelihood for Model 2 ==== -1.32474e+06
+AIC Value for Model: 2 ==== -1.32473e+06
+Log Likelihood for Model 3 ==== -1.32474e+06
+AIC Value for Model: 3 ==== -1.32473e+06
+Log Likelihood for Model 4 ==== -1.32473e+06
+AIC Value for Model: 4 ==== -1.32472e+06
+Log Likelihood for Model 5 ==== -1.32472e+06
+AIC Value for Model: 5 ==== -1.32472e+06
+Log Likelihood for Model 6 ==== -1.32472e+06
+AIC Value for Model: 6 ==== -1.32472e+06
+Delta AIC values : 0 ====14.4278
+Delta AIC values : 1 ====1.05581
+Delta AIC values : 2 ====5.06016
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====11.4798
+Delta AIC values : 5 ====12.883
+Delta AIC values : 6 ====16.8833
+Relative Likelihood AIC 0 ==== 0.000736266
+Relative Likelihood AIC 1 ==== 0.58984
+Relative Likelihood AIC 2 ==== 0.0796527
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00321507
+Relative Likelihood AIC 5 ==== 0.00159403
+Relative Likelihood AIC 6 ==== 0.000215699
+AIC Weights  : 0 =====0.000439495
+AIC Weights  : 1 =====0.35209
+AIC Weights  : 2 =====0.0475467
+AIC Weights  : 3 =====0.596925
+AIC Weights  : 4 =====0.00191916
+AIC Weights  : 5 =====0.000951517
+AIC Weights  : 6 =====0.000128756
+Composite MinNll      : -1.32502e+06
+Toy Entry: 54 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32496e+06
+AIC Value for Model: 0 ==== -1.32495e+06
+Log Likelihood for Model 1 ==== -1.32497e+06
+AIC Value for Model: 1 ==== -1.32496e+06
+Log Likelihood for Model 2 ==== -1.32497e+06
+AIC Value for Model: 2 ==== -1.32495e+06
+Log Likelihood for Model 3 ==== -1.32497e+06
+AIC Value for Model: 3 ==== -1.32496e+06
+Log Likelihood for Model 4 ==== -1.32496e+06
+AIC Value for Model: 4 ==== -1.32495e+06
+Log Likelihood for Model 5 ==== -1.32494e+06
+AIC Value for Model: 5 ==== -1.32494e+06
+Log Likelihood for Model 6 ==== -1.32494e+06
+AIC Value for Model: 6 ==== -1.32493e+06
+Delta AIC values : 0 ====6.09373
+Delta AIC values : 1 ====1.7704
+Delta AIC values : 2 ====5.76886
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====14.016
+Delta AIC values : 5 ====23.836
+Delta AIC values : 6 ====27.8363
+Relative Likelihood AIC 0 ==== 0.0475076
+Relative Likelihood AIC 1 ==== 0.412631
+Relative Likelihood AIC 2 ==== 0.0558865
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000904635
+Relative Likelihood AIC 5 ==== 6.66922e-06
+Relative Likelihood AIC 6 ==== 9.02457e-07
+AIC Weights  : 0 =====0.0313181
+AIC Weights  : 1 =====0.272016
+AIC Weights  : 2 =====0.0368417
+AIC Weights  : 3 =====0.659223
+AIC Weights  : 4 =====0.000596356
+AIC Weights  : 5 =====4.39651e-06
+AIC Weights  : 6 =====5.9492e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 55 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32552e+06
+AIC Value for Model: 0 ==== -1.32552e+06
+Log Likelihood for Model 1 ==== -1.32555e+06
+AIC Value for Model: 1 ==== -1.32554e+06
+Log Likelihood for Model 2 ==== -1.32555e+06
+AIC Value for Model: 2 ==== -1.32553e+06
+Log Likelihood for Model 3 ==== -1.32555e+06
+AIC Value for Model: 3 ==== -1.32554e+06
+Log Likelihood for Model 4 ==== -1.32554e+06
+AIC Value for Model: 4 ==== -1.32553e+06
+Log Likelihood for Model 5 ==== -1.32554e+06
+AIC Value for Model: 5 ==== -1.32553e+06
+Log Likelihood for Model 6 ==== -1.32554e+06
+AIC Value for Model: 6 ==== -1.32553e+06
+Delta AIC values : 0 ====20.5525
+Delta AIC values : 1 ====2.95501
+Delta AIC values : 2 ====6.99026
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====8.80398
+Delta AIC values : 5 ====8.65528
+Delta AIC values : 6 ====12.6556
+Relative Likelihood AIC 0 ==== 3.44407e-05
+Relative Likelihood AIC 1 ==== 0.228206
+Relative Likelihood AIC 2 ==== 0.0303447
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.012253
+Relative Likelihood AIC 5 ==== 0.0131987
+Relative Likelihood AIC 6 ==== 0.00178598
+AIC Weights  : 0 =====2.67849e-05
+AIC Weights  : 1 =====0.177479
+AIC Weights  : 2 =====0.0235995
+AIC Weights  : 3 =====0.777712
+AIC Weights  : 4 =====0.00952927
+AIC Weights  : 5 =====0.0102648
+AIC Weights  : 6 =====0.00138898
+Composite MinNll      : -1.32502e+06
+Toy Entry: 56 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32503e+06
+AIC Value for Model: 0 ==== -1.32502e+06
+Log Likelihood for Model 1 ==== -1.32504e+06
+AIC Value for Model: 1 ==== -1.32503e+06
+Log Likelihood for Model 2 ==== -1.32504e+06
+AIC Value for Model: 2 ==== -1.32502e+06
+Log Likelihood for Model 3 ==== -1.32503e+06
+AIC Value for Model: 3 ==== -1.32503e+06
+Log Likelihood for Model 4 ==== -1.32503e+06
+AIC Value for Model: 4 ==== -1.32501e+06
+Log Likelihood for Model 5 ==== -1.32501e+06
+AIC Value for Model: 5 ==== -1.325e+06
+Log Likelihood for Model 6 ==== -1.32501e+06
+AIC Value for Model: 6 ==== -1.325e+06
+Delta AIC values : 0 ====4.91766
+Delta AIC values : 1 ====0.598937
+Delta AIC values : 2 ====4.60613
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====15.5319
+Delta AIC values : 5 ====26.7523
+Delta AIC values : 6 ====30.7526
+Relative Likelihood AIC 0 ==== 0.0855351
+Relative Likelihood AIC 1 ==== 0.741212
+Relative Likelihood AIC 2 ==== 0.099952
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000423927
+Relative Likelihood AIC 5 ==== 1.55169e-06
+Relative Likelihood AIC 6 ==== 2.09966e-07
+AIC Weights  : 0 =====0.0443848
+AIC Weights  : 1 =====0.384621
+AIC Weights  : 2 =====0.0518659
+AIC Weights  : 3 =====0.518908
+AIC Weights  : 4 =====0.000219979
+AIC Weights  : 5 =====8.05186e-07
+AIC Weights  : 6 =====1.08953e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 57 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32447e+06
+AIC Value for Model: 0 ==== -1.32447e+06
+Log Likelihood for Model 1 ==== -1.32448e+06
+AIC Value for Model: 1 ==== -1.32447e+06
+Log Likelihood for Model 2 ==== -1.32448e+06
+AIC Value for Model: 2 ==== -1.32447e+06
+Log Likelihood for Model 3 ==== -1.32448e+06
+AIC Value for Model: 3 ==== -1.32447e+06
+Log Likelihood for Model 4 ==== -1.3074e+06
+AIC Value for Model: 4 ==== -1.30738e+06
+Log Likelihood for Model 5 ==== -1.32444e+06
+AIC Value for Model: 5 ==== -1.32444e+06
+Log Likelihood for Model 6 ==== -1.32444e+06
+AIC Value for Model: 6 ==== -1.32443e+06
+Delta AIC values : 0 ====1.50819
+Delta AIC values : 1 ====0.605242
+Delta AIC values : 2 ====4.60587
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====17088.4
+Delta AIC values : 5 ====34.2389
+Delta AIC values : 6 ====38.2391
+Relative Likelihood AIC 0 ==== 0.470436
+Relative Likelihood AIC 1 ==== 0.738879
+Relative Likelihood AIC 2 ==== 0.099965
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 3.6739e-08
+Relative Likelihood AIC 6 ==== 4.97139e-09
+AIC Weights  : 0 =====0.203715
+AIC Weights  : 1 =====0.319961
+AIC Weights  : 2 =====0.0432884
+AIC Weights  : 3 =====0.433035
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.59093e-08
+AIC Weights  : 6 =====2.15279e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 58 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32488e+06
+AIC Value for Model: 0 ==== -1.32487e+06
+Log Likelihood for Model 1 ==== -1.32489e+06
+AIC Value for Model: 1 ==== -1.32488e+06
+Log Likelihood for Model 2 ==== -1.32489e+06
+AIC Value for Model: 2 ==== -1.32488e+06
+Log Likelihood for Model 3 ==== -1.32489e+06
+AIC Value for Model: 3 ==== -1.32488e+06
+Log Likelihood for Model 4 ==== -1.30811e+06
+AIC Value for Model: 4 ==== -1.30809e+06
+Log Likelihood for Model 5 ==== -1.32487e+06
+AIC Value for Model: 5 ==== -1.32487e+06
+Log Likelihood for Model 6 ==== -1.32487e+06
+AIC Value for Model: 6 ==== -1.32486e+06
+Delta AIC values : 0 ====9.99601
+Delta AIC values : 1 ====1.67035
+Delta AIC values : 2 ====7.11586
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16789.9
+Delta AIC values : 5 ====17.4895
+Delta AIC values : 6 ====21.4898
+Relative Likelihood AIC 0 ==== 0.00675141
+Relative Likelihood AIC 1 ==== 0.433798
+Relative Likelihood AIC 2 ==== 0.0284978
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 0.000159296
+Relative Likelihood AIC 6 ==== 2.15554e-05
+AIC Weights  : 0 =====0.00459521
+AIC Weights  : 1 =====0.295256
+AIC Weights  : 2 =====0.0193964
+AIC Weights  : 3 =====0.68063
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====0.000108422
+AIC Weights  : 6 =====1.46712e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 59 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32461e+06
+AIC Value for Model: 0 ==== -1.3246e+06
+Log Likelihood for Model 1 ==== -1.32461e+06
+AIC Value for Model: 1 ==== -1.3246e+06
+Log Likelihood for Model 2 ==== -1.32461e+06
+AIC Value for Model: 2 ==== -1.3246e+06
+Log Likelihood for Model 3 ==== -1.32461e+06
+AIC Value for Model: 3 ==== -1.3246e+06
+Log Likelihood for Model 4 ==== -1.32461e+06
+AIC Value for Model: 4 ==== -1.3246e+06
+Log Likelihood for Model 5 ==== -1.32457e+06
+AIC Value for Model: 5 ==== -1.32456e+06
+Log Likelihood for Model 6 ==== -1.32457e+06
+AIC Value for Model: 6 ==== -1.32456e+06
+Delta AIC values : 0 ====0.419104
+Delta AIC values : 1 ====1.9966
+Delta AIC values : 2 ====5.9866
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====1.89867
+Delta AIC values : 5 ====37.4432
+Delta AIC values : 6 ====41.4435
+Relative Likelihood AIC 0 ==== 0.810948
+Relative Likelihood AIC 1 ==== 0.368504
+Relative Likelihood AIC 2 ==== 0.0501218
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.386998
+Relative Likelihood AIC 5 ==== 7.40145e-09
+Relative Likelihood AIC 6 ==== 1.00154e-09
+AIC Weights  : 0 =====0.309927
+AIC Weights  : 1 =====0.140835
+AIC Weights  : 2 =====0.0191555
+AIC Weights  : 3 =====0.382179
+AIC Weights  : 4 =====0.147903
+AIC Weights  : 5 =====2.82868e-09
+AIC Weights  : 6 =====3.82767e-10
+Composite MinNll      : -1.32502e+06
+Toy Entry: 60 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32454e+06
+AIC Value for Model: 0 ==== -1.32454e+06
+Log Likelihood for Model 1 ==== -1.32455e+06
+AIC Value for Model: 1 ==== -1.32454e+06
+Log Likelihood for Model 2 ==== -1.32455e+06
+AIC Value for Model: 2 ==== -1.32454e+06
+Log Likelihood for Model 3 ==== -1.32455e+06
+AIC Value for Model: 3 ==== -1.32454e+06
+Log Likelihood for Model 4 ==== -1.32454e+06
+AIC Value for Model: 4 ==== -1.32453e+06
+Log Likelihood for Model 5 ==== -1.32452e+06
+AIC Value for Model: 5 ==== -1.32451e+06
+Log Likelihood for Model 6 ==== -1.32452e+06
+AIC Value for Model: 6 ==== -1.32451e+06
+Delta AIC values : 0 ====2.88087
+Delta AIC values : 1 ====1.65589
+Delta AIC values : 2 ====5.65924
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16.5686
+Delta AIC values : 5 ====29.9687
+Delta AIC values : 6 ====33.969
+Relative Likelihood AIC 0 ==== 0.236825
+Relative Likelihood AIC 1 ==== 0.436947
+Relative Likelihood AIC 2 ==== 0.0590354
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000252454
+Relative Likelihood AIC 5 ==== 3.10725e-07
+Relative Likelihood AIC 6 ==== 4.20462e-08
+AIC Weights  : 0 =====0.136651
+AIC Weights  : 1 =====0.252124
+AIC Weights  : 2 =====0.0340643
+AIC Weights  : 3 =====0.577014
+AIC Weights  : 4 =====0.000145669
+AIC Weights  : 5 =====1.79292e-07
+AIC Weights  : 6 =====2.42612e-08
+Composite MinNll      : -1.32502e+06
+Toy Entry: 61 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32538e+06
+AIC Value for Model: 0 ==== -1.32538e+06
+Log Likelihood for Model 1 ==== -1.32539e+06
+AIC Value for Model: 1 ==== -1.32539e+06
+Log Likelihood for Model 2 ==== -1.32539e+06
+AIC Value for Model: 2 ==== -1.32538e+06
+Log Likelihood for Model 3 ==== -1.32539e+06
+AIC Value for Model: 3 ==== -1.32539e+06
+Log Likelihood for Model 4 ==== -1.32539e+06
+AIC Value for Model: 4 ==== -1.32537e+06
+Log Likelihood for Model 5 ==== -1.32537e+06
+AIC Value for Model: 5 ==== -1.32536e+06
+Log Likelihood for Model 6 ==== -1.32537e+06
+AIC Value for Model: 6 ==== -1.32536e+06
+Delta AIC values : 0 ====6.46287
+Delta AIC values : 1 ====1.40117
+Delta AIC values : 2 ====5.40349
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====13.2136
+Delta AIC values : 5 ====24.1904
+Delta AIC values : 6 ====28.1907
+Relative Likelihood AIC 0 ==== 0.0395008
+Relative Likelihood AIC 1 ==== 0.496296
+Relative Likelihood AIC 2 ==== 0.0670885
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00135112
+Relative Likelihood AIC 5 ==== 5.58626e-06
+Relative Likelihood AIC 6 ==== 7.55913e-07
+AIC Weights  : 0 =====0.0246227
+AIC Weights  : 1 =====0.309364
+AIC Weights  : 2 =====0.0418194
+AIC Weights  : 3 =====0.623347
+AIC Weights  : 4 =====0.00084222
+AIC Weights  : 5 =====3.48218e-06
+AIC Weights  : 6 =====4.71197e-07
+Composite MinNll      : -1.32502e+06
+Toy Entry: 62 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32488e+06
+AIC Value for Model: 0 ==== -1.32488e+06
+Log Likelihood for Model 1 ==== -1.3249e+06
+AIC Value for Model: 1 ==== -1.3249e+06
+Log Likelihood for Model 2 ==== -1.3249e+06
+AIC Value for Model: 2 ==== -1.32489e+06
+Log Likelihood for Model 3 ==== -1.3249e+06
+AIC Value for Model: 3 ==== -1.32489e+06
+Log Likelihood for Model 4 ==== -1.3249e+06
+AIC Value for Model: 4 ==== -1.32489e+06
+Log Likelihood for Model 5 ==== -1.32489e+06
+AIC Value for Model: 5 ==== -1.32488e+06
+Log Likelihood for Model 6 ==== -1.32489e+06
+AIC Value for Model: 6 ==== -1.32488e+06
+Delta AIC values : 0 ====17.7698
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00066
+Delta AIC values : 3 ====0.43641
+Delta AIC values : 4 ====2.88528
+Delta AIC values : 5 ====11.2274
+Delta AIC values : 6 ====15.2277
+Relative Likelihood AIC 0 ==== 0.000138466
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.13529
+Relative Likelihood AIC 3 ==== 0.803961
+Relative Likelihood AIC 4 ==== 0.236303
+Relative Likelihood AIC 5 ==== 0.0036475
+Relative Likelihood AIC 6 ==== 0.000493567
+AIC Weights  : 0 =====6.35215e-05
+AIC Weights  : 1 =====0.458751
+AIC Weights  : 2 =====0.0620646
+AIC Weights  : 3 =====0.368817
+AIC Weights  : 4 =====0.108404
+AIC Weights  : 5 =====0.00167329
+AIC Weights  : 6 =====0.000226424
+Composite MinNll      : -1.32502e+06
+Toy Entry: 63 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32494e+06
+AIC Value for Model: 0 ==== -1.32493e+06
+Log Likelihood for Model 1 ==== -1.32494e+06
+AIC Value for Model: 1 ==== -1.32493e+06
+Log Likelihood for Model 2 ==== -1.32494e+06
+AIC Value for Model: 2 ==== -1.32493e+06
+Log Likelihood for Model 3 ==== -1.32494e+06
+AIC Value for Model: 3 ==== -1.32494e+06
+Log Likelihood for Model 4 ==== -1.32494e+06
+AIC Value for Model: 4 ==== -1.32493e+06
+Log Likelihood for Model 5 ==== -1.32491e+06
+AIC Value for Model: 5 ==== -1.32491e+06
+Log Likelihood for Model 6 ==== -1.32491e+06
+AIC Value for Model: 6 ==== -1.32491e+06
+Delta AIC values : 0 ====4.78851
+Delta AIC values : 1 ====1.11931
+Delta AIC values : 2 ====5.11104
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====6.25577
+Delta AIC values : 5 ====26.5905
+Delta AIC values : 6 ====30.5908
+Relative Likelihood AIC 0 ==== 0.0912405
+Relative Likelihood AIC 1 ==== 0.571407
+Relative Likelihood AIC 2 ==== 0.0776519
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0438104
+Relative Likelihood AIC 5 ==== 1.68246e-06
+Relative Likelihood AIC 6 ==== 2.27665e-07
+AIC Weights  : 0 =====0.0511406
+AIC Weights  : 1 =====0.320276
+AIC Weights  : 2 =====0.0435241
+AIC Weights  : 3 =====0.560503
+AIC Weights  : 4 =====0.0245559
+AIC Weights  : 5 =====9.43026e-07
+AIC Weights  : 6 =====1.27607e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 64 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32502e+06
+AIC Value for Model: 0 ==== -1.32502e+06
+Log Likelihood for Model 1 ==== -1.32503e+06
+AIC Value for Model: 1 ==== -1.32502e+06
+Log Likelihood for Model 2 ==== -1.32503e+06
+AIC Value for Model: 2 ==== -1.32501e+06
+Log Likelihood for Model 3 ==== -1.32503e+06
+AIC Value for Model: 3 ==== -1.32502e+06
+Log Likelihood for Model 4 ==== -1.32502e+06
+AIC Value for Model: 4 ==== -1.325e+06
+Log Likelihood for Model 5 ==== -1.32499e+06
+AIC Value for Model: 5 ==== -1.32499e+06
+Log Likelihood for Model 6 ==== -1.32499e+06
+AIC Value for Model: 6 ==== -1.32498e+06
+Delta AIC values : 0 ====2.53017
+Delta AIC values : 1 ====1.00123
+Delta AIC values : 2 ====5.00599
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16.0056
+Delta AIC values : 5 ====32.2931
+Delta AIC values : 6 ====36.2934
+Relative Likelihood AIC 0 ==== 0.282215
+Relative Likelihood AIC 1 ==== 0.606158
+Relative Likelihood AIC 2 ==== 0.0818396
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000334531
+Relative Likelihood AIC 5 ==== 9.71945e-08
+Relative Likelihood AIC 6 ==== 1.3152e-08
+AIC Weights  : 0 =====0.143217
+AIC Weights  : 1 =====0.307609
+AIC Weights  : 2 =====0.0415314
+AIC Weights  : 3 =====0.507473
+AIC Weights  : 4 =====0.000169766
+AIC Weights  : 5 =====4.93236e-08
+AIC Weights  : 6 =====6.67431e-09
+Composite MinNll      : -1.32503e+06
+Toy Entry: 65 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.325e+06
+AIC Value for Model: 0 ==== -1.325e+06
+Log Likelihood for Model 1 ==== -1.325e+06
+AIC Value for Model: 1 ==== -1.32499e+06
+Log Likelihood for Model 2 ==== -1.325e+06
+AIC Value for Model: 2 ==== -1.32499e+06
+Log Likelihood for Model 3 ==== -1.325e+06
+AIC Value for Model: 3 ==== -1.325e+06
+Log Likelihood for Model 4 ==== -1.3142e+06
+AIC Value for Model: 4 ==== -1.31419e+06
+Log Likelihood for Model 5 ==== -1.32496e+06
+AIC Value for Model: 5 ==== -1.32495e+06
+Log Likelihood for Model 6 ==== -1.32496e+06
+AIC Value for Model: 6 ==== -1.32495e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====1.88379
+Delta AIC values : 2 ====5.88371
+Delta AIC values : 3 ====0.208977
+Delta AIC values : 4 ====10806.3
+Delta AIC values : 5 ====41.7673
+Delta AIC values : 6 ====45.7675
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.389888
+Relative Likelihood AIC 2 ==== 0.0527676
+Relative Likelihood AIC 3 ==== 0.900785
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 8.51831e-10
+Relative Likelihood AIC 6 ==== 1.15267e-10
+AIC Weights  : 0 =====0.426723
+AIC Weights  : 1 =====0.166374
+AIC Weights  : 2 =====0.0225172
+AIC Weights  : 3 =====0.384386
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====3.63496e-10
+AIC Weights  : 6 =====4.9187e-11
+Composite MinNll      : -1.32502e+06
+Toy Entry: 66 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32466e+06
+AIC Value for Model: 0 ==== -1.32466e+06
+Log Likelihood for Model 1 ==== -1.32467e+06
+AIC Value for Model: 1 ==== -1.32466e+06
+Log Likelihood for Model 2 ==== -1.32467e+06
+AIC Value for Model: 2 ==== -1.32466e+06
+Log Likelihood for Model 3 ==== -1.32467e+06
+AIC Value for Model: 3 ==== -1.32466e+06
+Log Likelihood for Model 4 ==== -1.31512e+06
+AIC Value for Model: 4 ==== -1.3151e+06
+Log Likelihood for Model 5 ==== -1.32465e+06
+AIC Value for Model: 5 ==== -1.32464e+06
+Log Likelihood for Model 6 ==== -1.32465e+06
+AIC Value for Model: 6 ==== -1.32464e+06
+Delta AIC values : 0 ====7.11274
+Delta AIC values : 1 ====2.42976
+Delta AIC values : 2 ====6.4361
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====9560.58
+Delta AIC values : 5 ====21.3047
+Delta AIC values : 6 ====25.305
+Relative Likelihood AIC 0 ==== 0.0285422
+Relative Likelihood AIC 1 ==== 0.296746
+Relative Likelihood AIC 2 ==== 0.0400331
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.36456e-05
+Relative Likelihood AIC 6 ==== 3.19962e-06
+AIC Weights  : 0 =====0.0209047
+AIC Weights  : 1 =====0.217341
+AIC Weights  : 2 =====0.0293208
+AIC Weights  : 3 =====0.732414
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.73184e-05
+AIC Weights  : 6 =====2.34344e-06
+Composite MinNll      : -1.32502e+06
+Toy Entry: 67 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32545e+06
+AIC Value for Model: 0 ==== -1.32545e+06
+Log Likelihood for Model 1 ==== -1.32546e+06
+AIC Value for Model: 1 ==== -1.32545e+06
+Log Likelihood for Model 2 ==== -1.32546e+06
+AIC Value for Model: 2 ==== -1.32545e+06
+Log Likelihood for Model 3 ==== -1.32546e+06
+AIC Value for Model: 3 ==== -1.32545e+06
+Log Likelihood for Model 4 ==== -1.32545e+06
+AIC Value for Model: 4 ==== -1.32544e+06
+Log Likelihood for Model 5 ==== -1.32543e+06
+AIC Value for Model: 5 ==== -1.32543e+06
+Log Likelihood for Model 6 ==== -1.32543e+06
+AIC Value for Model: 6 ==== -1.32542e+06
+Delta AIC values : 0 ====4.39143
+Delta AIC values : 1 ====1.67434
+Delta AIC values : 2 ====5.67461
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16.6306
+Delta AIC values : 5 ====28.2274
+Delta AIC values : 6 ====32.2276
+Relative Likelihood AIC 0 ==== 0.111279
+Relative Likelihood AIC 1 ==== 0.432934
+Relative Likelihood AIC 2 ==== 0.0585834
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000244745
+Relative Likelihood AIC 5 ==== 7.42179e-07
+Relative Likelihood AIC 6 ==== 1.00429e-07
+AIC Weights  : 0 =====0.0694172
+AIC Weights  : 1 =====0.27007
+AIC Weights  : 2 =====0.0365452
+AIC Weights  : 3 =====0.623814
+AIC Weights  : 4 =====0.000152676
+AIC Weights  : 5 =====4.62982e-07
+AIC Weights  : 6 =====6.2649e-08
+Composite MinNll      : -1.32502e+06
+Toy Entry: 68 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.3246e+06
+AIC Value for Model: 0 ==== -1.32459e+06
+Log Likelihood for Model 1 ==== -1.3246e+06
+AIC Value for Model: 1 ==== -1.3246e+06
+Log Likelihood for Model 2 ==== -1.3246e+06
+AIC Value for Model: 2 ==== -1.32459e+06
+Log Likelihood for Model 3 ==== -1.3246e+06
+AIC Value for Model: 3 ==== -1.3246e+06
+Log Likelihood for Model 4 ==== -1.3246e+06
+AIC Value for Model: 4 ==== -1.32459e+06
+Log Likelihood for Model 5 ==== -1.32458e+06
+AIC Value for Model: 5 ==== -1.32457e+06
+Log Likelihood for Model 6 ==== -1.32458e+06
+AIC Value for Model: 6 ==== -1.32457e+06
+Delta AIC values : 0 ====4.53626
+Delta AIC values : 1 ====1.72244
+Delta AIC values : 2 ====5.72469
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====12.3757
+Delta AIC values : 5 ====26.1958
+Delta AIC values : 6 ====30.1961
+Relative Likelihood AIC 0 ==== 0.103506
+Relative Likelihood AIC 1 ==== 0.422647
+Relative Likelihood AIC 2 ==== 0.0571346
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00205425
+Relative Likelihood AIC 5 ==== 2.04949e-06
+Relative Likelihood AIC 6 ==== 2.7733e-07
+AIC Weights  : 0 =====0.0652891
+AIC Weights  : 1 =====0.266596
+AIC Weights  : 2 =====0.0360392
+AIC Weights  : 3 =====0.630778
+AIC Weights  : 4 =====0.00129578
+AIC Weights  : 5 =====1.29278e-06
+AIC Weights  : 6 =====1.74934e-07
+Composite MinNll      : -1.32502e+06
+Toy Entry: 69 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32499e+06
+AIC Value for Model: 0 ==== -1.32498e+06
+Log Likelihood for Model 1 ==== -1.32502e+06
+AIC Value for Model: 1 ==== -1.32502e+06
+Log Likelihood for Model 2 ==== -1.32502e+06
+AIC Value for Model: 2 ==== -1.32501e+06
+Log Likelihood for Model 3 ==== -1.32502e+06
+AIC Value for Model: 3 ==== -1.32502e+06
+Log Likelihood for Model 4 ==== -1.30754e+06
+AIC Value for Model: 4 ==== -1.30753e+06
+Log Likelihood for Model 5 ==== -1.32502e+06
+AIC Value for Model: 5 ==== -1.32502e+06
+Log Likelihood for Model 6 ==== -1.32502e+06
+AIC Value for Model: 6 ==== -1.32501e+06
+Delta AIC values : 0 ====34.2151
+Delta AIC values : 1 ====0.377028
+Delta AIC values : 2 ====4.38326
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====17485.5
+Delta AIC values : 5 ====1.82857
+Delta AIC values : 6 ====5.82885
+Relative Likelihood AIC 0 ==== 3.71786e-08
+Relative Likelihood AIC 1 ==== 0.828189
+Relative Likelihood AIC 2 ==== 0.111735
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 0.400803
+Relative Likelihood AIC 6 ==== 0.0542352
+AIC Weights  : 0 =====1.55237e-08
+AIC Weights  : 1 =====0.345805
+AIC Weights  : 2 =====0.046654
+AIC Weights  : 3 =====0.417543
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====0.167352
+AIC Weights  : 6 =====0.0226456
+Composite MinNll      : -1.32501e+06
+Toy Entry: 70 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32542e+06
+AIC Value for Model: 0 ==== -1.32542e+06
+Log Likelihood for Model 1 ==== -1.32543e+06
+AIC Value for Model: 1 ==== -1.32543e+06
+Log Likelihood for Model 2 ==== -1.32543e+06
+AIC Value for Model: 2 ==== -1.32542e+06
+Log Likelihood for Model 3 ==== -1.32543e+06
+AIC Value for Model: 3 ==== -1.32543e+06
+Log Likelihood for Model 4 ==== -1.30934e+06
+AIC Value for Model: 4 ==== -1.30933e+06
+Log Likelihood for Model 5 ==== -1.32541e+06
+AIC Value for Model: 5 ==== -1.3254e+06
+Log Likelihood for Model 6 ==== -1.32541e+06
+AIC Value for Model: 6 ==== -1.3254e+06
+Delta AIC values : 0 ====7.1563
+Delta AIC values : 1 ====1.18609
+Delta AIC values : 2 ====5.19385
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16097.1
+Delta AIC values : 5 ====23.1421
+Delta AIC values : 6 ====27.1424
+Relative Likelihood AIC 0 ==== 0.0279273
+Relative Likelihood AIC 1 ==== 0.552643
+Relative Likelihood AIC 2 ==== 0.0745025
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 9.43528e-06
+Relative Likelihood AIC 6 ==== 1.27673e-06
+AIC Weights  : 0 =====0.0168736
+AIC Weights  : 1 =====0.333907
+AIC Weights  : 2 =====0.0450143
+AIC Weights  : 3 =====0.604199
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====5.70079e-06
+AIC Weights  : 6 =====7.71397e-07
+Composite MinNll      : -1.32502e+06
+Toy Entry: 71 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32505e+06
+AIC Value for Model: 0 ==== -1.32504e+06
+Log Likelihood for Model 1 ==== -1.32505e+06
+AIC Value for Model: 1 ==== -1.32504e+06
+Log Likelihood for Model 2 ==== -1.32505e+06
+AIC Value for Model: 2 ==== -1.32504e+06
+Log Likelihood for Model 3 ==== -1.32505e+06
+AIC Value for Model: 3 ==== -1.32504e+06
+Log Likelihood for Model 4 ==== -1.32504e+06
+AIC Value for Model: 4 ==== -1.32503e+06
+Log Likelihood for Model 5 ==== -1.32501e+06
+AIC Value for Model: 5 ==== -1.32501e+06
+Log Likelihood for Model 6 ==== -1.32501e+06
+AIC Value for Model: 6 ==== -1.325e+06
+Delta AIC values : 0 ====1.34569
+Delta AIC values : 1 ====1.87974
+Delta AIC values : 2 ====5.88071
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====15.5985
+Delta AIC values : 5 ====35.339
+Delta AIC values : 6 ====39.3393
+Relative Likelihood AIC 0 ==== 0.510256
+Relative Likelihood AIC 1 ==== 0.39068
+Relative Likelihood AIC 2 ==== 0.0528469
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000410052
+Relative Likelihood AIC 5 ==== 2.11951e-08
+Relative Likelihood AIC 6 ==== 2.86805e-09
+AIC Weights  : 0 =====0.261108
+AIC Weights  : 1 =====0.199919
+AIC Weights  : 2 =====0.0270428
+AIC Weights  : 3 =====0.51172
+AIC Weights  : 4 =====0.000209832
+AIC Weights  : 5 =====1.0846e-08
+AIC Weights  : 6 =====1.46764e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 72 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32441e+06
+AIC Value for Model: 0 ==== -1.3244e+06
+Log Likelihood for Model 1 ==== -1.32441e+06
+AIC Value for Model: 1 ==== -1.3244e+06
+Log Likelihood for Model 2 ==== -1.32441e+06
+AIC Value for Model: 2 ==== -1.3244e+06
+Log Likelihood for Model 3 ==== -1.32441e+06
+AIC Value for Model: 3 ==== -1.3244e+06
+Log Likelihood for Model 4 ==== -1.30766e+06
+AIC Value for Model: 4 ==== -1.30765e+06
+Log Likelihood for Model 5 ==== -1.32437e+06
+AIC Value for Model: 5 ==== -1.32437e+06
+Log Likelihood for Model 6 ==== -1.32437e+06
+AIC Value for Model: 6 ==== -1.32436e+06
+Delta AIC values : 0 ====0.889632
+Delta AIC values : 1 ====1.28471
+Delta AIC values : 2 ====5.33594
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16751
+Delta AIC values : 5 ====35.8267
+Delta AIC values : 6 ====39.827
+Relative Likelihood AIC 0 ==== 0.640942
+Relative Likelihood AIC 1 ==== 0.526052
+Relative Likelihood AIC 2 ==== 0.069393
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 1.66086e-08
+Relative Likelihood AIC 6 ==== 2.24742e-09
+AIC Weights  : 0 =====0.286597
+AIC Weights  : 1 =====0.235224
+AIC Weights  : 2 =====0.0310291
+AIC Weights  : 3 =====0.44715
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====7.42653e-09
+AIC Weights  : 6 =====1.00493e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 73 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32465e+06
+AIC Value for Model: 0 ==== -1.32465e+06
+Log Likelihood for Model 1 ==== -1.32465e+06
+AIC Value for Model: 1 ==== -1.32465e+06
+Log Likelihood for Model 2 ==== -1.32465e+06
+AIC Value for Model: 2 ==== -1.32464e+06
+Log Likelihood for Model 3 ==== -1.32465e+06
+AIC Value for Model: 3 ==== -1.32465e+06
+Log Likelihood for Model 4 ==== -1.32465e+06
+AIC Value for Model: 4 ==== -1.32464e+06
+Log Likelihood for Model 5 ==== -1.32461e+06
+AIC Value for Model: 5 ==== -1.32461e+06
+Log Likelihood for Model 6 ==== -1.32461e+06
+AIC Value for Model: 6 ==== -1.3246e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====1.81632
+Delta AIC values : 2 ====5.8203
+Delta AIC values : 3 ====0.246671
+Delta AIC values : 4 ====6.43022
+Delta AIC values : 5 ====41.2794
+Delta AIC values : 6 ====45.2797
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.403266
+Relative Likelihood AIC 2 ==== 0.0544675
+Relative Likelihood AIC 3 ==== 0.883967
+Relative Likelihood AIC 4 ==== 0.0401508
+Relative Likelihood AIC 5 ==== 1.08714e-09
+Relative Likelihood AIC 6 ==== 1.47109e-10
+AIC Weights  : 0 =====0.419841
+AIC Weights  : 1 =====0.169308
+AIC Weights  : 2 =====0.0228677
+AIC Weights  : 3 =====0.371126
+AIC Weights  : 4 =====0.016857
+AIC Weights  : 5 =====4.56428e-10
+AIC Weights  : 6 =====6.17623e-11
+Composite MinNll      : -1.32502e+06
+Toy Entry: 74 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32503e+06
+AIC Value for Model: 0 ==== -1.32503e+06
+Log Likelihood for Model 1 ==== -1.32504e+06
+AIC Value for Model: 1 ==== -1.32503e+06
+Log Likelihood for Model 2 ==== -1.32504e+06
+AIC Value for Model: 2 ==== -1.32503e+06
+Log Likelihood for Model 3 ==== -1.32504e+06
+AIC Value for Model: 3 ==== -1.32503e+06
+Log Likelihood for Model 4 ==== -1.32504e+06
+AIC Value for Model: 4 ==== -1.32503e+06
+Log Likelihood for Model 5 ==== -1.32502e+06
+AIC Value for Model: 5 ==== -1.32501e+06
+Log Likelihood for Model 6 ==== -1.32502e+06
+AIC Value for Model: 6 ==== -1.32501e+06
+Delta AIC values : 0 ====8.44336
+Delta AIC values : 1 ====0.713385
+Delta AIC values : 2 ====4.71459
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====8.24023
+Delta AIC values : 5 ====20.5048
+Delta AIC values : 6 ====24.5051
+Relative Likelihood AIC 0 ==== 0.014674
+Relative Likelihood AIC 1 ==== 0.699988
+Relative Likelihood AIC 2 ==== 0.094676
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0162426
+Relative Likelihood AIC 5 ==== 3.52721e-05
+Relative Likelihood AIC 6 ==== 4.77289e-06
+AIC Weights  : 0 =====0.00803781
+AIC Weights  : 1 =====0.383425
+AIC Weights  : 2 =====0.0518596
+AIC Weights  : 3 =====0.547759
+AIC Weights  : 4 =====0.00889705
+AIC Weights  : 5 =====1.93206e-05
+AIC Weights  : 6 =====2.61439e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 75 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32518e+06
+AIC Value for Model: 0 ==== -1.32517e+06
+Log Likelihood for Model 1 ==== -1.32518e+06
+AIC Value for Model: 1 ==== -1.32518e+06
+Log Likelihood for Model 2 ==== -1.32518e+06
+AIC Value for Model: 2 ==== -1.32517e+06
+Log Likelihood for Model 3 ==== -1.32518e+06
+AIC Value for Model: 3 ==== -1.32518e+06
+Log Likelihood for Model 4 ==== -1.32517e+06
+AIC Value for Model: 4 ==== -1.32516e+06
+Log Likelihood for Model 5 ==== -1.32515e+06
+AIC Value for Model: 5 ==== -1.32515e+06
+Log Likelihood for Model 6 ==== -1.32515e+06
+AIC Value for Model: 6 ==== -1.32515e+06
+Delta AIC values : 0 ====5.29041
+Delta AIC values : 1 ====0.527541
+Delta AIC values : 2 ====4.5285
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====13.8192
+Delta AIC values : 5 ====26.2998
+Delta AIC values : 6 ====30.3001
+Relative Likelihood AIC 0 ==== 0.0709907
+Relative Likelihood AIC 1 ==== 0.76815
+Relative Likelihood AIC 2 ==== 0.103908
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000998134
+Relative Likelihood AIC 5 ==== 1.94568e-06
+Relative Likelihood AIC 6 ==== 2.63282e-07
+AIC Weights  : 0 =====0.0365169
+AIC Weights  : 1 =====0.395129
+AIC Weights  : 2 =====0.0534492
+AIC Weights  : 3 =====0.51439
+AIC Weights  : 4 =====0.00051343
+AIC Weights  : 5 =====1.00084e-06
+AIC Weights  : 6 =====1.3543e-07
+Composite MinNll      : -1.32503e+06
+Toy Entry: 76 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32507e+06
+AIC Value for Model: 0 ==== -1.32506e+06
+Log Likelihood for Model 1 ==== -1.32509e+06
+AIC Value for Model: 1 ==== -1.32508e+06
+Log Likelihood for Model 2 ==== -1.32509e+06
+AIC Value for Model: 2 ==== -1.32508e+06
+Log Likelihood for Model 3 ==== -1.32508e+06
+AIC Value for Model: 3 ==== -1.32508e+06
+Log Likelihood for Model 4 ==== -1.3251e+06
+AIC Value for Model: 4 ==== -1.32508e+06
+Log Likelihood for Model 5 ==== -1.32507e+06
+AIC Value for Model: 5 ==== -1.32506e+06
+Log Likelihood for Model 6 ==== -1.32507e+06
+AIC Value for Model: 6 ==== -1.32506e+06
+Delta AIC values : 0 ====20.3453
+Delta AIC values : 1 ====3.5122
+Delta AIC values : 2 ====7.51236
+Delta AIC values : 3 ====5.60191
+Delta AIC values : 4 ====0
+Delta AIC values : 5 ====19.2369
+Delta AIC values : 6 ====23.2371
+Relative Likelihood AIC 0 ==== 3.82018e-05
+Relative Likelihood AIC 1 ==== 0.172717
+Relative Likelihood AIC 2 ==== 0.0233728
+Relative Likelihood AIC 3 ==== 0.0607521
+Relative Likelihood AIC 4 ==== 1
+Relative Likelihood AIC 5 ==== 6.64915e-05
+Relative Likelihood AIC 6 ==== 8.99741e-06
+AIC Weights  : 0 =====3.03923e-05
+AIC Weights  : 1 =====0.137409
+AIC Weights  : 2 =====0.0185948
+AIC Weights  : 3 =====0.0483327
+AIC Weights  : 4 =====0.795573
+AIC Weights  : 5 =====5.28989e-05
+AIC Weights  : 6 =====7.1581e-06
+Composite MinNll      : -1.32502e+06
+Toy Entry: 77 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32444e+06
+AIC Value for Model: 0 ==== -1.32444e+06
+Log Likelihood for Model 1 ==== -1.32445e+06
+AIC Value for Model: 1 ==== -1.32444e+06
+Log Likelihood for Model 2 ==== -1.32445e+06
+AIC Value for Model: 2 ==== -1.32444e+06
+Log Likelihood for Model 3 ==== -1.32445e+06
+AIC Value for Model: 3 ==== -1.32445e+06
+Log Likelihood for Model 4 ==== -1.32445e+06
+AIC Value for Model: 4 ==== -1.32444e+06
+Log Likelihood for Model 5 ==== -1.32442e+06
+AIC Value for Model: 5 ==== -1.32442e+06
+Log Likelihood for Model 6 ==== -1.32442e+06
+AIC Value for Model: 6 ==== -1.32442e+06
+Delta AIC values : 0 ====5.00843
+Delta AIC values : 1 ====1.19998
+Delta AIC values : 2 ====5.21505
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====8.71227
+Delta AIC values : 5 ====25.143
+Delta AIC values : 6 ====29.1433
+Relative Likelihood AIC 0 ==== 0.0817396
+Relative Likelihood AIC 1 ==== 0.548817
+Relative Likelihood AIC 2 ==== 0.0737167
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0128279
+Relative Likelihood AIC 5 ==== 3.46944e-06
+Relative Likelihood AIC 6 ==== 4.69473e-07
+AIC Weights  : 0 =====0.0476031
+AIC Weights  : 1 =====0.319618
+AIC Weights  : 2 =====0.0429308
+AIC Weights  : 3 =====0.582375
+AIC Weights  : 4 =====0.00747064
+AIC Weights  : 5 =====2.02052e-06
+AIC Weights  : 6 =====2.73409e-07
+Composite MinNll      : -1.32502e+06
+Toy Entry: 78 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32471e+06
+AIC Value for Model: 0 ==== -1.32471e+06
+Log Likelihood for Model 1 ==== -1.32474e+06
+AIC Value for Model: 1 ==== -1.32473e+06
+Log Likelihood for Model 2 ==== -1.32474e+06
+AIC Value for Model: 2 ==== -1.32473e+06
+Log Likelihood for Model 3 ==== -1.32474e+06
+AIC Value for Model: 3 ==== -1.32473e+06
+Log Likelihood for Model 4 ==== -1.32474e+06
+AIC Value for Model: 4 ==== -1.32473e+06
+Log Likelihood for Model 5 ==== -1.32473e+06
+AIC Value for Model: 5 ==== -1.32472e+06
+Log Likelihood for Model 6 ==== -1.32473e+06
+AIC Value for Model: 6 ==== -1.32472e+06
+Delta AIC values : 0 ====21.9636
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====3.99995
+Delta AIC values : 3 ====0.836266
+Delta AIC values : 4 ====5.0403
+Delta AIC values : 5 ====8.72515
+Delta AIC values : 6 ====12.7254
+Relative Likelihood AIC 0 ==== 1.70082e-05
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135339
+Relative Likelihood AIC 3 ==== 0.658275
+Relative Likelihood AIC 4 ==== 0.0804476
+Relative Likelihood AIC 5 ==== 0.0127455
+Relative Likelihood AIC 6 ==== 0.00172468
+AIC Weights  : 0 =====9.00597e-06
+AIC Weights  : 1 =====0.529507
+AIC Weights  : 2 =====0.0716628
+AIC Weights  : 3 =====0.348561
+AIC Weights  : 4 =====0.0425976
+AIC Weights  : 5 =====0.00674883
+AIC Weights  : 6 =====0.000913229
+Composite MinNll      : -1.32502e+06
+Toy Entry: 79 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32504e+06
+AIC Value for Model: 0 ==== -1.32503e+06
+Log Likelihood for Model 1 ==== -1.32505e+06
+AIC Value for Model: 1 ==== -1.32504e+06
+Log Likelihood for Model 2 ==== -1.32505e+06
+AIC Value for Model: 2 ==== -1.32503e+06
+Log Likelihood for Model 3 ==== -1.32505e+06
+AIC Value for Model: 3 ==== -1.32504e+06
+Log Likelihood for Model 4 ==== -1.32504e+06
+AIC Value for Model: 4 ==== -1.32502e+06
+Log Likelihood for Model 5 ==== -1.32502e+06
+AIC Value for Model: 5 ==== -1.32502e+06
+Log Likelihood for Model 6 ==== -1.32502e+06
+AIC Value for Model: 6 ==== -1.32501e+06
+Delta AIC values : 0 ====8.01905
+Delta AIC values : 1 ====1.39579
+Delta AIC values : 2 ====5.39566
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====15.6691
+Delta AIC values : 5 ====20.9533
+Delta AIC values : 6 ====24.9536
+Relative Likelihood AIC 0 ==== 0.018142
+Relative Likelihood AIC 1 ==== 0.497631
+Relative Likelihood AIC 2 ==== 0.0673517
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.000395822
+Relative Likelihood AIC 5 ==== 2.81864e-05
+Relative Likelihood AIC 6 ==== 3.81409e-06
+AIC Weights  : 0 =====0.0114565
+AIC Weights  : 1 =====0.31425
+AIC Weights  : 2 =====0.042532
+AIC Weights  : 3 =====0.631491
+AIC Weights  : 4 =====0.000249958
+AIC Weights  : 5 =====1.77995e-05
+AIC Weights  : 6 =====2.40856e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 80 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32509e+06
+AIC Value for Model: 0 ==== -1.32508e+06
+Log Likelihood for Model 1 ==== -1.32509e+06
+AIC Value for Model: 1 ==== -1.32508e+06
+Log Likelihood for Model 2 ==== -1.32509e+06
+AIC Value for Model: 2 ==== -1.32508e+06
+Log Likelihood for Model 3 ==== -1.32509e+06
+AIC Value for Model: 3 ==== -1.32509e+06
+Log Likelihood for Model 4 ==== -1.31835e+06
+AIC Value for Model: 4 ==== -1.31834e+06
+Log Likelihood for Model 5 ==== -1.32506e+06
+AIC Value for Model: 5 ==== -1.32505e+06
+Log Likelihood for Model 6 ==== -1.32506e+06
+AIC Value for Model: 6 ==== -1.32505e+06
+Delta AIC values : 0 ====2.54125
+Delta AIC values : 1 ====1.23005
+Delta AIC values : 2 ====5.19162
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====6750.22
+Delta AIC values : 5 ====32.2018
+Delta AIC values : 6 ====36.202
+Relative Likelihood AIC 0 ==== 0.280656
+Relative Likelihood AIC 1 ==== 0.540626
+Relative Likelihood AIC 2 ==== 0.0745855
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 1.01737e-07
+Relative Likelihood AIC 6 ==== 1.37666e-08
+AIC Weights  : 0 =====0.148036
+AIC Weights  : 1 =====0.28516
+AIC Weights  : 2 =====0.0393411
+AIC Weights  : 3 =====0.527463
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====5.36625e-08
+AIC Weights  : 6 =====7.26139e-09
+Composite MinNll      : -1.32503e+06
+Toy Entry: 81 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32513e+06
+AIC Value for Model: 0 ==== -1.32512e+06
+Log Likelihood for Model 1 ==== -1.32513e+06
+AIC Value for Model: 1 ==== -1.32512e+06
+Log Likelihood for Model 2 ==== -1.32513e+06
+AIC Value for Model: 2 ==== -1.32512e+06
+Log Likelihood for Model 3 ==== -1.32513e+06
+AIC Value for Model: 3 ==== -1.32512e+06
+Log Likelihood for Model 4 ==== -1.30868e+06
+AIC Value for Model: 4 ==== -1.30867e+06
+Log Likelihood for Model 5 ==== -1.32508e+06
+AIC Value for Model: 5 ==== -1.32508e+06
+Log Likelihood for Model 6 ==== -1.32508e+06
+AIC Value for Model: 6 ==== -1.32507e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====2.545
+Delta AIC values : 2 ====6.5559
+Delta AIC values : 3 ====1.08051
+Delta AIC values : 4 ====16452.8
+Delta AIC values : 5 ====48.5553
+Delta AIC values : 6 ====52.5556
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.28013
+Relative Likelihood AIC 2 ==== 0.0377055
+Relative Likelihood AIC 3 ==== 0.582601
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.85987e-11
+Relative Likelihood AIC 6 ==== 3.86986e-12
+AIC Weights  : 0 =====0.526195
+AIC Weights  : 1 =====0.147403
+AIC Weights  : 2 =====0.0198405
+AIC Weights  : 3 =====0.306562
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.50485e-11
+AIC Weights  : 6 =====2.0363e-12
+Composite MinNll      : -1.32502e+06
+Toy Entry: 82 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.3247e+06
+AIC Value for Model: 0 ==== -1.32469e+06
+Log Likelihood for Model 1 ==== -1.32471e+06
+AIC Value for Model: 1 ==== -1.3247e+06
+Log Likelihood for Model 2 ==== -1.32471e+06
+AIC Value for Model: 2 ==== -1.3247e+06
+Log Likelihood for Model 3 ==== -1.32471e+06
+AIC Value for Model: 3 ==== -1.32471e+06
+Log Likelihood for Model 4 ==== -1.32471e+06
+AIC Value for Model: 4 ==== -1.3247e+06
+Log Likelihood for Model 5 ==== -1.32469e+06
+AIC Value for Model: 5 ==== -1.32469e+06
+Log Likelihood for Model 6 ==== -1.32469e+06
+AIC Value for Model: 6 ==== -1.32469e+06
+Delta AIC values : 0 ====11.4533
+Delta AIC values : 1 ====0.908864
+Delta AIC values : 2 ====4.91157
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====7.75207
+Delta AIC values : 5 ====16.0237
+Delta AIC values : 6 ====20.024
+Relative Likelihood AIC 0 ==== 0.00325805
+Relative Likelihood AIC 1 ==== 0.634809
+Relative Likelihood AIC 2 ==== 0.0857958
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0207329
+Relative Likelihood AIC 5 ==== 0.000331519
+Relative Likelihood AIC 6 ==== 4.48592e-05
+AIC Weights  : 0 =====0.00186711
+AIC Weights  : 1 =====0.363793
+AIC Weights  : 2 =====0.0491674
+AIC Weights  : 3 =====0.573075
+AIC Weights  : 4 =====0.0118815
+AIC Weights  : 5 =====0.000189985
+AIC Weights  : 6 =====2.57077e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 83 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32528e+06
+AIC Value for Model: 0 ==== -1.32527e+06
+Log Likelihood for Model 1 ==== -1.32529e+06
+AIC Value for Model: 1 ==== -1.32528e+06
+Log Likelihood for Model 2 ==== -1.32529e+06
+AIC Value for Model: 2 ==== -1.32528e+06
+Log Likelihood for Model 3 ==== -1.32529e+06
+AIC Value for Model: 3 ==== -1.32528e+06
+Log Likelihood for Model 4 ==== -1.30877e+06
+AIC Value for Model: 4 ==== -1.30876e+06
+Log Likelihood for Model 5 ==== -1.32527e+06
+AIC Value for Model: 5 ==== -1.32527e+06
+Log Likelihood for Model 6 ==== -1.32527e+06
+AIC Value for Model: 6 ==== -1.32526e+06
+Delta AIC values : 0 ====10.6437
+Delta AIC values : 1 ====2.08296
+Delta AIC values : 2 ====6.07587
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16522.1
+Delta AIC values : 5 ====17.5807
+Delta AIC values : 6 ====21.581
+Relative Likelihood AIC 0 ==== 0.00488378
+Relative Likelihood AIC 1 ==== 0.352933
+Relative Likelihood AIC 2 ==== 0.0479338
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 0.000152192
+Relative Likelihood AIC 6 ==== 2.05939e-05
+AIC Weights  : 0 =====0.00347372
+AIC Weights  : 1 =====0.251033
+AIC Weights  : 2 =====0.0340941
+AIC Weights  : 3 =====0.711276
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====0.000108251
+AIC Weights  : 6 =====1.4648e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 84 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32522e+06
+AIC Value for Model: 0 ==== -1.32521e+06
+Log Likelihood for Model 1 ==== -1.32522e+06
+AIC Value for Model: 1 ==== -1.32521e+06
+Log Likelihood for Model 2 ==== -1.32522e+06
+AIC Value for Model: 2 ==== -1.32521e+06
+Log Likelihood for Model 3 ==== -1.32522e+06
+AIC Value for Model: 3 ==== -1.32521e+06
+Log Likelihood for Model 4 ==== -1.32521e+06
+AIC Value for Model: 4 ==== -1.32519e+06
+Log Likelihood for Model 5 ==== -1.32517e+06
+AIC Value for Model: 5 ==== -1.32517e+06
+Log Likelihood for Model 6 ==== -1.32517e+06
+AIC Value for Model: 6 ==== -1.32516e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====2.1397
+Delta AIC values : 2 ====6.13317
+Delta AIC values : 3 ====0.586166
+Delta AIC values : 4 ====19.4982
+Delta AIC values : 5 ====45.1119
+Delta AIC values : 6 ====49.1122
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.34306
+Relative Likelihood AIC 2 ==== 0.0465801
+Relative Likelihood AIC 3 ==== 0.74596
+Relative Likelihood AIC 4 ==== 5.83468e-05
+Relative Likelihood AIC 5 ==== 1.59985e-10
+Relative Likelihood AIC 6 ==== 2.16487e-11
+AIC Weights  : 0 =====0.46824
+AIC Weights  : 1 =====0.160634
+AIC Weights  : 2 =====0.0218106
+AIC Weights  : 3 =====0.349288
+AIC Weights  : 4 =====2.73203e-05
+AIC Weights  : 5 =====7.49115e-11
+AIC Weights  : 6 =====1.01368e-11
+Composite MinNll      : -1.32502e+06
+Toy Entry: 85 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32456e+06
+AIC Value for Model: 0 ==== -1.32456e+06
+Log Likelihood for Model 1 ==== -1.32458e+06
+AIC Value for Model: 1 ==== -1.32457e+06
+Log Likelihood for Model 2 ==== -1.32458e+06
+AIC Value for Model: 2 ==== -1.32457e+06
+Log Likelihood for Model 3 ==== -1.32458e+06
+AIC Value for Model: 3 ==== -1.32458e+06
+Log Likelihood for Model 4 ==== -1.32458e+06
+AIC Value for Model: 4 ==== -1.32457e+06
+Log Likelihood for Model 5 ==== -1.32457e+06
+AIC Value for Model: 5 ==== -1.32457e+06
+Log Likelihood for Model 6 ==== -1.32457e+06
+AIC Value for Model: 6 ==== -1.32456e+06
+Delta AIC values : 0 ====17.4528
+Delta AIC values : 1 ====1.43473
+Delta AIC values : 2 ====5.43717
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====7.61853
+Delta AIC values : 5 ====9.98409
+Delta AIC values : 6 ====13.9844
+Relative Likelihood AIC 0 ==== 0.000162244
+Relative Likelihood AIC 1 ==== 0.488035
+Relative Likelihood AIC 2 ==== 0.0659681
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.0221645
+Relative Likelihood AIC 5 ==== 0.00679174
+Relative Likelihood AIC 6 ==== 0.000919035
+AIC Weights  : 0 =====0.000102424
+AIC Weights  : 1 =====0.308095
+AIC Weights  : 2 =====0.0416454
+AIC Weights  : 3 =====0.631297
+AIC Weights  : 4 =====0.0139924
+AIC Weights  : 5 =====0.00428761
+AIC Weights  : 6 =====0.000580184
+Composite MinNll      : -1.32502e+06
+Toy Entry: 86 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32527e+06
+AIC Value for Model: 0 ==== -1.32527e+06
+Log Likelihood for Model 1 ==== -1.32528e+06
+AIC Value for Model: 1 ==== -1.32527e+06
+Log Likelihood for Model 2 ==== -1.32528e+06
+AIC Value for Model: 2 ==== -1.32526e+06
+Log Likelihood for Model 3 ==== -1.32528e+06
+AIC Value for Model: 3 ==== -1.32527e+06
+Log Likelihood for Model 4 ==== -1.31488e+06
+AIC Value for Model: 4 ==== -1.31487e+06
+Log Likelihood for Model 5 ==== -1.32524e+06
+AIC Value for Model: 5 ==== -1.32524e+06
+Log Likelihood for Model 6 ==== -1.32524e+06
+AIC Value for Model: 6 ==== -1.32523e+06
+Delta AIC values : 0 ====1.67599
+Delta AIC values : 1 ====2.04986
+Delta AIC values : 2 ====6.08621
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====10401.8
+Delta AIC values : 5 ====34.6148
+Delta AIC values : 6 ====38.6151
+Relative Likelihood AIC 0 ==== 0.432577
+Relative Likelihood AIC 1 ==== 0.358821
+Relative Likelihood AIC 2 ==== 0.0476865
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 3.04428e-08
+Relative Likelihood AIC 6 ==== 4.11941e-09
+AIC Weights  : 0 =====0.235213
+AIC Weights  : 1 =====0.195108
+AIC Weights  : 2 =====0.0259295
+AIC Weights  : 3 =====0.543749
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.65532e-08
+AIC Weights  : 6 =====2.23993e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 87 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32468e+06
+AIC Value for Model: 0 ==== -1.32467e+06
+Log Likelihood for Model 1 ==== -1.32469e+06
+AIC Value for Model: 1 ==== -1.32468e+06
+Log Likelihood for Model 2 ==== -1.32469e+06
+AIC Value for Model: 2 ==== -1.32467e+06
+Log Likelihood for Model 3 ==== -1.32468e+06
+AIC Value for Model: 3 ==== -1.32468e+06
+Log Likelihood for Model 4 ==== -1.32468e+06
+AIC Value for Model: 4 ==== -1.32467e+06
+Log Likelihood for Model 5 ==== -1.32466e+06
+AIC Value for Model: 5 ==== -1.32465e+06
+Log Likelihood for Model 6 ==== -1.32466e+06
+AIC Value for Model: 6 ==== -1.32465e+06
+Delta AIC values : 0 ====5.68846
+Delta AIC values : 1 ====1.5214
+Delta AIC values : 2 ====5.53051
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====12.141
+Delta AIC values : 5 ====24.168
+Delta AIC values : 6 ====28.1683
+Relative Likelihood AIC 0 ==== 0.0581791
+Relative Likelihood AIC 1 ==== 0.467338
+Relative Likelihood AIC 2 ==== 0.0629601
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00230997
+Relative Likelihood AIC 5 ==== 5.64914e-06
+Relative Likelihood AIC 6 ==== 7.64421e-07
+AIC Weights  : 0 =====0.0365724
+AIC Weights  : 1 =====0.293777
+AIC Weights  : 2 =====0.0395778
+AIC Weights  : 3 =====0.628617
+AIC Weights  : 4 =====0.00145208
+AIC Weights  : 5 =====3.55115e-06
+AIC Weights  : 6 =====4.80528e-07
+Composite MinNll      : -1.32502e+06
+Toy Entry: 88 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32522e+06
+AIC Value for Model: 0 ==== -1.32521e+06
+Log Likelihood for Model 1 ==== -1.32522e+06
+AIC Value for Model: 1 ==== -1.32521e+06
+Log Likelihood for Model 2 ==== -1.32522e+06
+AIC Value for Model: 2 ==== -1.32521e+06
+Log Likelihood for Model 3 ==== -1.32522e+06
+AIC Value for Model: 3 ==== -1.32521e+06
+Log Likelihood for Model 4 ==== -1.30881e+06
+AIC Value for Model: 4 ==== -1.30879e+06
+Log Likelihood for Model 5 ==== -1.32518e+06
+AIC Value for Model: 5 ==== -1.32518e+06
+Log Likelihood for Model 6 ==== -1.32518e+06
+AIC Value for Model: 6 ==== -1.32517e+06
+Delta AIC values : 0 ====1.00278
+Delta AIC values : 1 ====1.19036
+Delta AIC values : 2 ====5.23866
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16419.8
+Delta AIC values : 5 ====37.3648
+Delta AIC values : 6 ====41.3653
+Relative Likelihood AIC 0 ==== 0.605687
+Relative Likelihood AIC 1 ==== 0.551462
+Relative Likelihood AIC 2 ==== 0.0728516
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 7.69715e-09
+Relative Likelihood AIC 6 ==== 1.04147e-09
+AIC Weights  : 0 =====0.271609
+AIC Weights  : 1 =====0.247292
+AIC Weights  : 2 =====0.0326689
+AIC Weights  : 3 =====0.44843
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====3.45164e-09
+AIC Weights  : 6 =====4.67028e-10
+Composite MinNll      : -1.32502e+06
+Toy Entry: 89 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32526e+06
+AIC Value for Model: 0 ==== -1.32525e+06
+Log Likelihood for Model 1 ==== -1.32528e+06
+AIC Value for Model: 1 ==== -1.32527e+06
+Log Likelihood for Model 2 ==== -1.32528e+06
+AIC Value for Model: 2 ==== -1.32526e+06
+Log Likelihood for Model 3 ==== -1.32527e+06
+AIC Value for Model: 3 ==== -1.32527e+06
+Log Likelihood for Model 4 ==== -1.32527e+06
+AIC Value for Model: 4 ==== -1.32526e+06
+Log Likelihood for Model 5 ==== -1.32526e+06
+AIC Value for Model: 5 ==== -1.32525e+06
+Log Likelihood for Model 6 ==== -1.32526e+06
+AIC Value for Model: 6 ==== -1.32525e+06
+Delta AIC values : 0 ====15.9403
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00044
+Delta AIC values : 3 ====0.890135
+Delta AIC values : 4 ====9.70445
+Delta AIC values : 5 ====14.3194
+Delta AIC values : 6 ====18.3197
+Relative Likelihood AIC 0 ==== 0.000345621
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135305
+Relative Likelihood AIC 3 ==== 0.640781
+Relative Likelihood AIC 4 ==== 0.007811
+Relative Likelihood AIC 5 ==== 0.000777283
+Relative Likelihood AIC 6 ==== 0.000105179
+AIC Weights  : 0 =====0.000193611
+AIC Weights  : 1 =====0.560185
+AIC Weights  : 2 =====0.075796
+AIC Weights  : 3 =====0.358956
+AIC Weights  : 4 =====0.0043756
+AIC Weights  : 5 =====0.000435422
+AIC Weights  : 6 =====5.89198e-05
+Composite MinNll      : -1.32502e+06
+Toy Entry: 90 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32504e+06
+AIC Value for Model: 0 ==== -1.32503e+06
+Log Likelihood for Model 1 ==== -1.32504e+06
+AIC Value for Model: 1 ==== -1.32503e+06
+Log Likelihood for Model 2 ==== -1.32504e+06
+AIC Value for Model: 2 ==== -1.32502e+06
+Log Likelihood for Model 3 ==== -1.32504e+06
+AIC Value for Model: 3 ==== -1.32503e+06
+Log Likelihood for Model 4 ==== -1.32502e+06
+AIC Value for Model: 4 ==== -1.32501e+06
+Log Likelihood for Model 5 ==== -1.32499e+06
+AIC Value for Model: 5 ==== -1.32498e+06
+Log Likelihood for Model 6 ==== -1.32499e+06
+AIC Value for Model: 6 ==== -1.32498e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====3.02548
+Delta AIC values : 2 ====7.0064
+Delta AIC values : 3 ====1.10494
+Delta AIC values : 4 ====18.8388
+Delta AIC values : 5 ====47.9631
+Delta AIC values : 6 ====51.9634
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.220306
+Relative Likelihood AIC 2 ==== 0.0301009
+Relative Likelihood AIC 3 ==== 0.575526
+Relative Likelihood AIC 4 ==== 8.11347e-05
+Relative Likelihood AIC 5 ==== 3.84536e-11
+Relative Likelihood AIC 6 ==== 5.20341e-12
+AIC Weights  : 0 =====0.547641
+AIC Weights  : 1 =====0.120648
+AIC Weights  : 2 =====0.0164845
+AIC Weights  : 3 =====0.315182
+AIC Weights  : 4 =====4.44327e-05
+AIC Weights  : 5 =====2.10588e-11
+AIC Weights  : 6 =====2.8496e-12
+Composite MinNll      : -1.32502e+06
+Toy Entry: 91 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32481e+06
+AIC Value for Model: 0 ==== -1.32481e+06
+Log Likelihood for Model 1 ==== -1.32483e+06
+AIC Value for Model: 1 ==== -1.32482e+06
+Log Likelihood for Model 2 ==== -1.32483e+06
+AIC Value for Model: 2 ==== -1.32482e+06
+Log Likelihood for Model 3 ==== -1.32483e+06
+AIC Value for Model: 3 ==== -1.32482e+06
+Log Likelihood for Model 4 ==== -1.3077e+06
+AIC Value for Model: 4 ==== -1.30769e+06
+Log Likelihood for Model 5 ==== -1.32482e+06
+AIC Value for Model: 5 ==== -1.32481e+06
+Log Likelihood for Model 6 ==== -1.32482e+06
+AIC Value for Model: 6 ==== -1.32481e+06
+Delta AIC values : 0 ====16.6903
+Delta AIC values : 1 ====0.381822
+Delta AIC values : 2 ====4.39971
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====17131.1
+Delta AIC values : 5 ====11.1665
+Delta AIC values : 6 ====15.1668
+Relative Likelihood AIC 0 ==== 0.000237542
+Relative Likelihood AIC 1 ==== 0.826206
+Relative Likelihood AIC 2 ==== 0.110819
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 0.00376028
+Relative Likelihood AIC 6 ==== 0.000508828
+AIC Weights  : 0 =====0.000122348
+AIC Weights  : 1 =====0.425543
+AIC Weights  : 2 =====0.0570783
+AIC Weights  : 3 =====0.515057
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====0.00193676
+AIC Weights  : 6 =====0.000262075
+Composite MinNll      : -1.32502e+06
+Toy Entry: 92 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32533e+06
+AIC Value for Model: 0 ==== -1.32533e+06
+Log Likelihood for Model 1 ==== -1.32534e+06
+AIC Value for Model: 1 ==== -1.32533e+06
+Log Likelihood for Model 2 ==== -1.32534e+06
+AIC Value for Model: 2 ==== -1.32533e+06
+Log Likelihood for Model 3 ==== -1.32534e+06
+AIC Value for Model: 3 ==== -1.32533e+06
+Log Likelihood for Model 4 ==== -1.30825e+06
+AIC Value for Model: 4 ==== -1.30823e+06
+Log Likelihood for Model 5 ==== -1.3253e+06
+AIC Value for Model: 5 ==== -1.32529e+06
+Log Likelihood for Model 6 ==== -1.3253e+06
+AIC Value for Model: 6 ==== -1.32529e+06
+Delta AIC values : 0 ====1.65765
+Delta AIC values : 1 ====0.623873
+Delta AIC values : 2 ====4.6269
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====17096.3
+Delta AIC values : 5 ====35.7514
+Delta AIC values : 6 ====39.7517
+Relative Likelihood AIC 0 ==== 0.436563
+Relative Likelihood AIC 1 ==== 0.732028
+Relative Likelihood AIC 2 ==== 0.0989195
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 1.72459e-08
+Relative Likelihood AIC 6 ==== 2.33365e-09
+AIC Weights  : 0 =====0.19253
+AIC Weights  : 1 =====0.322833
+AIC Weights  : 2 =====0.0436247
+AIC Weights  : 3 =====0.441012
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====7.60564e-09
+AIC Weights  : 6 =====1.02917e-09
+Composite MinNll      : -1.32502e+06
+Toy Entry: 93 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32532e+06
+AIC Value for Model: 0 ==== -1.32531e+06
+Log Likelihood for Model 1 ==== -1.32533e+06
+AIC Value for Model: 1 ==== -1.32532e+06
+Log Likelihood for Model 2 ==== -1.32533e+06
+AIC Value for Model: 2 ==== -1.32532e+06
+Log Likelihood for Model 3 ==== -1.32533e+06
+AIC Value for Model: 3 ==== -1.32532e+06
+Log Likelihood for Model 4 ==== -1.30831e+06
+AIC Value for Model: 4 ==== -1.30829e+06
+Log Likelihood for Model 5 ==== -1.32531e+06
+AIC Value for Model: 5 ==== -1.32531e+06
+Log Likelihood for Model 6 ==== -1.32531e+06
+AIC Value for Model: 6 ==== -1.3253e+06
+Delta AIC values : 0 ====11.3855
+Delta AIC values : 1 ====0
+Delta AIC values : 2 ====4.00054
+Delta AIC values : 3 ====0.675896
+Delta AIC values : 4 ====17030.3
+Delta AIC values : 5 ====18.924
+Delta AIC values : 6 ====22.9242
+Relative Likelihood AIC 0 ==== 0.00337025
+Relative Likelihood AIC 1 ==== 1
+Relative Likelihood AIC 2 ==== 0.135299
+Relative Likelihood AIC 3 ==== 0.713232
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 7.77523e-05
+Relative Likelihood AIC 6 ==== 1.05212e-05
+AIC Weights  : 0 =====0.0018198
+AIC Weights  : 1 =====0.53996
+AIC Weights  : 2 =====0.0730559
+AIC Weights  : 3 =====0.385117
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====4.19831e-05
+AIC Weights  : 6 =====5.68101e-06
+Composite MinNll      : -1.32502e+06
+Toy Entry: 94 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32534e+06
+AIC Value for Model: 0 ==== -1.32533e+06
+Log Likelihood for Model 1 ==== -1.32534e+06
+AIC Value for Model: 1 ==== -1.32533e+06
+Log Likelihood for Model 2 ==== -1.32534e+06
+AIC Value for Model: 2 ==== -1.32532e+06
+Log Likelihood for Model 3 ==== -1.32534e+06
+AIC Value for Model: 3 ==== -1.32533e+06
+Log Likelihood for Model 4 ==== -1.32534e+06
+AIC Value for Model: 4 ==== -1.32533e+06
+Log Likelihood for Model 5 ==== -1.32529e+06
+AIC Value for Model: 5 ==== -1.32529e+06
+Log Likelihood for Model 6 ==== -1.32529e+06
+AIC Value for Model: 6 ==== -1.32528e+06
+Delta AIC values : 0 ====0
+Delta AIC values : 1 ====3.04288
+Delta AIC values : 2 ====7.12835
+Delta AIC values : 3 ====0.698463
+Delta AIC values : 4 ====6.00081
+Delta AIC values : 5 ====44.624
+Delta AIC values : 6 ====48.6242
+Relative Likelihood AIC 0 ==== 1
+Relative Likelihood AIC 1 ==== 0.218398
+Relative Likelihood AIC 2 ==== 0.0283204
+Relative Likelihood AIC 3 ==== 0.70523
+Relative Likelihood AIC 4 ==== 0.0497669
+Relative Likelihood AIC 5 ==== 2.04188e-10
+Relative Likelihood AIC 6 ==== 2.76299e-11
+AIC Weights  : 0 =====0.499572
+AIC Weights  : 1 =====0.109105
+AIC Weights  : 2 =====0.0141481
+AIC Weights  : 3 =====0.352313
+AIC Weights  : 4 =====0.0248621
+AIC Weights  : 5 =====1.02007e-10
+AIC Weights  : 6 =====1.38031e-11
+Composite MinNll      : -1.32502e+06
+Toy Entry: 95 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32475e+06
+AIC Value for Model: 0 ==== -1.32474e+06
+Log Likelihood for Model 1 ==== -1.32476e+06
+AIC Value for Model: 1 ==== -1.32475e+06
+Log Likelihood for Model 2 ==== -1.32476e+06
+AIC Value for Model: 2 ==== -1.32475e+06
+Log Likelihood for Model 3 ==== -1.32476e+06
+AIC Value for Model: 3 ==== -1.32475e+06
+Log Likelihood for Model 4 ==== -1.31372e+06
+AIC Value for Model: 4 ==== -1.31371e+06
+Log Likelihood for Model 5 ==== -1.32473e+06
+AIC Value for Model: 5 ==== -1.32473e+06
+Log Likelihood for Model 6 ==== -1.32473e+06
+AIC Value for Model: 6 ==== -1.32472e+06
+Delta AIC values : 0 ====7.39612
+Delta AIC values : 1 ====0.695382
+Delta AIC values : 2 ====4.69971
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====11042.3
+Delta AIC values : 5 ====21.6004
+Delta AIC values : 6 ====25.6007
+Relative Likelihood AIC 0 ==== 0.0247716
+Relative Likelihood AIC 1 ==== 0.706317
+Relative Likelihood AIC 2 ==== 0.095383
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 2.03959e-05
+Relative Likelihood AIC 6 ==== 2.75983e-06
+AIC Weights  : 0 =====0.0135624
+AIC Weights  : 1 =====0.386706
+AIC Weights  : 2 =====0.0522219
+AIC Weights  : 3 =====0.547497
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====1.11667e-05
+AIC Weights  : 6 =====1.511e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 96 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32545e+06
+AIC Value for Model: 0 ==== -1.32544e+06
+Log Likelihood for Model 1 ==== -1.32546e+06
+AIC Value for Model: 1 ==== -1.32545e+06
+Log Likelihood for Model 2 ==== -1.32546e+06
+AIC Value for Model: 2 ==== -1.32544e+06
+Log Likelihood for Model 3 ==== -1.32545e+06
+AIC Value for Model: 3 ==== -1.32545e+06
+Log Likelihood for Model 4 ==== -1.32545e+06
+AIC Value for Model: 4 ==== -1.32544e+06
+Log Likelihood for Model 5 ==== -1.32542e+06
+AIC Value for Model: 5 ==== -1.32542e+06
+Log Likelihood for Model 6 ==== -1.32542e+06
+AIC Value for Model: 6 ==== -1.32542e+06
+Delta AIC values : 0 ====4.71626
+Delta AIC values : 1 ====0.358884
+Delta AIC values : 2 ====4.35796
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====9.99402
+Delta AIC values : 5 ====28.0833
+Delta AIC values : 6 ====32.0836
+Relative Likelihood AIC 0 ==== 0.0945971
+Relative Likelihood AIC 1 ==== 0.835736
+Relative Likelihood AIC 2 ==== 0.113157
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.00675811
+Relative Likelihood AIC 5 ==== 7.97594e-07
+Relative Likelihood AIC 6 ==== 1.07928e-07
+AIC Weights  : 0 =====0.0461393
+AIC Weights  : 1 =====0.407627
+AIC Weights  : 2 =====0.0551918
+AIC Weights  : 3 =====0.487746
+AIC Weights  : 4 =====0.00329624
+AIC Weights  : 5 =====3.89023e-07
+AIC Weights  : 6 =====5.26412e-08
+Composite MinNll      : -1.32502e+06
+Toy Entry: 97 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32507e+06
+AIC Value for Model: 0 ==== -1.32507e+06
+Log Likelihood for Model 1 ==== -1.32507e+06
+AIC Value for Model: 1 ==== -1.32507e+06
+Log Likelihood for Model 2 ==== -1.32507e+06
+AIC Value for Model: 2 ==== -1.32506e+06
+Log Likelihood for Model 3 ==== -1.32507e+06
+AIC Value for Model: 3 ==== -1.32507e+06
+Log Likelihood for Model 4 ==== -1.32037e+06
+AIC Value for Model: 4 ==== -1.32036e+06
+Log Likelihood for Model 5 ==== -1.32503e+06
+AIC Value for Model: 5 ==== -1.32503e+06
+Log Likelihood for Model 6 ==== -1.32503e+06
+AIC Value for Model: 6 ==== -1.32502e+06
+Delta AIC values : 0 ====0.837625
+Delta AIC values : 1 ====0.828052
+Delta AIC values : 2 ====4.83367
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====4709.8
+Delta AIC values : 5 ====37.8666
+Delta AIC values : 6 ====41.8669
+Relative Likelihood AIC 0 ==== 0.657828
+Relative Likelihood AIC 1 ==== 0.660984
+Relative Likelihood AIC 2 ==== 0.0892035
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 5.98928e-09
+Relative Likelihood AIC 6 ==== 8.10445e-10
+AIC Weights  : 0 =====0.273183
+AIC Weights  : 1 =====0.274493
+AIC Weights  : 2 =====0.0370444
+AIC Weights  : 3 =====0.41528
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====2.48723e-09
+AIC Weights  : 6 =====3.36561e-10
+Composite MinNll      : -1.32502e+06
+Toy Entry: 98 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.32503e+06
+AIC Value for Model: 0 ==== -1.32503e+06
+Log Likelihood for Model 1 ==== -1.32505e+06
+AIC Value for Model: 1 ==== -1.32504e+06
+Log Likelihood for Model 2 ==== -1.32505e+06
+AIC Value for Model: 2 ==== -1.32503e+06
+Log Likelihood for Model 3 ==== -1.32504e+06
+AIC Value for Model: 3 ==== -1.32504e+06
+Log Likelihood for Model 4 ==== -1.30822e+06
+AIC Value for Model: 4 ==== -1.3082e+06
+Log Likelihood for Model 5 ==== -1.32502e+06
+AIC Value for Model: 5 ==== -1.32502e+06
+Log Likelihood for Model 6 ==== -1.32502e+06
+AIC Value for Model: 6 ==== -1.32502e+06
+Delta AIC values : 0 ====10.1704
+Delta AIC values : 1 ====0.327534
+Delta AIC values : 2 ====4.33169
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====16834.2
+Delta AIC values : 5 ====18.2872
+Delta AIC values : 6 ====22.2875
+Relative Likelihood AIC 0 ==== 0.0061877
+Relative Likelihood AIC 1 ==== 0.84894
+Relative Likelihood AIC 2 ==== 0.114653
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0
+Relative Likelihood AIC 5 ==== 0.0001069
+Relative Likelihood AIC 6 ==== 1.44654e-05
+AIC Weights  : 0 =====0.00314112
+AIC Weights  : 1 =====0.430955
+AIC Weights  : 2 =====0.0582023
+AIC Weights  : 3 =====0.50764
+AIC Weights  : 4 =====0
+AIC Weights  : 5 =====5.42667e-05
+AIC Weights  : 6 =====7.34319e-06
+Composite MinNll      : -1.32503e+06
+Toy Entry: 99 :  Printing AIC Values
+Log Likelihood for Model 0 ==== -1.3254e+06
+AIC Value for Model: 0 ==== -1.32539e+06
+Log Likelihood for Model 1 ==== -1.3254e+06
+AIC Value for Model: 1 ==== -1.3254e+06
+Log Likelihood for Model 2 ==== -1.3254e+06
+AIC Value for Model: 2 ==== -1.32539e+06
+Log Likelihood for Model 3 ==== -1.3254e+06
+AIC Value for Model: 3 ==== -1.3254e+06
+Log Likelihood for Model 4 ==== -1.3254e+06
+AIC Value for Model: 4 ==== -1.32539e+06
+Log Likelihood for Model 5 ==== -1.32537e+06
+AIC Value for Model: 5 ==== -1.32537e+06
+Log Likelihood for Model 6 ==== -1.32537e+06
+AIC Value for Model: 6 ==== -1.32536e+06
+Delta AIC values : 0 ====4.14803
+Delta AIC values : 1 ====0.482387
+Delta AIC values : 2 ====4.49193
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====7.7731
+Delta AIC values : 5 ====29.1183
+Delta AIC values : 6 ====33.1186
+Relative Likelihood AIC 0 ==== 0.12568
+Relative Likelihood AIC 1 ==== 0.78569
+Relative Likelihood AIC 2 ==== 0.105825
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.020516
+Relative Likelihood AIC 5 ==== 4.75372e-07
+Relative Likelihood AIC 6 ==== 6.43256e-08
+AIC Weights  : 0 =====0.061677
+AIC Weights  : 1 =====0.385575
+AIC Weights  : 2 =====0.0519334
+AIC Weights  : 3 =====0.490747
+AIC Weights  : 4 =====0.0100682
+AIC Weights  : 5 =====2.33287e-07
+AIC Weights  : 6 =====3.15676e-08
+Composite MinNll      : -1.32502e+06
+Chi2 for Toy Comp Model 0:   3.81959e-313
+Chi2 for Toy Comp Model 1:   0
+Chi2 for Toy Comp Model 2:   0
+Chi2 for Toy Comp Model 3:   3.81959e-313
+Chi2 for Toy Comp Model 4:   0
+Chi2 for Toy Comp Model 5:   0
+Chi2 for Toy Comp Model 6:   3.81959e-313
+Chi2 for Toy Comp Model 7:   3.95253e-322
+Chi2 for Toy Comp Model 8:   1.19885e-312
+Chi2 for Toy Comp Model 9:   6.95333e-310
+Chi2 for Toy Comp Model 10:   2.34337e-310
+Chi2 for Toy Comp Model 11:   2.42092e-322
+Chi2 for Toy Comp Model 12:   1.58101e-322
+Chi2 for Toy Comp Model 13:   0
+Chi2 for Toy Comp Model 14:   0
+Chi2 for Toy Comp Model 15:   0
+Chi2 for Toy Comp Model 16:   0
+Chi2 for Toy Comp Model 17:   0
+Chi2 for Toy Comp Model 18:   2.34337e-310
+Chi2 for Toy Comp Model 19:   2.34337e-310
+Chi2 for Toy Comp Model 20:   2.34337e-310
+Chi2 for Toy Comp Model 21:   2.34337e-310
+Chi2 for Toy Comp Model 22:   2.34337e-310
+Chi2 for Toy Comp Model 23:   1.32731e-313
+Chi2 for Toy Comp Model 24:   2.34337e-310
+Chi2 for Toy Comp Model 25:   2.34337e-310
+Chi2 for Toy Comp Model 26:   4.94066e-324
+Chi2 for Toy Comp Model 27:   6.95333e-310
+Chi2 for Toy Comp Model 28:   4.94066e-324
+Chi2 for Toy Comp Model 29:   1.19885e-312
+Chi2 for Toy Comp Model 30:   2.04722e-315
+Chi2 for Toy Comp Model 31:   1.58101e-322
+Chi2 for Toy Comp Model 32:   0
+Chi2 for Toy Comp Model 33:   4.94066e-324
+Chi2 for Toy Comp Model 34:   2.04713e-315
+Chi2 for Toy Comp Model 35:   1.19884e-312
+Chi2 for Toy Comp Model 36:   3.45846e-323
+Chi2 for Toy Comp Model 37:   2.04722e-315
+Chi2 for Toy Comp Model 38:   2.04722e-315
+Chi2 for Toy Comp Model 39:   2.34337e-310
+Chi2 for Toy Comp Model 40:   2.34337e-310
+Chi2 for Toy Comp Model 41:   8.69556e-322
+Chi2 for Toy Comp Model 42:   2.34332e-310
+Chi2 for Toy Comp Model 43:   6.95314e-310
+Chi2 for Toy Comp Model 44:   1.19881e-312
+Chi2 for Toy Comp Model 45:   7.34676e-321
+Chi2 for Toy Comp Model 46:   6.95333e-310
+Chi2 for Toy Comp Model 47:   8.69556e-322
+Chi2 for Toy Comp Model 48:   2.34337e-310
+Chi2 for Toy Comp Model 49:   0
+Chi2 for Toy Comp Model 50:   0
+Chi2 for Toy Comp Model 51:   2.34337e-310
+Chi2 for Toy Comp Model 52:   0
+Chi2 for Toy Comp Model 53:   2.11065e-320
+Chi2 for Toy Comp Model 54:   2.06322e-320
+Chi2 for Toy Comp Model 55:   2.02369e-320
+Chi2 for Toy Comp Model 56:   2.02369e-320
+Chi2 for Toy Comp Model 57:   2.02369e-320
+Chi2 for Toy Comp Model 58:   2.02369e-320
+Chi2 for Toy Comp Model 59:   2.02369e-320
+Chi2 for Toy Comp Model 60:   2.02369e-320
+Chi2 for Toy Comp Model 61:   2.02369e-320
+Chi2 for Toy Comp Model 62:   2.11065e-320
+Chi2 for Toy Comp Model 63:   2.06322e-320
+Chi2 for Toy Comp Model 64:   2.02369e-320
+Chi2 for Toy Comp Model 65:   2.02369e-320
+Chi2 for Toy Comp Model 66:   2.02369e-320
+Chi2 for Toy Comp Model 67:   3.95253e-322
+Chi2 for Toy Comp Model 68:   1.19885e-312
+Chi2 for Toy Comp Model 69:   6.95333e-310
+Chi2 for Toy Comp Model 70:   2.02369e-320
+Chi2 for Toy Comp Model 71:   2.42092e-322
+Chi2 for Toy Comp Model 72:   1.58101e-322
+Chi2 for Toy Comp Model 73:   0
+Chi2 for Toy Comp Model 74:   0
+Chi2 for Toy Comp Model 75:   0
+Chi2 for Toy Comp Model 76:   0
+Chi2 for Toy Comp Model 77:   0
+Chi2 for Toy Comp Model 78:   2.0316e-320
+Chi2 for Toy Comp Model 79:   2.02369e-320
+Chi2 for Toy Comp Model 80:   2.02369e-320
+Chi2 for Toy Comp Model 81:   2.02369e-320
+Chi2 for Toy Comp Model 82:   2.11065e-320
+Chi2 for Toy Comp Model 83:   1.2732e-313
+Chi2 for Toy Comp Model 84:   2.02369e-320
+Chi2 for Toy Comp Model 85:   2.02369e-320
+Chi2 for Toy Comp Model 86:   2.02369e-320
+Chi2 for Toy Comp Model 87:   2.02369e-320
+Chi2 for Toy Comp Model 88:   2.02369e-320
+Chi2 for Toy Comp Model 89:   1.19885e-312
+Chi2 for Toy Comp Model 90:   2.04789e-315
+Chi2 for Toy Comp Model 91:   1.58101e-322
+Chi2 for Toy Comp Model 92:   4.94066e-324
+Chi2 for Toy Comp Model 93:   4.94066e-324
+Chi2 for Toy Comp Model 94:   2.04782e-315
+Chi2 for Toy Comp Model 95:   1.19884e-312
+Chi2 for Toy Comp Model 96:   9.88131e-324
+Chi2 for Toy Comp Model 97:   2.04789e-315
+Chi2 for Toy Comp Model 98:   2.04789e-315
+Chi2 for Toy Comp Model 99:   2.34337e-310
+Signal Bias for Model 0:  0.0895246 +/- 0.0895246
+Signal Bias for Model 1:  0.0896211 +/- 0.0896211
+Signal Bias for Model 2:  0.0889817 +/- 0.0889817
+Signal Bias for Model 3:  0.0891846 +/- 0.0891846
+Signal Bias for Model 4:  0.0892361 +/- 0.0892361
+Signal Bias for Model 5:  0.0889178 +/- 0.0889178
+Signal Bias for Model 6:  0.088621 +/- 0.088621
+Signal Bias for Model 7:  0.089547 +/- 0.089547
+Signal Bias for Model 8:  0.0892891 +/- 0.0892891
+Signal Bias for Model 9:  0.0892078 +/- 0.0892078
+Signal Bias for Model 10:  0.0895357 +/- 0.0895357
+Signal Bias for Model 11:  0.0893633 +/- 0.0893633
+Signal Bias for Model 12:  0.089225 +/- 0.089225
+Signal Bias for Model 13:  0.0894134 +/- 0.0894134
+Signal Bias for Model 14:  0.0893701 +/- 0.0893701
+Signal Bias for Model 15:  0.0892491 +/- 0.0892491
+Signal Bias for Model 16:  0.0892696 +/- 0.0892696
+Signal Bias for Model 17:  0.0892305 +/- 0.0892305
+Signal Bias for Model 18:  0.0895381 +/- 0.0895381
+Signal Bias for Model 19:  0.0895337 +/- 0.0895337
+Signal Bias for Model 20:  0.089302 +/- 0.089302
+Signal Bias for Model 21:  0.0892951 +/- 0.0892951
+Signal Bias for Model 22:  0.0890749 +/- 0.0890749
+Signal Bias for Model 23:  0.0896748 +/- 0.0896748
+Signal Bias for Model 24:  0.0891322 +/- 0.0891322
+Signal Bias for Model 25:  0.0891604 +/- 0.0891604
+Signal Bias for Model 26:  0.0894989 +/- 0.0894989
+Signal Bias for Model 27:  0.0889361 +/- 0.0889361
+Signal Bias for Model 28:  0.0892044 +/- 0.0892044
+Signal Bias for Model 29:  0.0894476 +/- 0.0894476
+Signal Bias for Model 30:  0.089488 +/- 0.089488
+Signal Bias for Model 31:  0.0895612 +/- 0.0895612
+Signal Bias for Model 32:  0.0896139 +/- 0.0896139
+Signal Bias for Model 33:  0.0893291 +/- 0.0893291
+Signal Bias for Model 34:  0.0894677 +/- 0.0894677
+Signal Bias for Model 35:  0.0892091 +/- 0.0892091
+Signal Bias for Model 36:  0.0889753 +/- 0.0889753
+Signal Bias for Model 37:  0.0894386 +/- 0.0894386
+Signal Bias for Model 38:  0.0890774 +/- 0.0890774
+Signal Bias for Model 39:  0.0893542 +/- 0.0893542
+Signal Bias for Model 40:  0.0892872 +/- 0.0892872
+Signal Bias for Model 41:  0.0891861 +/- 0.0891861
+Signal Bias for Model 42:  0.0888884 +/- 0.0888884
+Signal Bias for Model 43:  0.0890857 +/- 0.0890857
+Signal Bias for Model 44:  0.089213 +/- 0.089213
+Signal Bias for Model 45:  0.0892517 +/- 0.0892517
+Signal Bias for Model 46:  0.0891786 +/- 0.0891786
+Signal Bias for Model 47:  0.0896515 +/- 0.0896515
+Signal Bias for Model 48:  0.089327 +/- 0.089327
+Signal Bias for Model 49:  0.0891827 +/- 0.0891827
+Signal Bias for Model 50:  0.0893042 +/- 0.0893042
+Signal Bias for Model 51:  0.0891418 +/- 0.0891418
+Signal Bias for Model 52:  0.0891956 +/- 0.0891956
+Signal Bias for Model 53:  0.0889293 +/- 0.0889293
+Signal Bias for Model 54:  0.0892305 +/- 0.0892305
+Signal Bias for Model 55:  0.0891221 +/- 0.0891221
+Signal Bias for Model 56:  0.0893159 +/- 0.0893159
+Signal Bias for Model 57:  0.0892179 +/- 0.0892179
+Signal Bias for Model 58:  0.0889996 +/- 0.0889996
+Signal Bias for Model 59:  0.0893107 +/- 0.0893107
+Signal Bias for Model 60:  0.0891806 +/- 0.0891806
+Signal Bias for Model 61:  0.0894168 +/- 0.0894168
+Signal Bias for Model 62:  0.0890056 +/- 0.0890056
+Signal Bias for Model 63:  0.0892814 +/- 0.0892814
+Signal Bias for Model 64:  0.0894219 +/- 0.0894219
+Signal Bias for Model 65:  0.0895761 +/- 0.0895761
+Signal Bias for Model 66:  0.0890566 +/- 0.0890566
+Signal Bias for Model 67:  0.0895239 +/- 0.0895239
+Signal Bias for Model 68:  0.0891283 +/- 0.0891283
+Signal Bias for Model 69:  0.0886611 +/- 0.0886611
+Signal Bias for Model 70:  0.0894189 +/- 0.0894189
+Signal Bias for Model 71:  0.0894986 +/- 0.0894986
+Signal Bias for Model 72:  0.0892356 +/- 0.0892356
+Signal Bias for Model 73:  0.0894195 +/- 0.0894195
+Signal Bias for Model 74:  0.0892098 +/- 0.0892098
+Signal Bias for Model 75:  0.0893685 +/- 0.0893685
+Signal Bias for Model 76:  0.0895371 +/- 0.0895371
+Signal Bias for Model 77:  0.0890426 +/- 0.0890426
+Signal Bias for Model 78:  0.088859 +/- 0.088859
+Signal Bias for Model 79:  0.0892132 +/- 0.0892132
+Signal Bias for Model 80:  0.0894482 +/- 0.0894482
+Signal Bias for Model 81:  0.0896842 +/- 0.0896842
+Signal Bias for Model 82:  0.0889884 +/- 0.0889884
+Signal Bias for Model 83:  0.0892418 +/- 0.0892418
+Signal Bias for Model 84:  0.0896957 +/- 0.0896957
+Signal Bias for Model 85:  0.0887931 +/- 0.0887931
+Signal Bias for Model 86:  0.0895823 +/- 0.0895823
+Signal Bias for Model 87:  0.0891215 +/- 0.0891215
+Signal Bias for Model 88:  0.0895937 +/- 0.0895937
+Signal Bias for Model 89:  0.0891923 +/- 0.0891923
+Signal Bias for Model 90:  0.0896457 +/- 0.0896457
+Signal Bias for Model 91:  0.0889456 +/- 0.0889456
+Signal Bias for Model 92:  0.089601 +/- 0.089601
+Signal Bias for Model 93:  0.0893009 +/- 0.0893009
+Signal Bias for Model 94:  0.0897486 +/- 0.0897486
+Signal Bias for Model 95:  0.0891102 +/- 0.0891102
+Signal Bias for Model 96:  0.0895176 +/- 0.0895176
+Signal Bias for Model 97:  0.089531 +/- 0.089531
+Signal Bias for Model 98:  0.0891723 +/- 0.0891723
+Signal Bias for Model 99:  0.0895147 +/- 0.0895147

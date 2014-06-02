@@ -15,6 +15,10 @@ Date: Feb 2014
 #include "RooAddPdf.h"
 
 #include "TFile.h"
+#include "TF1.h"
+#include "TH1.h"
+#include <TFitResult.h>
+#include <TStyle.h>
 #include "TString.h"
 #include "TGraph.h"
 #include "TH1F.h"
@@ -33,33 +37,28 @@ class ShapeStudy {
   ShapeStudy(const TString& inputFileName);
   virtual ~ShapeStudy();
   
-  std::tuple<double,double> getBiasedMass(double k_value, RooDataSet* toydata);
-
+  std::tuple<double,double> getBiasedMass(double k_value, RooAbsData& toydata);
+  
   void run();
-  void print();
+  // void print(std::vector<std::tuple<double,double>> HiggsM, std::vector<std::tuple<double,double>> HiggsM_1s, std::vector<std::tuple<double,double>> HiggsM_2s, std::vector<std::tuple<double,double>> HiggsM_m1s, std::vector<std::tuple<double,double>> HiggsM_m2s, std::vector<std::tuple<double,double>> Diff_1s, std::vector<std::tuple<double,double>> Diff_2s, std::vector<std::tuple<double,double>> Diff_m1s, std::vector<std::tuple<double,double>> Diff_m2s);
+
+  void print(std::vector<std::tuple<double,double>> HiggsM,std::vector<std::tuple<double,double>> HiggsM_1s, std::vector<std::tuple<double,double>> HiggsM_2s, std::vector<std::tuple<double,double>> HiggsM_m1s, std::vector<std::tuple<double,double>> HiggsM_m2s, std::vector<std::tuple<double,double>> Diff_1s, std::vector<std::tuple<double,double>> Diff_2s, std::vector<std::tuple<double,double>> Diff_m1s, std::vector<std::tuple<double,double>> Diff_m2s );
   
  private:
   RooWorkspace *w;
 
   TFile* inputFile = 0;
   std::ofstream outfile;
-  std::vector<TString> catLabels;
-
 
   int SampleSize;
   RooRealVar *mass;
   RooAbsData *dc;
   RooRealVar *Nbkg;
-  RooRealVar nBkgSB;
-  RooRealVar nSigSB;
+  RooRealVar *nBkgSB;
+  RooRealVar *nSigSB;
   float mh=125;
-  int NToys = 10;
+  int NToys = 1;
 
-  std::vector<std::vector<double,double>> HiggsM;
-  std::vector<std::vector<double,double>> HiggsM_1s;
-  std::vector<std::vector<double,double>> HiggsM_2s;
-  std::vector<std::vector<double,double>> HiggsM_m1s;
-  std::vector<std::vector<double,double>> HiggsM_m2s; 
 
 };
 #endif

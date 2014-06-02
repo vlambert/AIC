@@ -19,7 +19,7 @@ BootStrapping::BootStrapping(const TString& inputFileName)
 }
 
 
-RooAbsPdf* BootStrapping::makeFits(int type , RooDataSet *Sample) {
+RooAbsPdf* BootStrapping::makeFits(int type , RooDataSet *Sample, RooRealVar *Nbkg) {
   /* Returns a fitted model for a given data sample and model type
      after calculating the AIC value                               */
 
@@ -30,12 +30,16 @@ RooAbsPdf* BootStrapping::makeFits(int type , RooDataSet *Sample) {
   int k = MakeAICFits::Num_Params(type);
 
   // Extend Background PDF
-  RooRealVar *Nbkg = new RooRealVar("Nbkg","N Background Events",NData,0,1e9);
   RooExtendPdf *BkgModel = new RooExtendPdf("BKGFIT_bkgModel", "Background Model", *ModelShape, *Nbkg);
     
   // Fit Model to Sample data and calculate min Log Likelihood
+  int covariance = 0;
+  RooFitResult *bkg_databkg;
   BkgModel->fitTo(*Sample,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
-  RooFitResult *bkg_databkg = BkgModel->fitTo(*Sample, RooFit::Save(kTRUE),RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+  while (covariance < 2) {
+    bkg_databkg = BkgModel->fitTo(*Sample, RooFit::Save(kTRUE),RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+    covariance = bkg_databkg->covQual();
+  }
   Double_t bkg_databkg_Nll = bkg_databkg->minNll();
     
   // Calculate AIC for each model
@@ -69,12 +73,12 @@ void BootStrapping::run() {
   outfile.open("BootStrappingLogs.txt");
   
   // Set up for model overlay for each toy
-  TCanvas *cv = 0;
-  TLegend *l = 0;
-  RooPlot* f1 = 0;
+  //TCanvas *cv = 0;
+  //TLegend *l = 0;
+  //RooPlot* f1 = 0;
   
   // Set up histogram for Signal Bias values
-  TH1D * SigBias = new TH1D ("Signal Bias", "",NToys,0,NToys+1);
+  TH1D * SigBias = new TH1D ("Signal Bias", "",50,0.087,0.091);
   
   
   for (int i = 0; i<NToys; i++) {
@@ -88,11 +92,11 @@ void BootStrapping::run() {
     w7->setVal(0);
     
     // Create new workspace to output model for toy sample
-    RooWorkspace *wout = new RooWorkspace("AIC");
-    cv = new TCanvas("","",800,600);
-    l = new TLegend(0.55,0.55,0.90,0.85);
-    l->SetTextSize(0.03);
-    f1 = mass->frame();
+    //RooWorkspace *wout = new RooWorkspace("AIC");
+    //cv = new TCanvas("","",800,600);
+    //l = new TLegend(0.55,0.55,0.90,0.85);
+    //l->SetTextSize(0.03);
+    //f1 = mass->frame();
     
     // Generate data sample from original data set
     RooDataSet *Sample = new RooDataSet("Sample","",RooArgSet(*mass));
@@ -106,43 +110,50 @@ void BootStrapping::run() {
       Sample->add(RooArgSet(*mass));
       NSample = Sample->sumEntries();
     }
-    Sample->plotOn(f1);
+    //Sample->plotOn(f1);
     
     // Fit sample and produce pdfs for various models
-    RooAbsPdf* singExp = BootStrapping::makeFits(0, Sample);
+    RooRealVar *Nbkg_0 = new RooRealVar("Nbkg_0","N Background Events",NData,0,1e9);
+    RooAbsPdf* singExp = BootStrapping::makeFits(0, Sample, Nbkg_0);
     singExp->SetNameTitle(Form("singExp_%d",i),"Single Exponential");
-    singExp->plotOn(f1,RooFit::Name(Form("singExp_%d",i)),RooFit::LineColor(kRed));
-    l->AddEntry(f1->findObject(Form("singExp_%d",i)),"Single Exponential","l");
+    //singExp->plotOn(f1,RooFit::Name(Form("singExp_%d",i)),RooFit::LineColor(kRed));
+    //l->AddEntry(f1->findObject(Form("singExp_%d",i)),"Single Exponential","l");
     
-    RooAbsPdf* doubExp = BootStrapping::makeFits(1, Sample);
+    RooRealVar *Nbkg_1 = new RooRealVar("Nbkg_1","N Background Events", NData, 0,1e9);
+    RooAbsPdf* doubExp = BootStrapping::makeFits(1, Sample, Nbkg_1);
     doubExp->SetNameTitle(Form("doubExp_%d",i),"Double Exponential");
-    doubExp->plotOn(f1,RooFit::Name(Form("doubExp_%d",i)),RooFit::LineColor(kBlue));
-    l->AddEntry(f1->findObject(Form("doubExp_%d",i)),"Double Exponential","l");
+    //doubExp->plotOn(f1,RooFit::Name(Form("doubExp_%d",i)),RooFit::LineColor(kBlue));
+    //l->AddEntry(f1->findObject(Form("doubExp_%d",i)),"Double Exponential","l");
     
-    RooAbsPdf* tripExp = BootStrapping::makeFits(2, Sample);
+    RooRealVar *Nbkg_2 = new RooRealVar("Nbkg_2","N Background Events", NData, 0,1e9);
+    RooAbsPdf* tripExp = BootStrapping::makeFits(2, Sample, Nbkg_2);
     tripExp->SetNameTitle(Form("tripExp_%d",i),"Triple Exponential");
-    tripExp->plotOn(f1,RooFit::Name(Form("tripExp_%d",i)),RooFit::LineColor(38));
-    l->AddEntry(f1->findObject(Form("tripExp_%d",i)),"Triple Exponential","l");
+    //tripExp->plotOn(f1,RooFit::Name(Form("tripExp_%d",i)),RooFit::LineColor(38));
+    //l->AddEntry(f1->findObject(Form("tripExp_%d",i)),"Triple Exponential","l");
     
-    RooAbsPdf* modExp  = BootStrapping::makeFits(3, Sample);
+    RooRealVar *Nbkg_3 = new RooRealVar("Nbkg_3","N Background Events", NData, 0,1e9);
+    RooAbsPdf* modExp  = BootStrapping::makeFits(3, Sample, Nbkg_3);
     modExp->SetNameTitle(Form("modExp_%d",i),"Modified Exponential");
-    modExp->plotOn(f1,RooFit::Name(Form("modExp_%d",i)),RooFit::LineColor(kMagenta));
-    l->AddEntry(f1->findObject(Form("modExp_%d",i)),"Modified Exponential","l");
+    //modExp->plotOn(f1,RooFit::Name(Form("modExp_%d",i)),RooFit::LineColor(kMagenta));
+    //l->AddEntry(f1->findObject(Form("modExp_%d",i)),"Modified Exponential","l");
     
-    RooAbsPdf* Poly    = BootStrapping::makeFits(4, Sample);
+    RooRealVar *Nbkg_4 = new RooRealVar("Nbkg_4","N Background Events", NData, 0,1e9);
+    RooAbsPdf* Poly    = BootStrapping::makeFits(4, Sample, Nbkg_4);
     Poly->SetNameTitle(Form("Poly_%d",i),"5th Order Polynomial");
-    Poly->plotOn(f1,RooFit::Name(Form("Poly_%d",i)),RooFit::LineColor(7));
-    l->AddEntry(f1->findObject(Form("Poly_%d",i)),"5th Order Polynomial","l");
+    //Poly->plotOn(f1,RooFit::Name(Form("Poly_%d",i)),RooFit::LineColor(7));
+    //l->AddEntry(f1->findObject(Form("Poly_%d",i)),"5th Order Polynomial","l");
     
-    RooAbsPdf* singPow = BootStrapping::makeFits(5, Sample);
+    RooRealVar *Nbkg_5 = new RooRealVar("Nbkg_5","N Background Events", NData, 0,1e9);
+    RooAbsPdf* singPow = BootStrapping::makeFits(5, Sample, Nbkg_5);
     singPow->SetNameTitle(Form("singPow_%d",i),"Single Power Law");
-    singPow->plotOn(f1,RooFit::Name(Form("doubPow_%d",i)),RooFit::LineColor(kGreen));
-    l->AddEntry(f1->findObject(Form("singPow_%d",i)),"Single Power Law","l");
+    //singPow->plotOn(f1,RooFit::Name(Form("doubPow_%d",i)),RooFit::LineColor(kGreen));
+    //l->AddEntry(f1->findObject(Form("singPow_%d",i)),"Single Power Law","l");
     
-    RooAbsPdf* doubPow = BootStrapping::makeFits(6, Sample);
+    RooRealVar *Nbkg_6 = new RooRealVar("Nbkg_6","N Background Events", NData, 0,1e9);
+    RooAbsPdf* doubPow = BootStrapping::makeFits(6, Sample, Nbkg_6);
     doubPow->SetNameTitle(Form("doubPow_%d",i),"Double Power Law");
-    doubPow->plotOn(f1,RooFit::Name(Form("doubPow_%d",i)),RooFit::LineColor(41));
-    l->AddEntry(f1->findObject(Form("doubPow_%d",i)),"Double Power Law","l");
+    //doubPow->plotOn(f1,RooFit::Name(Form("doubPow_%d",i)),RooFit::LineColor(41));
+    //l->AddEntry(f1->findObject(Form("doubPow_%d",i)),"Double Power Law","l");
     
     
     RooArgList* ModelSet = new RooArgList(*singExp,*doubExp,*tripExp,*modExp,*Poly,*singPow,*doubPow);
@@ -178,6 +189,14 @@ void BootStrapping::run() {
 
     //Build Composite Model
     RooAbsPdf *JointModel = new RooAddPdf("Composite", "Background Model", *ModelSet, *Weights);
+
+    RooArgSet* vjoint = JointModel->getVariables();
+    RooFIter iter = vjoint->fwdIterator();
+    RooAbsArg* a;
+    while ( ( a=iter.next()) ){
+      if(string(a->GetName()).compare("mass")==0) continue;
+      static_cast<RooRealVar*>(a)->setConstant(kTRUE);
+    }
     // fit composite model to data
     RooRealVar *NBkg = new RooRealVar("NBkg","N Background Events",NData,0,1e9);
     RooExtendPdf *JointModelExt = new RooExtendPdf("","",*JointModel,*NBkg);
@@ -185,84 +204,99 @@ void BootStrapping::run() {
     JointModelExt->fitTo(*dc,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
     RooFitResult *composite_databkg = JointModelExt->fitTo(*dc,RooFit::Save(kTRUE),RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
 
-    // set all parameters constant
-    RooArgSet* vjoint = JointModelExt->getVariables();
-    RooFIter iter = vjoint->fwdIterator();
-    RooAbsArg* a;
-    while ( (a=iter.next()) ){
-      if(string(a->GetName()).compare("mass")==0) continue;
-      static_cast<RooRealVar*>(a)->setConstant(kTRUE);
-    }
+    // Determine number of background events in signal region
     mass->setRange("SigRegion",123.0,127.0);
+    mass->setRange("Full",mass->getMin(),mass->getMax());
+    RooAbsReal *NSig = JointModelExt->createIntegral(*mass,RooFit::Range("SigRegion"),RooFit::NormSet(*mass));
+    RooAbsReal *NAll = JointModelExt->createIntegral(*mass,RooFit::Range("Full"),RooFit::NormSet(*mass));
+    NSigRange[i] = NSig->getVal() / NAll->getVal();
+    NSigRangeE[i] = NSigRange[i] * sqrt(1/NAll->getVal() + pow(NSig->getPropagatedError(*composite_databkg)/NAll->getVal(),2));
+    SigBias->Fill(NSigRange[i]);
+    //SigBias->SetBinError(double(i),NSigRangeE[i]);
+    // plot and gaussian fit, look at error of gaussian in comparison to the fit error on the number of events within the signal range
+    //Hgg paper - quoted uncertainty on number of signal events
 
-    double NSig = JointModelExt->createIntegral(*mass,RooFit::Range("SigRegion"),RooFit::NormSet(*mass))->getVal();
-    double NSigRange = NSig * NBkg->getVal();
-    double NSigRangeE = NSig * NBkg->getError();
-    SigBias->Fill(double(i),NSigRange);
-    SigBias->SetBinError(double(i),NSigRangeE);
-
-    if (NToys <= 10){
     CompositeM.push_back(JointModelExt);
-    }
-    if (NToys > 10){
-      if (i%10 ==0){
-	CompositeM.push_back(JointModelExt);
-      }
-    }
-    //Plot joing model and save it to workspace
-    JointModelExt->plotOn(f1,RooFit::Name("CompModel"),RooFit::LineColor(28));
-    l->AddEntry(f1->findObject("CompModel"),"Composite Model","l");
+
+  
+    //Plot joint model and save it to workspace
+    //JointModelExt->plotOn(f1,RooFit::Name("CompModel"),RooFit::LineColor(28));
+    //l->AddEntry(f1->findObject("CompModel"),"Composite Model","l");
 
     LL[i] = 2*(composite_databkg->minNll());
-    wout->import(*JointModelExt);
+    //wout->import(*JointModelExt);
     
     // Print logs and save workspace to a ROOT file
     print(i);
     
-    f1->Draw();
-    l->Draw();
-    cv->Update();   
-    cv->SaveAs(Form("Workspaces/overlayPlots_%d.pdf",i),"RECREATE");
+    //f1->Draw();
+    //l->Draw();
+    //cv->Update();   
+    //cv->SaveAs(Form("Workspaces/overlayPlots_%d.pdf",i),"RECREATE");
 
     
-    outputFile = new TFile(Form("Workspaces/AICModels_%d.root",i),"RECREATE");
-    outputFile->cd();
-    wout->Write(wout->GetName(),TObject::kWriteDelete);
-    outputFile->Close();
+    //outputFile = new TFile(Form("Workspaces/AICModels_%d.root",i),"RECREATE");
+    //outputFile->cd();
+    //wout->Write(wout->GetName(),TObject::kWriteDelete);
+    //outputFile->Close();
+
+    RooArgSet* vjointend = JointModelExt->getVariables();
+    RooFIter iterend = vjointend->fwdIterator();
+    RooAbsArg* aend;
+    while ( ( aend=iterend.next()) ){
+      if(string(aend->GetName()).compare("mass")==0) continue;
+      static_cast<RooRealVar*>(aend)->setConstant(kFALSE);
+    }
+    
     delete composite_databkg;
+    delete ModelSet;
+    delete Weights;
+    delete NAll;
+    delete NSig;
     delete Sample;
-    delete wout;
+    //delete wout;
   }
   
-  RooPlot *frame = mass->frame();
-  TCanvas *c = new TCanvas("","",800,600);
-  RooDataHist *dh = new RooDataHist("dh","dh",RooArgSet(*mass),*dc);
-  dh->plotOn(frame,RooFit::Name("Data"));
-  std::vector<Int_t> color = {2,3,4,6,5,28,8,9,12,7};
-  for (int j = 0; j<NToys; j++) {
-    CompositeM[j]->plotOn(frame,RooFit::Name(Form("CompModel_%d",j)),RooFit::LineColor(color[j]));
-  }
+  //RooPlot *frame = mass->frame();
+  TCanvas *c = 0;
+  //c = new TCanvas("","",800,600);
+  //RooDataHist *dh = new RooDataHist("dh","dh",RooArgSet(*mass),*dc);
+  //dh->plotOn(frame,RooFit::Name("Data"));
+  //std::vector<Int_t> color = {2,3,4,6,5,28,8,9,12,7};
+  //for (int j = 0; j<NToys; j++) {
+  //  CompositeM[j]->plotOn(frame,RooFit::Name(Form("CompModel_%d",j)),RooFit::LineColor(color[j]));
+  //}
   
-  frame->Draw();
+  //frame->Draw();
   for (int k = 0; k<NToys;k++) {
-    Chi2[k] = frame->chiSquare(Form("CompModel_%d",k),"Data");
+    //Chi2[k] = frame->chiSquare(Form("CompModel_%d",k),"Data");
     outfile<< "Chi2 for Toy Comp Model "<<k<< ":   " << Chi2[k] << std::endl; 
   }
+  for (int k = 0; k<NToys; k++) {
+    outfile<< "Signal Bias for Model " <<k<< ":  "<< NSigRange[k] << " +/- " << NSigRangeE[k] << std::endl;
+  }
 
-  c->SaveAs("CompositeModels.pdf");
+  //c->SaveAs("CompositeModels.pdf");
+
 
   c = new TCanvas("","",800,600);
   SigBias->Draw();
+  TFile *histofile = new TFile("BootStrap_SigBiasHistos.root","RECREATE"); 
+  SigBias->Write();
+  histofile->Close();
+  TF1 *func1 = new TF1("func1","gaus",0.087,0.091);
+  TFitResultPtr r = SigBias->Fit(func1,"RS");
+  gStyle->SetOptFit(0111);
   c->SaveAs("BootStrap_SigBias.pdf");
-
-  std::cout<<"finished with everything"<<std::endl;
+  
   outfile.close();
-  std::cout<< "Yelling at literally nothing"<<std::endl;
+  std::cout<< "file closed"<<std::endl;
+  inputFile->Close();
 }
 
 void BootStrapping::print(int toy) {
   outfile<<"Toy Entry: " << toy << " :  Printing AIC Values" << std::endl;
-  for (int type = 0; type<nModels; type++) {
+  /*for (int type = 0; type<nModels; type++) {
     outfile<<"Log Likelihood for Model " << type << " ==== " << LogLikelihood[type] <<std::endl;
     outfile<<"AIC Value for Model: " << type << " ==== " << AIC_bkg_array[type]  << std::endl;
   }
@@ -276,6 +310,7 @@ void BootStrapping::print(int toy) {
     outfile<<"AIC Weights  : " << type << " =====" << AICweights[type] <<std::endl;
   }
   outfile<<"Composite MinNll      : "  << LL[toy] <<std::endl;
+  */
 }
  
   

@@ -1,0 +1,161 @@
+#ifndef __CINT__
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <stdio.h>
+#endif
+
+#include <math.h>
+#include <TROOT.h>
+#include <TFile.h>
+#include <TTree.h>
+#include <TH1F.h>
+#include <THStack.h>
+#include <TLegend.h>
+#include <TCanvas.h>
+#include <vector>
+#include <map>
+
+
+// Sing Exp
+// <B-Btruth/Btruth>
+
+
+Int_t bkgColors[7] = { kRed, kBlue, kGreen+2, kMagenta, kCyan, kYellow, kBlack};
+string modelLegendLabels[7] = { "Single Exp.",
+				"Double Exp.",
+				"Triple Exp.",
+				"Modified Exp.",
+				"Polynomial",
+				"Single Power",
+				"Double Power"};
+
+string LatexLabels[7] = { "Single Exp.",
+			  "Double Exp.",
+			  "Triple Exp.",
+			  "Modified Exp.",
+			  "Polynomial",
+			  "Single Power",
+			  "Double Power"};
+  
+void BiasDiff () {
+  vector<TH1F*> AIC;
+  
+  for (UInt_t i = 1 ; i <= 7; i++){
+    AIC.push_back( new TH1F( Form("AIC_%d",i), " ", 9, 0,6 ));
+    AIC[i-1]->GetXaxis()->SetBinLabel(1,"category 0");
+    AIC[i-1]->GetXaxis()->SetBinLabel(2,"category 1");
+    AIC[i-1]->GetXaxis()->SetBinLabel(3,"category 2");
+    AIC[i-1]->GetXaxis()->SetBinLabel(4,"category 3");
+    AIC[i-1]->GetXaxis()->SetBinLabel(5,"Inclusive");
+    AIC[i-1]->SetFillColor(bkgColors[i-1]);
+    AIC[i-1]->SetLineColor(bkgColors[i-1]);
+  }
+  
+  AIC[0]->Fill(1.0,0.02);
+  AIC[0]->Fill(2.0,0.3089);
+  AIC[0]->Fill(3.0,0.62);
+  AIC[0]->Fill(4.0,0.36);
+  AIC[0]->Fill(5.0,0.03);
+  
+  AIC[1]->Fill(1.0,0.08);
+  AIC[1]->Fill(2.0,0.21);
+  AIC[1]->Fill(3.0,0.08);
+  AIC[1]->Fill(4.0,0.16);
+  AIC[1]->Fill(5.0,0.33);
+  
+  AIC[2]->Fill(1.0,0.01);
+  AIC[2]->Fill(2.0,0.02);
+  AIC[2]->Fill(3.0,0.01);
+  AIC[2]->Fill(4.0,0.02);
+  AIC[2]->Fill(5.0,0.04);
+  
+  AIC[3]->Fill(1.0,0.20);
+  AIC[3]->Fill(2.0,0.38);
+  AIC[3]->Fill(3.0,0.24);
+  AIC[3]->Fill(4.0,0.451);
+  AIC[3]->Fill(5.0,0.60);
+  
+  AIC[4]->Fill(1.0,0.03);
+  AIC[4]->Fill(2.0,0.08);
+  AIC[4]->Fill(3.0,0.017);
+  AIC[4]->Fill(4.0,0.001);
+  AIC[4]->Fill(5.0,0.0001);
+  
+  AIC[5]->Fill(1.0,0.58);
+  AIC[5]->Fill(2.0,0.001);
+  AIC[5]->Fill(3.0,0.03);
+  AIC[5]->Fill(4.0,0.007);
+  AIC[5]->Fill(5.0,0.000003);
+  
+  AIC[6]->Fill(1.0,0.08);
+  AIC[6]->Fill(2.0,0.0001);
+  AIC[6]->Fill(3.0,0.003);
+  AIC[6]->Fill(4.0,0.001);
+  AIC[6]->Fill(5.0,0.0000004);
+  
+  TCanvas *cv = 0;
+  TLegend *legend = 0;
+  bool firstdrawn = false;
+  
+  // ===================================
+  //           AIC
+  // ===================================
+  
+  cv = new TCanvas("cv","cv",800,600);
+  legend = new TLegend(0.64,0.64,0.90,0.84);
+  legend->SetTextSize(0.03);
+  legend->SetBorderSize(0);
+  legend->SetFillStyle(0);
+  
+  THStack *stackAIC = new THStack();
+  for (Int_t i = AIC.size()-1; i>=0; i--) {
+    if (AIC[i]->Integral()>0) {
+      stackAIC->Add(AIC[i]);
+      legend->AddEntry(AIC[i],modelLegendLabels[i].c_str(),"F");
+    }
+  }
+  stackAIC->Draw();
+  stackAIC->GetHistogram()->GetXaxis()->SetTitle(((TH1F*)(stackAIC->GetHists()->At(0)))->GetXaxis()->GetTitle());
+  legend->Draw();
+  cv->SaveAs("AICvalues.pdf");
+  
+  // =======================================================
+  
+  TH1F* Bias = new TH1F("Bias","",7, 0,8);
+  legend = new TLegend(0.64,0.64,0.92,0.94);
+  
+  Bias->GetXaxis()->SetBinLabel(1,"Single Exp.");
+  Bias->GetXaxis()->SetBinLabel(2,"Double Exp.");
+  Bias->GetXaxis()->SetBinLabel(3,"Triple Exp.");
+  Bias->GetXaxis()->SetBinLabel(4,"Modified Exp.");
+  Bias->GetXaxis()->SetBinLabel(5,"Polynomial");
+  Bias->GetXaxis()->SetBinLabel(6,"Single Power");
+  Bias->GetXaxis()->SetBinLabel(7,"Double Power");
+  
+  double SingExp = ( (0.0042-0.0033)/0.0033+(0.0007-0.0036)/0.0036+(0.0180-0.012)/0.012+(0.0090-0.0023)/0.0023+ (0.0033-0.0031)/0.0031 ) /5;
+  Bias->Fill(1.0,SingExp);
+  
+  double DoubExp = ( (0.0045-0.0043)/0.0043 + (0.0035-0.0018)/0.0018 + (0.0074-0.0084)/0.0084 + (0.0053-0.0065)/0.0065 + (0.0016-0.0029)/0.0029 ) /5;
+  Bias->Fill(2.0,DoubExp);
+  
+  double TripExp = ( (0.0036-0.0049)/0.0049 + (0.0075-0.0029)/0.0029 + (0.0125-0.0126)/0.0126 + (0.0041-0.0031)/0.0031 + (0.0053-0.0027)/0.0027 )/ 5;
+  Bias->Fill(3.0,TripExp);
+  
+  double ModExp = ( (0.0088-0.0122)/0.0122  + (0.0072-0.0064)/0.0064 + (0.0064-0.0057)/0.0057 ) / 3;
+  Bias->Fill(4.0,ModExp);
+  
+  double Poly = ( (0.0142-0.0254)/0.0254 + (0.0118-0.0120)/0.0120 + (0.0024-0.0105)/0.0105 + (0.0057-0.0041)/0.0041 ) / 4;
+  Bias->Fill(5.0,Poly);
+  
+  double SingPow = ((0.0047 - 0.0043)/0.0043 + (0.0091 - 0.0083)/0.0083 + (0.0062 - 0.0071)/0.0071 + (0.0129-0.0120)/0.0120 + (0.0035 - 0.0014)/0.0014  ) / 5;
+  Bias->Fill(6.0,SingPow);
+  
+  double DoubPow = ( (0.0040 - 0.0059)/0.0059 + (0.004 - 0.0009)/0.0009 + (0.0088 - 0.0046)/0.0046 + (0.0026 - 0.0033)/0.0033 + (0.0014 - 0.0022)/0.0022 ) / 5;
+  Bias->Fill(7.0,DoubPow);
+  
+  cv = new TCanvas("cv","cv",800,600);
+  Bias->Draw();
+  cv->SaveAs("BiasAverages.pdf");
+}

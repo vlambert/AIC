@@ -1,0 +1,46 @@
+Printing AIC Values
+average covariance quality0 ===3
+Log Likelihood for Model 0 ==== -472751.8289
+AIC Value for Model: 0 ==== -472747.8287
+average covariance quality1 ===3
+Log Likelihood for Model 1 ==== -472754.2235
+AIC Value for Model: 1 ==== -472746.2226
+average covariance quality2 ===2
+Log Likelihood for Model 2 ==== -472754.2355
+AIC Value for Model: 2 ==== -472742.2335
+average covariance quality3 ===2
+Log Likelihood for Model 3 ==== -472754.2166
+AIC Value for Model: 3 ==== -472748.2161
+average covariance quality4 ===3
+Log Likelihood for Model 4 ==== -472747.3278
+AIC Value for Model: 4 ==== -472735.3257
+average covariance quality5 ===3
+Log Likelihood for Model 5 ==== -472743.7794
+AIC Value for Model: 5 ==== -472739.7791
+average covariance quality6 ===3
+Log Likelihood for Model 6 ==== -472743.7794
+AIC Value for Model: 6 ==== -472735.7784
+Delta AIC values : 0 ====0.3873986426
+Delta AIC values : 1 ====1.993475408
+Delta AIC values : 2 ====5.982529966
+Delta AIC values : 3 ====0
+Delta AIC values : 4 ====12.89030132
+Delta AIC values : 5 ====8.436927665
+Delta AIC values : 6 ====12.43762734
+Relative Likelihood AIC 0 ==== 0.8239055979
+Relative Likelihood AIC 1 ==== 0.3690815325
+Relative Likelihood AIC 2 ==== 0.05022386419
+Relative Likelihood AIC 3 ==== 1
+Relative Likelihood AIC 4 ==== 0.001588205271
+Relative Likelihood AIC 5 ==== 0.01472124144
+Relative Likelihood AIC 6 ==== 0.001991606523
+AIC Weights  : 0 =====0.3643162541
+AIC Weights  : 1 =====0.1632012232
+AIC Weights  : 2 =====0.02220809049
+AIC Weights  : 3 =====0.4421820352
+AIC Weights  : 4 =====0.0007022758391
+AIC Weights  : 5 =====0.006509468499
+AIC Weights  : 6 =====0.0008806526256
+Composite Log Likelihood:  -472753.9417
+Composite Chi^2:  1.0052
+Compositve covariance: 3
