@@ -78,7 +78,7 @@ void BootStrapping::run() {
   //RooPlot* f1 = 0;
   
   // Set up histogram for Signal Bias values
-  TH1D * SigBias = new TH1D ("Signal Bias", "",50,0.087,0.091);
+  TH1D * SigBias = new TH1D ("SignalBias", "",50,0.087,0.091);
   
   
   for (int i = 0; i<NToys; i++) {

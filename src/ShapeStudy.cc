@@ -1,5 +1,9 @@
+// ========================================================== //                                  
+//    Motivational study of bias from H->gg background        //
+//                     slope uncertainty                      //
+//               Valere Lambert, Caltech 2014                 //                                 
+// ========================================================== //
 #include "ShapeStudy.h"
-
 #include "assert.h"
 
 ShapeStudy::ShapeStudy(const TString& inputFileName)

@@ -1,3 +1,8 @@
+// ========================================================== //
+//           Bootstrapping analysis for stability of          //
+//              H->gg background composite modeling           //     
+//               Valere Lambert, Caltech 2014                 //                                  
+// ========================================================== //
 #include "BootStrapping.h"
 #include "TAttLine.h"
 #include "TCanvas.h"
@@ -20,8 +25,8 @@ BootStrapping::BootStrapping(const TString& inputFileName)
 
 
 RooAbsPdf* BootStrapping::makeFits(int type , RooDataSet *Sample, RooRealVar *Nbkg) {
-  /* Returns a fitted model for a given data sample and model type
-     after calculating the AIC value                               */
+  // Returns a fitted model for a given data sample and model type
+  // after calculating the AIC value                              
 
   // Build Model Shape
   RooAbsPdf* ModelShape = MakeAICFits::getBackgroundPdf(type,mass);
@@ -52,7 +57,6 @@ RooAbsPdf* BootStrapping::makeFits(int type , RooDataSet *Sample, RooRealVar *Nb
   
   return BkgModel;
 }
-
 
 void BootStrapping::run() {
   dc = w->data("Data_Combined");
@@ -213,12 +217,9 @@ void BootStrapping::run() {
     NSigRangeE[i] = NSigRange[i] * sqrt(1/NAll->getVal() + pow(NSig->getPropagatedError(*composite_databkg)/NAll->getVal(),2));
     SigBias->Fill(NSigRange[i]);
     //SigBias->SetBinError(double(i),NSigRangeE[i]);
-    // plot and gaussian fit, look at error of gaussian in comparison to the fit error on the number of events within the signal range
-    //Hgg paper - quoted uncertainty on number of signal events
 
     CompositeM.push_back(JointModelExt);
 
-  
     //Plot joint model and save it to workspace
     //JointModelExt->plotOn(f1,RooFit::Name("CompModel"),RooFit::LineColor(28));
     //l->AddEntry(f1->findObject("CompModel"),"Composite Model","l");

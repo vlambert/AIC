@@ -404,7 +404,7 @@ void MakeBiasStudy::printFormatted(const biasList& list) {
       for (auto BiasIt : list.at(catIt).at(truthIt) ) {
 	outfile << Form(" & %10.7f ",BiasIt) << "   " ;
       }
-      outfile << " \\\ \\hline" <<std::endl;
+      outfile << " \\\\ \\hline" <<std::endl;
     }
   }
 }

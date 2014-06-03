@@ -1,3 +1,8 @@
+// ========================================================== //
+//    Multimodel Averaging for H->gg background modeling,     //
+//    including construction of composite background model    //
+//               Valere Lambert, Caltech 2014                 //
+// ========================================================== //
 #include "MakeAICFits.h"
 #include "TAttLine.h"
 #include "TCanvas.h"
@@ -5,7 +10,6 @@
 #include "RooPlot.h"
 #include "RooTrace.h"
 #define NUM_CPU 1
-
 #define __DO_TRACE 0
 
 using namespace std;
@@ -21,6 +25,7 @@ MakeAICFits::MakeAICFits(const TString& inputFileName)
 }
 
 void MakeAICFits::getLabels(const char *varName, std::vector<TString> *lblVec, RooWorkspace* w){
+  // Grab category labels from the data workspace
   RooCategory* labels = ((RooCategory*)w->obj(varName));
   lblVec->clear();
   if(labels==0) return;
@@ -31,72 +36,72 @@ void MakeAICFits::getLabels(const char *varName, std::vector<TString> *lblVec, R
   }
 }
 
-int MakeAICFits::Num_Params(int type) {                                                                                                                     
-  int Parameters;                                                                                                                                           
-  
-  switch(type){                                                                                                                                              
-  case kSingleExp:                                                                                                                                           
-    {                                                                                                                                                        
-      //single exponential                                                                                                                                   
-      Parameters = 2; //1                                                                                                                                       
-      break;                                                                                                                                                 
-    }                                                                                                                                                        
-  case kDoubleExp:                                                                                                                                           
-    {                                                                                                                                                        
-      // double exponential                                                                                                                                  
-      Parameters = 4;    //3                                                                                                                                    
-      break;                                                                                                                                                
-    }                                                                                                                                                        
-  case kTripleExp:                                                                                                                                           
-    {                                                                                                                                                        
+int MakeAICFits::Num_Params(int type) {
+  // Number of estimable parameters
+  int Parameters;     
+  switch(type){
+  case kSingleExp:
+    { 
+      //single exponential
+      Parameters = 2;
+      break;
+    }
+  case kDoubleExp:
+    {
+      // double exponential
+      Parameters = 4;
+      break;
+    }
+  case kTripleExp:
+    {
       // triple exponential
-      Parameters = 6; //5
-      break;                                                                                                                                                 
-    }                                                                                                                                                        
-  case kModifiedExp:                                                                                                                                         
-    {                                                                                                                                                        
-      // modified exponential                                                                                                                                
-      Parameters = 3; //2                                                                                                                                        
-      break;                                                                                                                                                 
-    }                                                                                                                                                        
-  case kPoly:                                                                                                                                                
-    {                                                                                                                                                        
-      // polynomial                                                                                                                                          
-      Parameters = 6;                                                                                                                                        
-      break;                                                                                                                                                 
-    }                                                                                                                                                        
-  case kPow:                                                                                                                                                 
-    {                                                                                                                                                        
-      //Power                                                                                                                                                
-      Parameters = 2; //1                                                                                                                                       
-      break;                                                                                                                                                 
+      Parameters = 6;
+      break;
+    }
+  case kModifiedExp:
+    { 
+      // modified exponential 
+      Parameters = 3; 
+      break;
+    } 
+  case kPoly:
+    { 
+      // polynomial 
+      Parameters = 6;
+      break; 
+    }
+  case kPow:
+    { 
+      //Power 
+      Parameters = 2;
+      break; 
     }                                              
-  case kDoublePow:                                                                                                                                           
-    {                                                                                                                                                        
-      // Double Power                                                                                                                                        
-      Parameters = 4; //3                                                                                                                                        
-      break;                                                                                                                                                 
-    }                                                                                                                                                        
-  default:                                                                                                                                                   
-    std::cout << "Invalid Background Model" << std::endl;                                                                                                    
-    assert(false);                                                                                                                                           
-    break;                                                                                                                                                   
-  }                                                                                                                                                          
-  return Parameters;                                                                                                                                         
+  case kDoublePow:
+    { 
+      // Double Power
+      Parameters = 4;
+      break;
+    }
+  default: 
+    std::cout << "Invalid Background Model" << std::endl; 
+    assert(false);
+    break;  
+  } 
+  return Parameters; 
 }        
 
 
 RooAbsPdf* MakeAICFits::getBackgroundPdf(int type, RooRealVar* mass) {                  
-  //background model                                                                                                                                         
-  RooAbsPdf* BkgShape;                                                                                                                                       
-  switch(type){                                                                                                                                              
-  case kSingleExp:                                                                                                                                           
-    {                                                                                                                                                        
-      //single exponential                                                                                                                                     
+  //background model
+  RooAbsPdf* BkgShape;
+  switch(type){
+  case kSingleExp:
+    { 
+      //single exponential
       RooRealVar* alpha1 = new RooRealVar("alpha1","alpha1",-0.1,-1.,0.);                            
       BkgShape = new RooExponential("SingleExp","Background Model",*mass,*alpha1);                    
-      break;                                                                                                                                                 
-    }                                                                                                                                                        
+      break;
+    }
   case kDoubleExp:                                                                                                                                           
     {                                                                                                                                                        
       //double exponential                                                                                                                                   
@@ -104,14 +109,14 @@ RooAbsPdf* MakeAICFits::getBackgroundPdf(int type, RooRealVar* mass) {
       RooRealVar* alpha2_2 = new RooRealVar("alpha2_2","alpha2_22",-0.15,-1.,0.);                              
       RooRealVar* f1_bkg  = new RooRealVar("f1_bkg","f1_bkg",0.1,0,1);                                        
       RooExponential* exp1 = new RooExponential("exp1","exp1",*mass,*alpha1_2);                          
-      RooExponential* exp2 = new RooExponential("exp2","exp2",*mass,*alpha2_2);                          
-                                                                                                                                                               
-      BkgShape = new RooAddPdf("DoubleExp","Background Model",RooArgList(*exp1,*exp2),*f1_bkg);                                                                                                
-      break;                                                                                                                                                   
+      RooExponential* exp2 = new RooExponential("exp2","exp2",*mass,*alpha2_2);
+
+      BkgShape = new RooAddPdf("DoubleExp","Background Model",RooArgList(*exp1,*exp2),*f1_bkg);
+      break;  
     }                                                                  
-  case kTripleExp:                                                                                                                                             
-    {                                                                                                                                                          
-      //triple exponential                                                                                                                                     
+  case kTripleExp: 
+    {
+      //triple exponential  
       RooRealVar* alpha1_3 = new RooRealVar("alpha1_3","alpha1_3",-0.1,-1.,0.);                              
       RooRealVar* alpha2_3 = new RooRealVar("alpha2_3","alpha2_3",-0.15,-1.,0.);                              
       RooRealVar* alpha3_3 = new RooRealVar("alpha3_3","alpha3_3",-0.2,-1.,0.);                              
@@ -120,77 +125,77 @@ RooAbsPdf* MakeAICFits::getBackgroundPdf(int type, RooRealVar* mass) {
       RooExponential* exp1_3 = new RooExponential("exp1_3","exp1_3",*mass,*alpha1_3);                          
       RooExponential* exp2_3 = new RooExponential("exp2_3","exp2_3",*mass,*alpha2_3);                          
       RooExponential* exp3_3 = new RooExponential("exp3_3","exp3_3",*mass,*alpha3_3);                          
-                                                                                                                                                               
+      
       BkgShape = new RooAddPdf("TripleExp","Background Model",                                          
-                               RooArgList(*exp1_3,*exp2_3,*exp3_3),RooArgList(*f1_2bkg,*f2_2bkg));                                                                     
-      break;                                                                                                                                                   
-    }                                                                                                                                                          
-  case kModifiedExp:                                                                                                                                           
-    { // pdf = e^(alpha1*m^alpha2)                                                                                                                             
+                               RooArgList(*exp1_3,*exp2_3,*exp3_3),RooArgList(*f1_2bkg,*f2_2bkg));    
+      break; 
+    }
+  case kModifiedExp:
+    { 
+      // pdf = e^(alpha1*m^alpha2)
       RooRealVar *alpha1_m = new RooRealVar("alpha1_m","",-1.,-10.,0.);                                    
       RooRealVar *alpha2_m = new RooRealVar("alpha2_m","",0.5,0.,10.);                                     
       BkgShape = new RooGenericPdf("ModifiedExp","Background Model","exp(@0*@1^@2)",RooArgList(*alpha1_m,*mass,*alpha2_m));   
-      break;                                                                                                                                                   
+      break;
     }                   
-  case kPoly:                                                                                                                                                  
-    {                                                                                                                                                          
-      //5th order polynomial                                                                                                                                   
+  case kPoly:
+    { 
+      //5th order polynomial
       RooRealVar *pC = new RooRealVar("pC","pC",1);                                                    
       RooRealVar *p0 = new RooRealVar("p0","p0",0,-10,10);                                             
       RooRealVar *p1 = new RooRealVar("p1","p1",0,-10,10);                                             
       RooRealVar *p2 = new RooRealVar("p2","p2",0,-10,10);                                             
       RooRealVar *p3 = new RooRealVar("p3","p3",0,-10,10);                                             
       RooRealVar *p4 = new RooRealVar("p4","p4",0,-10,10);                                             
-      //enforce all coefficients positive                                                                                                                      
+      //enforce all coefficients positive 
       RooFormulaVar *pCmod = new RooFormulaVar("pCmod","pCmod","@0*@0",*pC);                                
       RooFormulaVar *p0mod = new RooFormulaVar("p0mod","p0mod","@0*@0",*p0);                                
       RooFormulaVar *p1mod = new RooFormulaVar("p1mod","p1mod","@0*@0",*p1);                                
       RooFormulaVar *p2mod = new RooFormulaVar("p2mod","p2mod","@0*@0",*p2);                                
       RooFormulaVar *p3mod = new RooFormulaVar("p3mod","p3mod","@0*@0",*p3);                                
       RooFormulaVar *p4mod = new RooFormulaVar("p4mod","p4mod","@0*@0",*p4);                                
-                                                                                                                                                               
-      RooArgList *args;                                                                                                                                        
-      args = new RooArgList(*pCmod,*p1mod,*p1mod,*p2mod,*p3mod,*p4mod);                                                                                        
-                                                                                                                                                               
+      
+      RooArgList *args; 
+      args = new RooArgList(*pCmod,*p1mod,*p1mod,*p2mod,*p3mod,*p4mod);
       BkgShape = new RooBernstein("Polynomial","Background Model",*mass,*args);                          
-      break;                                                                                                                                                   
-    }                                                                                                                                                          
-                                                                                                                                                               
-  case kPow:                                                                                                                                                   
-    { // pdf = m^alpha                                                                                                                                         
+      break;
+    }
+  case kPow:
+    { 
+      // pdf = m^alpha
       RooRealVar *alpha_p = new RooRealVar("alpha_p","alpha_p",-3.,-10.,0.);                                      
       BkgShape = new RooGenericPdf("Power","Background Model","@0^@1",RooArgList(*mass,*alpha_p));                    
-      break;                                                                                                                                                   
+      break; 
     }          
-
-  case kDoublePow:                                                                                                                                             
-    { //pdf = f*m^alpha_1 + (1-f)*m^alpha_2                                                                                                                    
+  case kDoublePow:
+    { //pdf = f*m^alpha_1 + (1-f)*m^alpha_2  
       RooRealVar *alpha1_p2 = new RooRealVar("alpha1_p2","alpha1_p2",-4.0,-10.,0.);                                    
       RooRealVar *alpha2_p2 = new RooRealVar("alpha2_p2","alpha2_p2",-4.5,-10.,0.);                                   
       RooRealVar *f_pbkg  = new RooRealVar("f_pbkg","f_pbkg",0.1,0.05,0.95);                                       
       RooGenericPdf *pow1 = new RooGenericPdf("pow1","Power 1","@0^@1",RooArgList(*mass,*alpha1_p2));            
-      RooGenericPdf *pow2 = new RooGenericPdf("pow2","Power 2","@0^@1",RooArgList(*mass,*alpha2_p2));            
-                                                                                                                                                               
+      RooGenericPdf *pow2 = new RooGenericPdf("pow2","Power 2","@0^@1",RooArgList(*mass,*alpha2_p2));
+      
       BkgShape = new RooAddPdf("DoublePower","Background Model",RooArgList(*pow1,*pow2),*f_pbkg);                          
-      break;                                                                                                                                                   
-    }                                                                                                                                                          
-                                                                                                                                                               
-  default:                                                                                                                                                     
-    std::cout << "INVALID BACKGROUND MODEL" << std::endl;                                                                                                      
-    assert(false);                                                                                                                                             
-    break;                                                                                                                                                     
-  }                                                                                                                                                            
-  return BkgShape;                                                                                                                                             
+      break; 
+    }
+  default:
+    std::cout << "INVALID BACKGROUND MODEL" << std::endl;
+    assert(false); 
+    break;
+  }
+  return BkgShape;
 }         
 
 RooAbsPdf* MakeAICFits::makeBackgroundFits(int type, RooRealVar* Nbkg) {
+  // Build Fit model and calculate AIC
   RooAbsPdf* ModelShape = MakeAICFits::getBackgroundPdf(type,mass);
   int k = MakeAICFits::Num_Params(type);
   RooExtendPdf *BkgModel = new RooExtendPdf("BKGFIT_bkgModel", "Background Model", *ModelShape, *Nbkg);
 
+  // Enforce that the fit converges
   int covariance = 0;
   RooFitResult *bkg_databkg;
-  //BkgModel->fitTo(*dc,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
+
   // covQual: -1 unknown, 0 not calculated , 1 approximation only, 2 full matrix but forced positive-definite, 3 full accurate covariance maxtrix
   while (covariance < 2) {
     BkgModel->fitTo(*dc,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
@@ -204,7 +209,6 @@ RooAbsPdf* MakeAICFits::makeBackgroundFits(int type, RooRealVar* Nbkg) {
   LogLikelihood[type] = 2.*bkg_databkg_Nll;
   AIC_bkg_array[type] = 2.*(k + k*(k + 1.)/(SampleSize - (k + 1.)) + bkg_databkg_Nll);
 
-  
   // Clean up objects
   delete bkg_databkg;
   bkg_databkg_Nll = 0.;
@@ -214,6 +218,7 @@ RooAbsPdf* MakeAICFits::makeBackgroundFits(int type, RooRealVar* Nbkg) {
 
 
 void MakeAICFits::run() {
+  //Set up categories
   for (auto catIt=catLabels.begin(); catIt !=catLabels.end();catIt++){
     runCategory(*catIt);
   }
@@ -244,7 +249,7 @@ void MakeAICFits::runCategory(const TString& catTag){
   // Open text file for logs
   outfile.open(TString("AICLogs_")+catTag+TString("_.txt"));
   
-  // Set up for three models and data plot
+  // Set up for motivational plot with three model families and data
   RooPlot* frame = mass->frame();
   dc->plotOn(frame);
   TLegend *leg = new TLegend(0.55,0.55,0.9,0.9,NULL,"NDC");
@@ -292,7 +297,7 @@ void MakeAICFits::runCategory(const TString& catTag){
   RooAbsPdf* doubPow = MakeAICFits::makeBackgroundFits(6, Nbkg_6);
   doubPow->SetNameTitle("doubPow","Double Power Law");
   
-  // Plot data and three models
+  // Plot motivational plot with model families
   TCanvas *c = new TCanvas("","",800,600);
   frame->Draw();
   leg->Draw();
@@ -345,12 +350,8 @@ void MakeAICFits::runCategory(const TString& catTag){
   int CompCov = 0;
   RooFitResult *composite_databkg;
   JointModelExt->fitTo(*dc,RooFit::Strategy(0),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
-  //while (CompCov < 2){
   composite_databkg = JointModelExt->fitTo(*dc,RooFit::Save(kTRUE),RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
   CompCov = composite_databkg->covQual();
-  //}  
-
-
   
   //Plot joint model and save it to workspace
   RooDataHist *dh = new RooDataHist("dh","dh",RooArgSet(*mass),*dc);
@@ -363,8 +364,11 @@ void MakeAICFits::runCategory(const TString& catTag){
   TCanvas *cv = new TCanvas("","",800,600);
   compframe->Draw();
   compleg->Draw();
+
+  //Calculate Chi Square and Log Likelihood for Composite Model
   Double_t Chi2 = compframe->chiSquare("CompModel","Data");
   Double_t CompLL = 2*(composite_databkg->minNll());
+
   TPaveText *p1 = new TPaveText(0.55,0.6,0.9,0.65,"NDC");
   p1->AddText(Form("-2log(L) : %.3f",CompLL));
   p1->Draw();
@@ -376,23 +380,25 @@ void MakeAICFits::runCategory(const TString& catTag){
   
   wout->import(*JointModelExt);
   print();
+
   // Save workspace to file
   TFile *outputFile = new TFile(TString("Workspaces/HggAIC_workspace_")+catTag+TString(".root"),"RECREATE");
   outputFile->cd();
   wout->Write(wout->GetName(),TObject::kWriteDelete);
   outputFile->Close();
-  
+
+  // Print Composite results to category log file
   outfile <<"Composite Log Likelihood:  " << std::setprecision(10) << CompLL <<std::endl;
   outfile <<"Composite Chi^2:  "<< std::setprecision(5)<< Chi2 <<std::endl;
   outfile <<"Compositve covariance: "<< CompCov <<std::endl;
   outfile.close();
-  
+
+  // Release all composite model variables
   RooArgSet* vjointend = JointModelExt->getVariables();
   RooFIter iterend = vjointend->fwdIterator();
   RooAbsArg* aend;
   while ( ( aend=iterend.next()) ){
     if(string(aend->GetName()).compare("mass")==0) continue;
-    //static_cast<RooRealVar*>(a)->setConstant(kFALSE);
     delete static_cast<RooRealVar*>(aend);
   }
 
@@ -415,6 +421,7 @@ void MakeAICFits::runCategory(const TString& catTag){
 
 
 void MakeAICFits::print() {
+  // Print results to log file
   outfile<<"Printing AIC Values" << std::endl;
   for (int type = 0; type<nModels; type++) {
     outfile<<"average covariance quality" << type <<" ===" << avgcov[type] <<std::endl;

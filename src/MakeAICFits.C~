@@ -1,3 +1,8 @@
+// ========================================================== //
+//    Multimodel Averaging for H->gg background modeling      //
+//                                                            //
+//               Valere Lambert, Caltech 2014                 //
+// ========================================================== //
 #include "MakeAICFits.h"
 #include "TAttLine.h"
 #include "TCanvas.h"
@@ -366,7 +371,7 @@ void MakeAICFits::runCategory(const TString& catTag){
   Double_t Chi2 = compframe->chiSquare("CompModel","Data");
   Double_t CompLL = 2*(composite_databkg->minNll());
   TPaveText *p1 = new TPaveText(0.55,0.6,0.9,0.65,"NDC");
-  p1->AddText(Form("-2#log(L) : %.3f",CompLL));
+  p1->AddText(Form("-2log(L) : %.3f",CompLL));
   p1->Draw();
   TPaveText *p2 = new TPaveText(0.55,0.55,0.9,0.6,"NDC");
   p2->AddText(Form("#chi^{2} : %.3f", Chi2));

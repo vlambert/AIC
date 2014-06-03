@@ -22,7 +22,7 @@ std::tuple<double,double> ShapeStudy::getBiasedMass(double k_value, RooAbsData& 
   RooExtendPdf *ExpModel = new RooExtendPdf("ExpModel","",*Exp,*Nbkg);
   
   // Create Signal Model
-  RooRealVar *mHFit = new RooRealVar("mHFit","mHFit",mh,120,130);
+  RooRealVar *mHFit = new RooRealVar("mHFit","mHFit",mh,123,127);
   RooRealVar *sHFit = new RooRealVar("sHFit","sHFit",1.5,0.2,5.0);
   RooGaussian *gaus = new RooGaussian("gaus","gaus",*mass, *mHFit,*sHFit);
 
@@ -100,7 +100,7 @@ void ShapeStudy::run(){
     BkgFitModel->fitTo(*toyData,RooFit::Strategy(2),RooFit::NumCPU(NUM_CPU),RooFit::Minos(kFALSE),RooFit::Extended(kTRUE));
     
     // Extract exponential power and set constant
-    double k_fit = k->gxetVal();
+    double k_fit = k->getVal();
     double k_error = k->getError();
     k->setConstant(kTRUE);
    
@@ -283,7 +283,7 @@ void ShapeStudy::print(std::vector<std::tuple<double,double>> HiggsM,std::vector
   }
   outfile<< "    Difference 1s       :              2s             :              -1s               :              -2s               "<<std::endl;
   for(; DIt_1s!=Diff_1s.end();DIt_1s++,DIt_2s++,DIt_m1s++,DIt_m2s++) {
-    outfile<<Form(" (%.6f +/- %.6f) ",std::get<0>(*DIt_1s),std::get<1>(*DIt_1s)) << Form("  (%.6f +/- %.6f)  ",std::get<0>(*DIt_2s),std::get<1>(*DIt_2s)) << Form("%.6f +/2 %.6f)  ",std::get<0>(*DIt_m1s),std::get<1>(*DIt_m1s)) << Form("   (%.6f +/ %.6f)  ",std::get<0>(*DIt_m2s),std::get<1>(*DIt_m2s)) <<std::endl;
+    outfile<<Form(" (%.6f +/- %.6f) ",std::get<0>(*DIt_1s),std::get<1>(*DIt_1s)) << Form("  (%.6f +/- %.6f)  ",std::get<0>(*DIt_2s),std::get<1>(*DIt_2s)) << Form("%.6f +/ %.6f)  ",std::get<0>(*DIt_m1s),std::get<1>(*DIt_m1s)) << Form("   (%.6f +/ %.6f)  ",std::get<0>(*DIt_m2s),std::get<1>(*DIt_m2s)) <<std::endl;
   }
   outfile.close();
 }
